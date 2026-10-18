@@ -8,7 +8,7 @@ export default {
       "/": "https://www.stratusnex.workers.dev/",
       "/metro": "http://200.59.213.66:8000/play/a01n/index.m3u8",
       "/telefeint": "http://45.173.231.22:8000/play/a053/index.m3u8",
-"/eltreceint": "http://45.188.229.33:8000/play/a1cn/index.m3u8",
+"/eltreceint": "http://45.173.231.22:8000/play/a09x/index.m3u8",
 "/21": "http://45.70.221.206/CRONICA_OTT/playlist.m3u8",
 "/5": "http://45.188.229.33:8000/play/a0x2/index.m3u8",
 "/185537.m3u8": "http://lamtv.site:8080/27116808/zs2Bbc7Zu5/185537.ts",

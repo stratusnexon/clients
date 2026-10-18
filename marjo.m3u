@@ -427,7 +427,7 @@ https://unipluslivedash.akamaized.net/universalpremiert0/manifest.mpd
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="130" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/world-latin-america/warner-channel-lam.png" tvg-id="Warner.ar",Warner Channel
 https://zapster.trapemn.tv:1936/CD-LATAM/Warner/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="131" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/world-latin-america/national-geographic-lam.png" tvg-id="NationalGeographic.ar",Nat Geo
-http://190.128.214.97:64333/play/a01u/index.m3u8
+https://zapster.trapemn.tv:1936/CD-LATAM/natgeo.stream/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="330" group-title="DIGITAL" tvg-logo="https://i.ibb.co/6c2jd8hr/0831.jpg" tvg-id="Clover.ar",Clover Channel
 http://45.181.120.147:9800/play/074/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="132" group-title="DIGITAL" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/history-channel-2-ar.png" tvg-id="History2.ar",History 2

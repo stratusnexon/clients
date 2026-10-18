@@ -13,14 +13,14 @@
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="1" group-title="DIGITAL" tvg-logo="http://ziptv.alwaysdata.net/press/wp-content/uploads/2026/08/file_00000000c8b8820eaed678253980f3e15075690802530191531.png" tvg-id="",Canal 01 Senal Eventos
 https://zipstream.stratusnex.workers.dev/canaluno/live.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="2" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18242_dark_360w_270h.png" tvg-id="Metro.ar",Metro
-https://live.stratusnex.workers.dev/play?u=aHR0cDovLzIwMC41OS4yMTMuNjY6ODAwMC9wbGF5L2EwMW4vaW5kZXgubTN1OA
+https://live.stratusnex.workers.dev/metro
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="3" group-title="DIGITAL" tvg-logo="https://i.imgur.com/60vSWW0.png" tvg-id="AiredeSantaFe.ar",AIRE DE SANTA FE
 https://mdstrm.com/live-stream-playlist/6931a0eb06778645348008e0.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="4" group-title="DIGITAL" tvg-logo="https://i.imgur.com/HNcCX3h.png" tvg-id="TelefeInternacional.uy",Telefe Internacional
-https://live.stratusnex.workers.dev/play?u=aHR0cDovLzQ1LjE4OC4yMjkuMzM6ODAwMC9wbGF5L2EwdzkvaW5kZXgubTN1OA
+https://live.stratusnex.workers.dev/telefeint
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="5" group-title="DIGITAL" tvg-logo="https://i.imgur.com/Vo6prbh.png" tvg-id="ElTreceInternacional.uy",El Trece Internacional
-https://live.stratusnex.workers.dev/play?u=aHR0cDovLzQ1LjE4OC4yMjkuMzM6ODAwMC9wbGF5L2EweDIvaW5kZXgubTN1OA
+https://live.stratusnex.workers.dev/eltreceint
 #EXTINF:-1 tvg-name="" group-title="DIGITAL" ch-number="6" tvg-id="CanalUniversidad.ar" tvg-logo="https://i.imgur.com/trmPKYw.png",Canal Universidad
 https://videostream.shockmedia.com.ar/hls/canaluniversidadmdp/canaluniversidadmdp.m3u8
 

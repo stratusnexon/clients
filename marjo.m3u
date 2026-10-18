@@ -317,7 +317,7 @@ http://190.128.214.97:64333/play/a03e/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="89" tvg-id="Cinemax.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s34933_white_360w_270h.png" group-title="DIGITAL",Cinemax
 http://45.188.229.33:8000/play/a1ag/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="90" tvg-id="ComedyCentral.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10149_gray_360w_270h.png" group-title="DIGITAL",Comedy Central
-http://45.188.229.33:8000/play/a12k/index.m3u8
+http://200.59.213.66:8000/play/a01d/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="91" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/mexico/distrito-comedia-mx.png" tvg-id="DistritoComedia.uy" group-title="DIGITAL",Distrito Comedia
 http://45.5.118.152:8000/play/a08q/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="92" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10035_white_360w_270h.png" tvg-id="AandE.ar",A&E
@@ -325,7 +325,7 @@ http://45.188.229.33:8000/play/a1b7/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="93" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002GM3XW.png_gray_360w_270h.png" tvg-id="AmcSeries.ar",AMC SERIES
 http://45.188.229.33:8000/play/a0xt/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="94" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s59337_gray_360w_270h.png" tvg-id="Amc.ar",AMC
-http://45.188.229.33:8000/play/a12p/index.m3u8
+http://200.59.213.66:8000/play/a016/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="95" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s82178_white_360w_270h.png" tvg-id="Axn.ar",AXN
 http://190.128.214.97:64333/play/a071/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="96" group-title="DIGITAL" tvg-logo="" tvg-id="CineAr.ar",Cine.AR
@@ -392,9 +392,9 @@ https://live.stratusnex.workers.dev/play?u=aHR0cDovLzQ1LjUuMTE4LjE1Mjo4MDAwL3BsY
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="117" tvg-id="StudioUniversal.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s29017_dark_360w_270h.png" group-title="DIGITAL",Studio Universal
 http://190.128.214.97:64333/play/a03j/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="118" tvg-id="TCM.ar" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/285/CH_LOGO/80/80/0/0/1820288007328.png" group-title="DIGITAL",TCM
-http://45.188.229.33:8000/play/a0y2/index.m3u8?tokens&stratusnex
+http://200.59.213.66:8000/play/a017/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="119" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s21257_dark_360w_270h.png" tvg-id="HGTV.ar" ",HGTV
-http://45.188.229.33:8000/play/a11r/index.m3u8?tokens&stratusnex
+http://200.59.213.66:8000/play/a01q/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="121" tvg-id="TNT.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11164_dark_360w_270h.png" group-title="DIGITAL",TNT
 http://45.188.229.33:8000/play/a1dn/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="122" tvg-id="TNTNovelas.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s140026_dark_360w_270h.png" group-title="DIGITAL",TNT Novelas

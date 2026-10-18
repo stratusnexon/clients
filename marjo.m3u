@@ -123,7 +123,7 @@ https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="35" group-title="DIGITAL" tvg-logo="https://canal3salta.com.ar/src/images/logo250x250.webp" tvg-id="",Canal 3 Salta
 https://ututotv.com.ar/live/stream.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="36" tvg-id="Encuentro.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s75767_white_360w_270h.png" group-title="DIGITAL",Encuentro
-https://live.stratusnex.workers.dev/play?u=aHR0cHM6Ly96YXBzdGVyLnRyYXBlbW4udHY6MTkzNi96YXBzdGVyLWhscy9lbmN1ZW50cm8uc3RyZWFtL3BsYXlsaXN0Lm0zdTg
+https://live.stratusnex.workers.dev/encuentro.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="37" group-title="DIGITAL" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/canal-rural-ar.png" tvg-id="CanalRural.ar",Rural
 https://live.stratusnex.workers.dev/play?u=aHR0cDovLzIwMC41OS4yMTMuNjY6ODAwMC9wbGF5L2EwMW0vaW5kZXgubTN1OA

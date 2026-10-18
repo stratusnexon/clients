@@ -20,7 +20,7 @@ export default {
 "/ar12.m3u8": "https://zapster.trapemn.tv:1936/zapster-hls/InformacionPeriodistica.stream/playlist.m3u8",
 "/tectv.m3u8": "https://zapster.trapemn.tv:1936/zapster-hls/TecTV.stream/playlist.m3u8",
 "/encuentro.m3u8": "https://zapster.trapemn.tv:1936/zapster-hls/encuentro.stream/playlist.m3u8",
-"/rural.m3u8": "http://38.224.175.2:8000/play/a011/index.m3u8",
+"/rural.m3u8": "http://200.59.213.66:8000/play/a01m/index.m3u8",
 "/canala.m3u8": "http://45.188.229.33:8000/play/a18u/index.m3u8",
 "/volver.m3u8": "http://45.188.229.33:8000/play/a1cp/index.m3u8",
 "/qmtv2.m3u8": "http://200.59.213.66:8000/play/a01u/index.m3u8?hls",

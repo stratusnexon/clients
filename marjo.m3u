@@ -599,7 +599,7 @@ http://45.186.106.194:9999/play/a016/index.m3u8
 https://9757738f.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2VsZWN0VFZfUkNOTm90aWNpYXNfSExT/playlist.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="177" tvg-id="A3Series.uy" tvg-logo="https://i.ibb.co/QF230yLz/0618.jpg" group-title="DIGITAL", A3Series
-http://45.188.229.33:8000/play/a1em/index.m3u8
+http://45.186.106.194:9999/play/a00l/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="196" group-title="DIGITAL" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/europa_europa-mediano.png" tvg-id="EuropaEuropa.ar",Europa Europa
 http://45.70.221.206/EUROPA_EUROPA_OTT/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="333" group-title="DIGITAL" tvg-logo="https://i.ibb.co/BV1xk9ps/0858.jpg" tvg-id="",Claro Cinema
@@ -644,7 +644,7 @@ https://d3k8wzt41aflvx.cloudfront.net/RAISA/Live.m3u8
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_ame_main_dvr_1080.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="195" group-title="DIGITAL" tvg-logo="https://images.open-epg.com/x935.png" tvg-id="Antena3.ar",Antena3
-http://45.188.229.33:8000/play/a0x3/index.m3u8
+http://45.186.106.194:9999/play/a00f/index.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="197" tvg-id="60492e6d7f3f560007ab0f62" tvg-logo="https://radiosargentina.com.ar/png/VI-ESTRE.png" group-title="DIGITAL",Estrella News
 https://amg00567-estrellamedia-estrellanews-estrellamedia-jrwr5.amagi.tv/playlist/amg00567-estrellamedia-estrellanews-estrellamedia/playlist.m3u8

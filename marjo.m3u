@@ -130,9 +130,9 @@ https://live.stratusnex.workers.dev/rural.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="38" group-title="DIGITAL" tvg-logo="https://cdn.m3u.cl/logo/303_Eco_TV.png" tvg-id="",Eco TV
 https://stream.arcast.com.ar/ecotv/ngrp:ecotv_all/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="39" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18075_dark_360w_270h.png" tvg-id="CanalA.ar",Canal a
-https://live.stratusnex.workers.dev/play?u=aHR0cDovLzIwMC41OS4yMTMuNjY6ODAwMC9wbGF5L2EwMWYvaW5kZXgubTN1OA
+https://live.stratusnex.workers.dev/canala.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="40" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16879_dark_360w_270h.png" tvg-id="Volver.ar",Volver
-https://live.stratusnex.workers.dev/play?u=aHR0cDovLzIwMC41OS4yMTMuNjY6ODAwMC9wbGF5L2EwMTgvaW5kZXgubTN1OA
+https://live.stratusnex.workers.dev/volver.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="41" group-title="DIGITAL" tvg-logo="https://lz24h.wordpress.com/wp-content/uploads/2026/09/bq29sfg1017235205063962896.png" tvg-id="Canal10MardelPlata.ar",Canal 10 MDP
 #EXTVLCOPT:http-referrer=https://webclient.ctcplus.com.ar/
 #EXTVLCOPT:http-user-agent=VisualOn OSMP+ Player(Linux;Android)
@@ -187,7 +187,7 @@ https://cdn.sensa.com.ar/output/SMT7/BVCh/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="89.1 tvg-logo="https://geo.edge.pontiscloud.com:9002/images/4126/CH_LOGO/40/40/0/0/49015720078226.png" group-title="DIGITAL",El Destape
 https://zapster.trapemn.tv:1936/zapster-hls/Destape.stream/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="17.1" group-title="DIGITAL" tvg-logo="https://i.imgur.com/49iFAf0.png" tvg-id="", Canal 11 Entre Ríos
-https://live.stratusnex.workers.dev/play?u=aHR0cDovLzE5MC43LjE5LjIwNjo4MDk4L3BsYXkvYTBwdC9pbmRleC5tM3U4
+https://live.stratusnex.workers.dev/canal11er.m3u8
 
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="15.1" group-title="DIGITAL" tvg-logo="https://i.ibb.co/Pv0kMtC1/Logo-Gen-TV.png",GenTV 

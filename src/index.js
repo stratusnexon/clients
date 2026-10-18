@@ -12,7 +12,7 @@ export default {
 "/magazine_sd.m3u8": "http://200.59.213.66:8000/play/a01o/index.m3u8",
 "/telefe.m3u8": "http://190.7.19.206:8098/play/a0n0/index.m3u8",
 "/c26.m3u8": "https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8",
-"/c5n.m3u8": "http://45.134.141.161:2200/ARG/C5N/index.m3u8",
+"/c5n.m3u8": "https://zapster.trapemn.tv:1936/zapster/c5n-new.stream/playlist.m3u8",
 "/lnmas.m3u8": "http://45.70.221.206/LN_OTT/playlist.m3u8",
 "/cronica.m3u8": "http://45.70.221.206/CRONICA_OTT/playlist.m3u8",
 "/teleferos.m3u8": "https://zapster.trapemn.tv:1936/zapster-transco/Canal5Rosario.stream/playlist.m3u8",

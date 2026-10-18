@@ -6,7 +6,7 @@ export default {
       "/index.html": "https://www.stratusnex.workers.dev/",
       "/index.php": "https://www.stratusnex.workers.dev/",
       "/": "https://www.stratusnex.workers.dev/",
-      "/metro": "http://45.188.229.33:8000/play/a0w9/index.m3u8",
+      "/metro": "http://200.59.213.66:8000/play/a01n/index.m3u8",
       "/redtlrosario/playlist.m3u8": "http://nd106.republicaservers.com/redtlrosario.mp4",
 "/12": "http://45.188.229.33:8000/play/a1cn/index.m3u8",
 "/21": "http://45.70.221.206/CRONICA_OTT/playlist.m3u8",

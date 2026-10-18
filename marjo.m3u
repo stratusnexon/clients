@@ -214,17 +214,17 @@ https://live.stratusnex.workers.dev/play?u=aHR0cDovLzQ1LjE4OC4yMjkuMzM6ODAwMC9wb
 https://b5cce558f58c4843a8264d282ebce3ec.mediatailor.us-east-1.amazonaws.com/v1/dash/dffceb859a31f14d0ed059ef6b4e2e4d850e60b1/live_1071/1071_DIRECTV_SPORTS_HD_DASH/manifest.mpd
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="56" tvg-id="Espn.ar" group-title="DIGITAL",ESPN
-http://45.188.229.33:8000/play/a1az/index.m3u8
+http://190.7.19.206:8098/play/a0oz/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="57" tvg-id="FoxSports.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s141469_dark_360w_270h.png" group-title="DIGITAL",Fox Sports
-http://45.188.229.33:8000/play/a1dh/index.m3u8
+http://190.7.19.206:8098/play/a0nw/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="58" tvg-id="Espn2.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s88735_gray_360w_270h.png" group-title="DIGITAL",ESPN 2
-http://45.188.229.33:8000/play/a1ay/index.m3u8
+http://190.7.19.206:8098/play/a0oy/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="59" tvg-id="Espn3.ar" group-title="DIGITAL",ESPN 3
-http://45.188.229.33:8000/play/a1b0/index.m3u8
+http://190.7.19.206:8098/play/a0p0/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="60" tvg-id="Espn4.ar" group-title="DIGITAL",ESPN 4
-http://45.188.229.33:8000/play/a10g/index.m3u8
+http://190.7.19.206:8098/play/a0nv/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="61" tvg-id="FoxSports2.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002KWQJ6.png_white_360w_270h.png" group-title="DIGITAL",Fox Sports 2
-http://45.188.229.33:8000/play/a1b1/index.m3u8
+http://190.7.19.206:8098/play/a0p1/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="62" tvg-id="" tvg-logo="https://i.imgur.com/A8XpNAE.png" group-title="DIGITAL",DAZN
 http://45.134.141.161:2200/ARG/DAZN_1_HD/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="63" tvg-id="6320d80a66666000086712d7" tvg-name="CLARO SPORTS LATAM" tvg-logo="https://www.clarosports.com/resources/themes/clarosports-v4/assets/images/claroSportsSitio-170x36.png" group-title="DIGITAL" http-user-agent="Mozilla/5.0 (Windows NT 11.O; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck0) Chrome/102.0.0.0 Safari/537.37" http-referrer="https://www.cdnclaroamx.com/" referrer="https://www.cdnclaroamx.com/",CLARO SPORTS LATAM

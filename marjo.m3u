@@ -533,7 +533,7 @@ https://cdn.sensa.com.ar/output/ARR4/TSFH/playlist.m3u8?|referer=https://player.
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="168" tvg-logo="https://i.imgur.com/rwoIF4w.png" group-title="DIGITAL", CeltaTV
 https://vivo.solumedia.com:19360/celta/celta.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="169" tvg-logo="https://i.imgur.com/1CCplpb.png" tvg-id="ElTrece.ar" group-title="DIGITAL", El Trece
-http://45.188.229.33:8000/play/a1dk/index.m3u8?tokens&stratusnex
+http://190.7.19.206:8098/play/a0nz/index.m3u8
 
 #170
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="171" tvg-logo="https://i.imgur.com/8xqYg4C.png" group-title="DIGITAL", RTN TV

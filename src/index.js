@@ -17,7 +17,7 @@ export default {
 "/cronica.m3u8": "http://45.70.221.206/CRONICA_OTT/playlist.m3u8",
 "/teleferos.m3u8": "https://zapster.trapemn.tv:1936/zapster-transco/Canal5Rosario.stream/playlist.m3u8",
 "/elnueve.m3u8": "http://190.7.19.206:8098/play/a0ob/index.m3u8",
-"/40.m3u8": "http://181.209.38.115:8000/play/a02r/index.m3u8",
+"/ar12.m3u8": "https://zapster.trapemn.tv:1936/zapster-hls/InformacionPeriodistica.stream/playlist.m3u8",
 "/42.m3u8": "https://stream1.sersat.com/hls/garagetv.m3u8",
 "/46.m3u8": "http://45.226.28.9:8085/Live/6fb1f0e7eb180cb1c37841fb3e8a163b/local-nuevelitoral_480.m3u8",
 "/55.m3u8": "http://38.224.175.2:8000/play/a011/index.m3u8",

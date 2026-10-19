@@ -61,7 +61,7 @@ export default {
       "/babytv.m3u8": "http://45.181.120.147:9800/play/034/index.m3u8",
 "/nick.m3u8": "https://zapster.trapemn.tv:1936/CD-LATAM/Nickelodeon/playlist.m3u8",
 "/nickjr.m3u8": "http://45.134.141.161:2200/ARG/Nick_Jr/index.m3u8",
-      "/pakapaka.m3u8": "http://200.59.213.66:8000/play/a00u/index.m3u8",
+      "/pakapaka.m3u8": "http://200.123.40.1:8000/play/a05i/index.m3u8",
       "/cartoon.m3u8": "https://zapster.trapemn.tv:1936/CD-LATAM/Cartoon_Network/playlist.m3u8",
       "/dkids.m3u8": "http://45.134.141.161:2200/ARG/Discovery_Kids/index.m3u8",
       "/disney.m3u8": "http://45.134.141.161:2200/ARG/Disney_Channel/index.m3u8",

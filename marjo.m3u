@@ -432,7 +432,7 @@ https://live.stratusnex.workers.dev/history2.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="133" group-title="DIGITAL" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/history-channel-ar.png" tvg-id="History.ar",History Channel
 https://live.stratusnex.workers.dev/history.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="134" group-title="DIGITAL" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/tlc-ar.png" tvg-id="TLC.cl",TLC
-http://45.181.120.147:9800/play/021/index.m3u8
+http://200.123.40.1:8000/play/a0ep/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="137" group-title="DIGITAL" tvg-logo="" tvg-id="HolaTV.ar",Hola TV
 http://45.181.120.147:9800/play/050/index.m3u8
 
@@ -493,7 +493,7 @@ https://d1ktssaxrjabsg.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="153" tvg-id="0d5283959d3a59bf87411e7077fd9e58" tvg-logo="https://i.imgur.com/Cf01Ybw.png" group-title="DIGITAL",Vevo Latino
 https://amg00056-amg00056c13-rakuten-es-3246.playouts.now.amagi.tv/playlist/amg00056-vevotvfast-vevolatinoes-rakutenes/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="322" tvg-id="6868152657543d1f8be4ece3" tvg-logo="https://images.pluto.tv/channels/6868152657543d1f8be4ece3/colorLogoPNG_1751652184592.png" group-title="DIGITAL",Concert Channel
-http://45.5.116.228:8000/play/a02r/index.m3u8
+http://200.123.40.1:8000/play/a0eo/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="154" group-title="DIGITAL" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/4182/CH_LOGO/40/40/0/0/3734962507360.png?WORLDTV6",Canal 10 Televisión rionegrina
 #EXTVLCOPT:http-referrer=https://webclient.ctcplus.com.ar/
 #EXTVLCOPT:http-user-agent=VisualOn OSMP+ Player(Linux;Android)

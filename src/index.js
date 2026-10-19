@@ -66,6 +66,10 @@ export default {
       "/tooncast.m3u8": "http://45.134.141.161:2200/ARG/Tooncast/index.m3u8",
       "/cartoonito.m3u8": "http://45.134.141.161:2200/ARG/Cartoonito/index.m3u8",
       "/cinelatino.m3u8": "http://45.5.118.152:8000/play/a05t/index.m3u8",
+      "/usa.m3u8": "http://200.59.213.66:8000/play/a01a/index.m3u8",
+      "/natgeo.m3u8": "https://zapster.trapemn.tv:1936/CD-LATAM/natgeo.stream/playlist.m3u8",
+      "/history2.m3u8": "http://200.123.40.1:8000/play/a052/index.m3u8",
+      "/history.m3u8": "http://200.123.40.1:8000/play/a051/index.m3u8",
       "/europa.m3u8": "http://45.70.221.206/EUROPA_EUROPA_OTT/playlist.m3u8",
       "/dpsort-1.m3u8": "http://45.70.221.206/DSPORTS_OTT/playlist.m3u8",
       "/CM.m3u8": "http://45.70.221.206/CM_OTT/playlist.m3u8"

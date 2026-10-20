@@ -310,8 +310,7 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=13231&avod=1&coppa=0&td=6&
 https://channels.stratusnex.workers.dev/adrenalinapura.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="88" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s105609_gray_360w_270h.png" tvg-id="Cinecanal.ar",Cinecanal
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18
-https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/Cinecanal-key/chunks.m3u8
+http://190.128.214.97:64333/play/a03e/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="89" tvg-id="Cinemax.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s34933_white_360w_270h.png" group-title="DIGITAL",Cinemax
 http://158.172.155.130:8000/play/a0db/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="90" tvg-id="ComedyCentral.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10149_gray_360w_270h.png" group-title="DIGITAL",Comedy Central
@@ -345,8 +344,7 @@ http://200.123.40.1:8000/play/a04c/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="104" group-title="DIGITAL" tvg-logo="https://03mcdecdnimagerepository.blob.core.windows.net/epguideimage/channel/I32.png" tvg-id="InvestigationDiscovery.ar",Discovery ID
 http://45.134.141.161:2200/ARG/Discovery_Investigation_HD/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="105" tvg-id="FX.ar" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/world-latin-america/fx-lam.png" group-title="DIGITAL",FX
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36
-https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/fx-key/chunks.m3u8
+http://190.128.214.97:64333/play/a03h/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="106" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s87687_dark_360w_270h.png" tvg-id="FilmAndArts.ar",Film & Arts
 http://45.181.120.147:9800/play/071/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="107" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s90456_dark_360w_270h.png" tvg-id="E!Entertainment.ar",E! Entertainment

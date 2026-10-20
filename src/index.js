@@ -24,6 +24,8 @@ export default {
 "/canala.m3u8": "http://190.7.19.206:8098/play/a0m4/index.m3u8",
 "/volver.m3u8": "http://190.7.19.206:8098/play/a0lx/index.m3u8",
 "/quieromusica.m3u8": "http://eg.tmktv.top:80/live/p8hjlv84o6/fu5jugzi8g/73173.ts",
+"/htv.m3u8": "http://190.7.19.206:8098/play/a0mj/index.m3u8",
+"/mtv.m3u8": "http://190.7.19.206:8098/play/a0mh/index.m3u8",
 "/amsports.m3u8": "https://zapster.trapemn.tv:1936/zapster-hls/americasports.stream/playlist.m3u8",
 "/canal11er.m3u8": "http://190.7.19.206:8098/play/a0pt/index.m3u8",
 "/eldestape.m3u8": "https://zapster.trapemn.tv:1936/zapster-hls/Destape.stream/playlist.m3u8",

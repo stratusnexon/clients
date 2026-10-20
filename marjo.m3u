@@ -330,9 +330,9 @@ http://45.70.221.206/CINE_AR_OTT/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="97" tvg-name="CindieTV" tvg-logo="http://accio.its-newid.net/rt_channel/newid_rt040/lg_channels/img/channel_logo/default/channel_logo.png" tvg-language="Spanish" group-title="DIGITAL",Cindie TV
 https://channels.stratusnex.workers.dev/cindietv.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="98" tvg-id="Discovery.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s83572_gray_360w_270h.png" group-title="DIGITAL",Discovery Channel
-http://190.7.19.206:8098/play/a0o7/index.m3u8
+http://190.128.214.97:64333/play/a03a/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="99" tvg-id="DiscoveryHomeAndHealth.ar" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/11/47/11470350_2B54A1C94E8999B4.png" group-title="DIGITAL",Discovery H&H
-http://190.7.19.206:8098/play/a0o6/index.m3u8
+http://45.181.120.147:9800/play/095/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="100" tvg-id="DiscoveryScience.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24282_dark_360w_270h.png" group-title="DIGITAL",Discovery Science
 http://200.123.40.1:8000/play/a049/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="101" tvg-id="DiscoveryTheater.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s65940_dark_360w_270h.png" group-title="DIGITAL",Discovery Theater

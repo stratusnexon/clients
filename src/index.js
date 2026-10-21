@@ -10,7 +10,7 @@ export default {
       "/telefeint.m3u8": "http://45.173.231.22:8000/play/a053/index.m3u8",
 "/eltreceint.m3u8": "http://45.173.231.22:8000/play/a09x/index.m3u8",
 "/magazine_sd.m3u8": "https://zapster.trapemn.tv:1936/zapster-hls/ciudadmagazine.stream/playlist.m3u8",
-"/telefe.m3u8": "http://45.179.152.42:8000/play/a008",
+"/telefe.m3u8": "http://45.173.231.22:8000/play/a053/index.m3u8",
  "/telefeinterior.m3u8": "http://45.179.152.42:8000/play/a008",
   "/elnueveinterior.m3u8": "http://45.179.152.42:8000/play/a016",    
 "/c26.m3u8": "https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8",

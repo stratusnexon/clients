@@ -18,7 +18,7 @@ export default {
 "/lnmas.m3u8": "http://45.70.221.206/LN_OTT/playlist.m3u8",
 "/cronica.m3u8": "http://45.70.221.206/CRONICA_OTT/playlist.m3u8",
 "/teleferos.m3u8": "https://zapster.trapemn.tv:1936/zapster-transco/Canal5Rosario.stream/playlist.m3u8",
-"/elnueve.m3u8": "http://45.179.152.42:8000/play/a04m",
+"/elnueve.m3u8": "http://190.7.19.206:8098/play/a0ob/index.m3u8",
 "/ar12.m3u8": "https://zapster.trapemn.tv:1936/zapster-hls/InformacionPeriodistica.stream/playlist.m3u8",
 "/tectv.m3u8": "https://zapster.trapemn.tv:1936/zapster-hls/TecTV.stream/playlist.m3u8",
 "/encuentro.m3u8": "http://45.179.152.42:8000/play/a03a",

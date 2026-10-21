@@ -136,8 +136,7 @@ https://live.stratusnex.workers.dev/volver.m3u8
 #EXTVLCOPT:http-referrer=https://webclient.ctcplus.com.ar/
 #EXTVLCOPT:http-user-agent=VisualOn OSMP+ Player(Linux;Android)
 https://cdn.sensa.com.ar/output/SMT6/C10MPH/playlist.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="42" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG0034DN3M.png_dark_360w_270h.png" tvg-id="ElGarage.ar",Garage TV
-https://stream1.sersat.com/hls/garagetv.m3u8
+
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  tvg-name="Telediario Digital" tvg-logo="https://i.imgur.com/sBechkT.png" group-title="DIGITAL" ch-number="351" video-track="2",Telediario Digital
 #EXTVLCOPT:http-referrer=https://webclient.ctcplus.com.ar/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36
@@ -146,12 +145,8 @@ https://stream1.sersat.com/hls/garagetv.m3u8
 https://cdn.sensa.com.ar/bpk-tv/TelediarioTelevision/default/index.mpd
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="12.1" group-title="DIGITAL" tvg-logo="https://i.imgur.com/WP3vPXA.png",Canal 50 Morteros
 https://online.coopmorteros.coop/canal50/vivo.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="42.1" group-title="DIGITAL" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/590/CH_LOGO/40/40/0/0/7476260107885.png" video-track="2", Canal 10 Córdoba
-#EXTVLCOPT:http-referrer=https://webclient.ctcplus.com.ar/
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://oikoapp.xyz/owner/results.php?keyid=faf29a5a543c9d82ef34ec2479140003&key=2452197f9d4eb63a3081d986ca413375
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36
-https://cdn.sensa.com.ar/bpk-tv/Canal10cba/default/index.mpd
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="42.1" group-title="DIGITAL" tvg-logo="https://i.imgur.com/79sTxtP.png" tvg-id="Telesol.ar",Telesol
+https://cdn1.tvlin.net/open/telesol/playlist.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="43" group-title="DIGITAL" tvg-logo="https://i.imgur.com/xqgRFpC.png" tvg-id="",Canal 9 Resistencia 
 http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/playlist.m3u8
@@ -196,7 +191,8 @@ https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
 https://stream.arcast.com.ar/c5sf/c5sf/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="41.1" group-title="DIGITAL" tvg-logo="https://i.imgur.com/CudG6sl.png",Canal 7 Salta
 https://vivo.solumedia.com:19360/cooperativa/cooperativa.m3u8
-
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="42" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG0034DN3M.png_dark_360w_270h.png" tvg-id="ElGarage.ar",Garage TV
+https://stream1.sersat.com/hls/garagetv.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="53" group-title="DIGITAL" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d4/TyC_Sports_Play_2014.png/revision/latest?cb=20200824001045&path-prefix=es" tvg-id="",TyC Sports FAN
 https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="54" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG0034VR6G.png_dark_360w_270h.png" tvg-id="TyCSports.ar",TyC Sports Alternativo

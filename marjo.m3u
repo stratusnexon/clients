@@ -139,6 +139,7 @@ https://cdn.sensa.com.ar/output/SMT6/C10MPH/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="42" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG0034DN3M.png_dark_360w_270h.png" tvg-id="ElGarage.ar",Garage TV
 https://stream1.sersat.com/hls/garagetv.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  tvg-name="Telediario Digital" tvg-logo="https://i.imgur.com/sBechkT.png" group-title="DIGITAL" ch-number="351" video-track="2",Telediario Digital
+#EXTVLCOPT:http-referrer=https://webclient.ctcplus.com.ar/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://oikoapp.xyz/owner/results.php?keyid=ff1e6f58369fa0457670eb452cb49f8a&key=4a5b005a7dbd38fe00c50d27fa23ab0a
@@ -146,6 +147,7 @@ https://cdn.sensa.com.ar/bpk-tv/TelediarioTelevision/default/index.mpd
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="12.1" group-title="DIGITAL" tvg-logo="https://i.imgur.com/WP3vPXA.png",Canal 50 Morteros
 https://online.coopmorteros.coop/canal50/vivo.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="42.1" group-title="DIGITAL" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/590/CH_LOGO/40/40/0/0/7476260107885.png" video-track="2", Canal 10 Córdoba
+#EXTVLCOPT:http-referrer=https://webclient.ctcplus.com.ar/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://oikoapp.xyz/owner/results.php?keyid=faf29a5a543c9d82ef34ec2479140003&key=2452197f9d4eb63a3081d986ca413375
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36
@@ -522,7 +524,7 @@ https://cdn.sensa.com.ar/output/ARR4/TSFH/playlist.m3u8?|referer=https://player.
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="168" tvg-logo="https://i.imgur.com/rwoIF4w.png" group-title="DIGITAL", CeltaTV
 https://vivo.solumedia.com:19360/celta/celta.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="169" tvg-logo="https://i.imgur.com/1CCplpb.png" tvg-id="ElTrece.ar" group-title="DIGITAL", El Trece
-http://190.7.19.206:8098/play/a0nz/index.m3u8
+https://joy.nx-pc.edge-apps.net/hls/e5df7-k5p3m-2m2nf-jnd7m.m3u8
 
 #170
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="171" tvg-logo="https://i.imgur.com/8xqYg4C.png" group-title="DIGITAL", RTN TV

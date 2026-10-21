@@ -141,7 +141,7 @@ https://stream1.sersat.com/hls/garagetv.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  tvg-name="Telediario Digital" tvg-logo="https://i.imgur.com/sBechkT.png" group-title="DIGITAL" ch-number="351" video-track="2",Telediario Digital
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ff1e6f58369fa0457670eb452cb49f8a:4a5b005a7dbd38fe00c50d27fa23ab0a
+#KODIPROP:inputstream.adaptive.license_key=https://oikoapp.xyz/owner/results.php?keyid=ff1e6f58369fa0457670eb452cb49f8a&key=4a5b005a7dbd38fe00c50d27fa23ab0a
 https://cdn.sensa.com.ar/bpk-tv/TelediarioTelevision/default/index.mpd
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="12.1" group-title="DIGITAL" tvg-logo="https://i.imgur.com/WP3vPXA.png",Canal 50 Morteros
 https://online.coopmorteros.coop/canal50/vivo.m3u8

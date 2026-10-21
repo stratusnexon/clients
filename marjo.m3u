@@ -179,7 +179,7 @@ https://cdn.sensa.com.ar/output/SMT7/BVCh/playlist.m3u8
 
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="89.1 tvg-logo="https://geo.edge.pontiscloud.com:9002/images/4126/CH_LOGO/40/40/0/0/49015720078226.png" group-title="DIGITAL",El Destape
-https://zapster.trapemn.tv:1936/zapster-hls/Destape.stream/playlist.m3u8
+https://cdn-zapster-ros.trapemn.tv:1936/zapster-hls/Destape.stream/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="17.1" group-title="DIGITAL" tvg-logo="https://i.imgur.com/49iFAf0.png" tvg-id="", Canal 11 Entre Ríos
 https://live.stratusnex.workers.dev/canal11er.m3u8
 

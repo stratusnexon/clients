@@ -49,7 +49,7 @@ export default {
 "/fox2.m3u8": "http://200.123.40.1:8000/play/a04r/index.m3u8",
       "/fox3.m3u8": "http://200.123.40.1:8000/play/a04s/index.m3u8",
       "telefe2.m3u8": "http://45.134.141.161:2200/ARG/TELEFE_HD/index.m3u8",    
-      "/warner.m3u8": "http://190.7.19.206:8098/play/a0p3/index.m3u8",
+      "/warner.m3u8": "http://200.123.40.1:8000/play/a05f/index.m3u8",
       "/tnt.m3u8": "http://190.7.19.206:8098/play/a0o2/index.m3u8",
       "/cinecanal.m3u8": "https://zapster.trapemn.tv:1936/zapster-hls/cinecanal.stream/playlist.m3u8",
       "/space.m3u8": "http://200.123.40.1:8000/play/a057/index.m3u8",

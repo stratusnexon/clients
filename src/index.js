@@ -64,7 +64,7 @@ export default {
       "/tcm.m3u8": "http://45.173.231.22:8000/play/a0b0/index.m3u8",
       "/adultswin.m3u8": "http://45.173.231.22:8000/play/a01o/index.m3u8",
       "/babytv.m3u8": "http://45.181.120.147:9800/play/034/index.m3u8",
-"/nick.m3u8": "http://45.173.231.22:8000/play/a0ar/index.m3u8",
+"/nick.m3u8": "http://45.134.141.161:2200/ARG/Nickelodeon/index.m3u8",
 "/nickjr.m3u8": "http://45.134.141.161:2200/ARG/Nick_Jr/index.m3u8",
       "/pakapaka.m3u8": "http://200.123.40.1:8000/play/a05i/index.m3u8",
       "/cartoon.m3u8": "http://190.128.214.97:64333/play/a01v/index.m3u8",

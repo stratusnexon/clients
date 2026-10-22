@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const videoElement = document.getElementById("tv-player");
     
     // Puedes cambiar esto por una URL de prueba o la ruta a tu archivo m3u
-    const m3uUrl = "https://stratusnex.intinet.com.ar/marjo.m3u"; 
+    const m3uUrl = "https://stratusnex.intinet.com.ar/channels/canales.m3u"; 
 
     let allChannels = [];
     let activeChannels = [];

@@ -3,31 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web TV Player</title>
+    <title>Web TV - Neon Edition</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="tv-container">
-        <!-- Panel lateral con Categorías y Canales -->
-        <div class="sidebar">
-            <h2>StratusNEX</h2>
+    <div class="tv-container" id="app-container">
+        <!-- Reproductor de Video en Fondo -->
+        <div class="player-container">
+            <video id="tv-player" autoplay playsinline></video>
+        </div>
+
+        <!-- Menú Lateral Flotante Neón -->
+        <div class="sidebar" id="sidebar">
+            <!-- Encabezado con Nombre y Control de Luz -->
+            <div class="sidebar-header">
+                <h1 class="app-title">⚡ StratusNEX TV</h1>
+                <button id="light-toggle-btn" class="focusable" tabindex="0" title="Apagar / Encender luz">💡</button>
+            </div>
             
-            <!-- Selector de categorías -->
             <div class="category-filter">
                 <select id="category-select" class="focusable" tabindex="0">
-                    <option value="ALL">Todas las Categorías</option>
+                    <option value="ALL">⚡ Todas las Categorías</option>
                 </select>
             </div>
 
             <ul id="channel-list">
-                <!-- Se llenará dinámicamente -->
+                <!-- Canales dinámicos -->
             </ul>
         </div>
 
-        <!-- Reproductor de Video -->
-        <div class="player-container">
-            <video id="tv-player" controls autoplay></video>
+        <!-- OSD minimalista neón -->
+        <div class="osd-info" id="osd-info">
+            <span id="current-channel-name">Cargando canal...</span>
         </div>
     </div>
 

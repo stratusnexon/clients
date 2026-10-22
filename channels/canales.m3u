@@ -201,7 +201,9 @@ https://d1cfxove8uup6f.cloudfront.net/live/20d97871-da2b-4b9a-9ad5-5c1be98c37e1/
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="64" tvg-id="DeporTv.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s91771_white_360w_270h.png" group-title="DIGITAL",DeporTV
 http://45.70.221.206/DEPORTV_OTT/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="66" group-title="DIGITAL" tvg-logo="https://i.ibb.co/hJDy0t87/1409.jpg" tvg-id="TyCSports.ar",TyC Sports
-https://live-04-11-tyc24.vodgc.net/tyc24/index.m3u8|referer=https://play.tycsports.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.6998.166 Safari/537.36
+#EXTVLCOPT:http-referrer=https://play.tycsports.com/
+https://live-04-11-tyc24.vodgc.net/tyc24/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="65" tvg-id="AmericaSports.ar" group-title="DIGITAL",AM Sports
 https://live.stratusnex.workers.dev/amsports.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="325" group-title="DIGITAL" tvg-logo="https://i.ibb.co/TypqGsR/0427.jpg" tvg-id="", EuroSport 1
@@ -213,59 +215,49 @@ http://45.134.141.161:2200/ARG/Eurosport_2_HD/index.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="349" tvg-name="Sportv" tvg-logo="https://i.imgur.com/w7NLpdU.png" group-title="DIGITAL",Sportv
 http://190.8.174.155:80/SPORTV/playlist.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="350" tvg-logo="https://i.imgur.com/35enUz3.png" tvg-name="Golf Channel" group-title="DIGITAL",Golf Channel
-http://45.186.106.194:9999/play/a02t/index.m3u8
+
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="320" tvg-id="66997d18a1b69e00082ee85f" tvg-logo="https://images.pluto.tv/channels/66997d18a1b69e00082ee85f/colorLogoPNG_1749841168303.png" group-title="DIGITAL",FIFA+
 https://6c849fb3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctbXhfRklGQVBsdXNTcGFuaXNoLTFfSExT/playlist.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  tvg-id="0441" tvg-logo="https://i.ibb.co/zVYvXY2H/Picsart-26-06-11-15-18-55-176.png" group-title="DIGITAL",VIX TUDN 
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://oikoapp.xyz/selvanegra/results.php?key=0c5e6c0820a1ea28753721db00272411&keyid=763ce1ebcaf23502c8cf357c6ef423e1
-#EXTVLCOPT:http-referrer=https://www.primevideo.com/
-#EXTVLCOPT:http-user-agent=AivAndroidPlayer/1.0 (AndroidDevice)
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/26hxutyti4/out/v1/c7064d5b251a4564b53e0854426b9c8f/cenc.mpd
+
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  tvg-id="Bein Sports extra ñ" tvg-logo="https://i.ibb.co/HpLnftJs/Picsart-25-10-26-21-20-12-346.webp" group-title="DIGITAL", Bein Sports extra ñ
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://dl.dropbox.com/scl/fi/mvxasp2naascu373f4fev/paravision.json?rlkey=dojgg1ya7fani8ye608y3i91n&st=cc95n5mp&dl=0
 https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="67" group-title="DIGITAL" tvg-logo="https://i.ibb.co/V06wj40h/0629.jpg" tvg-id="CanalLuz.ar",Canal LUZ
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="67" group-title="RELIGION" tvg-logo="https://i.ibb.co/V06wj40h/0629.jpg" tvg-id="CanalLuz.ar",Canal LUZ
 https://canalluz7.canalluz.org/hls/stream/index.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="68" group-title="DIGITAL" tvg-logo="https://images.open-epg.com/x957.png" tvg-id="Enlace.ar",ENLACE
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="68" group-title="RELIGION" tvg-logo="https://images.open-epg.com/x957.png" tvg-id="Enlace.ar",ENLACE
 https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/playlist.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="69" group-title="DIGITAL" tvg-logo="https://play-lh.googleusercontent.com/t34CQwcoIEh5RSZkfGYsDscu0q-mGj6vmHNT_ix2HbkmSWWdnbHrDSKVFz9m8x7UiHVIbWR7h5epvz0gPKuALA" tvg-id="",ESNE
-http://45.173.231.22:8000/play/a058/index.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="70" group-title="DIGITAL" tvg-logo="https://images.open-epg.com/16782310.png" tvg-id="Ewtn.ar",EWTN
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="70" group-title="RELIGION" tvg-logo="https://images.open-epg.com/16782310.png" tvg-id="Ewtn.ar",EWTN
 https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/live/playlist.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="340" tvg-id="" tvg-logo="https://i.ibb.co/jZfxNNZS/0628.jpg" group-title="DIGITAL" group-logo="",BETHEL TV
-http://45.173.231.22:8000/play/a05h/index.m3u8
+
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="341" tvg-id="" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/daystar-us.png" group-title="DIGITAL" group-logo="",DayStar en Español
 https://live-mcl.cdn01.net/web/v2a5w28m3/playlist.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="71" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s26769_dark_360w_270h.png" tvg-id="AdultSwim.ar",Adult Swim
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="71" group-title="INFANTILES" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s26769_dark_360w_270h.png" tvg-id="AdultSwim.ar",Adult Swim
 https://live.stratusnex.workers.dev/adultswin.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="72" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s56036_dark_360w_270h.png" tvg-id="BabyTv.ar",Baby TV
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="72" group-title="INFANTILES" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s56036_dark_360w_270h.png" tvg-id="BabyTv.ar",Baby TV
 https://live.stratusnex.workers.dev/babytv.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="73" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s19211_white_360w_270h.png" tvg-id="NickJr.ar",Nick Jr
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="73" group-title="INFANTILES" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s19211_white_360w_270h.png" tvg-id="NickJr.ar",Nick Jr
 https://live.stratusnex.workers.dev/nickjr.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="74" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11006_dark_360w_270h.png" tvg-id="Nickelodeon.ar",Nickelodeon
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="74" group-title="INFANTILES" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11006_dark_360w_270h.png" tvg-id="Nickelodeon.ar",Nickelodeon
 https://live.stratusnex.workers.dev/nick.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="75" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s87140_dark_360w_270h.png" tvg-id="PakaPaka.ar",Pakapaka
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="75" group-title="INFANTILES" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s87140_dark_360w_270h.png" tvg-id="PakaPaka.ar",Pakapaka
 https://live.stratusnex.workers.dev/pakapaka.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="490" tvg-name="Clan" tvg-logo="https://i.imgur.com/UmI7uUs.png" group-title="DIGITAL",Clan
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="490" tvg-name="Clan" tvg-logo="https://i.imgur.com/UmI7uUs.png" group-title="INFANTILES",Clan
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.6998.166 Safari/537.36
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/clan_int_main_dvr_720.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="76" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s12131_light_360w_270h.png" tvg-id="CartoonNetwork.ar",Cartoon Network
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="76" group-title="INFANTILES" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s12131_light_360w_270h.png" tvg-id="CartoonNetwork.ar",Cartoon Network
 http://45.5.118.152:8000/play/a0bl/index.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="77" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16680_dark_360w_270h.png" tvg-id="DiscoveryKids.ar",Discovery Kids
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="77" group-title="INFANTILES" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16680_dark_360w_270h.png" tvg-id="DiscoveryKids.ar",Discovery Kids
 https://live.stratusnex.workers.dev/dkids.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="78" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10171_gray_360w_270h.png" tvg-id="DisneyChannel.ar",Disney Channel
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="78" group-title="INFANTILES" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10171_gray_360w_270h.png" tvg-id="DisneyChannel.ar",Disney Channel
 https://live.stratusnex.workers.dev/disney.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="79" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s74796_dark_360w_270h.png" tvg-id="DisneyJunior.ar",Disney Junior
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="79" group-title="INFANTILES" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s74796_dark_360w_270h.png" tvg-id="DisneyJunior.ar",Disney Junior
 https://live.stratusnex.workers.dev/disneyjr.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="80" group-title="DIGITAL" tvg-logo="https://images.pluto.tv/channels/5fab09a8749b1a00077d35d2/colorLogoPNG_1749640834707.png" tvg-id="NickelodeonTeen.us@LatAm",Nickelodeon Teen
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="80" group-title="INFANTILES" tvg-logo="https://images.pluto.tv/channels/5fab09a8749b1a00077d35d2/colorLogoPNG_1749640834707.png" tvg-id="NickelodeonTeen.us@LatAm",Nickelodeon Teen
 https://jmp2.uk/plu-5fab09a8749b1a00077d35d2.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="81" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s63109_dark_360w_270h.png" tvg-id="Tooncast.ar" ,Tooncast
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="81" group-title="INFANTILES" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s63109_dark_360w_270h.png" tvg-id="Tooncast.ar" ,Tooncast
 http://45.134.141.161:2200/ARG/Tooncast/index.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="82" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s31760_dark_360w_270h.png" tvg-id="Cartoonito.ar",Cartoonito
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="82" group-title="INFANTILES" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s31760_dark_360w_270h.png" tvg-id="Cartoonito.ar",Cartoonito
 http://45.134.141.161:2200/ARG/Cartoonito/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="83" tvg-logo="https://d3bd0tgyk368z1.cloudfront.net/feeds/epg/sofa/cinepo/lgartwork/Logo.png" group-title="DIGITAL",Cinepolis Channel
 https://channels.stratusnex.workers.dev/cinepolis.m3u8

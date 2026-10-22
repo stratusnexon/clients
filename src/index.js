@@ -49,7 +49,7 @@ export default {
 "/fox2.m3u8": "http://200.123.40.1:8000/play/a04r/index.m3u8",
       "/fox3.m3u8": "http://200.123.40.1:8000/play/a04s/index.m3u8",
       "telefe2.m3u8": "http://45.134.141.161:2200/ARG/TELEFE_HD/index.m3u8",    
-      "/warner.m3u8": "http://200.123.40.1:8000/play/a05f/index.m3u8",
+      "/warner.m3u8": "http://45.134.141.161:2200/ARG/Warner_Channel_HD/index.m3u8",
       "/tnt.m3u8": "http://200.123.40.1:8000/play/a0ea/index.m3u8",
       "/cinecanal.m3u8": "https://cdn-zapster-ros.trapemn.tv:1936/zapster-hls/cinecanal.stream/playlist.m3u8",
       "/space.m3u8": "http://200.123.40.1:8000/play/a057/index.m3u8",
@@ -80,7 +80,15 @@ export default {
       "/history.m3u8": "http://200.123.40.1:8000/play/a051/index.m3u8",
       "/europa.m3u8": "http://45.70.221.206/EUROPA_EUROPA_OTT/playlist.m3u8",
       "/dpsort-1.m3u8": "http://45.70.221.206/DSPORTS_OTT/playlist.m3u8",
+      "/discovery.m3u8": "http://45.134.141.161:2200/ARG/Discovery_Channel_HD/index.m3u8",
+      "/discoveryhh.m3u8": "http://45.181.120.147:9800/play/095/index.m3u8",
+      "/discoverysc.m3u8": "http://200.123.40.1:8000/play/a049/index.m3u8",
+      "/discoveryth.m3u8": "http://45.134.141.161:2200/ARG/Discovery_TheaterHD/index.m3u8",
+      "/discoveryt.m3u8": "http://45.181.120.147:9800/play/106/index.m3u8",
+      "/discoveryw.m3u8": "http://45.134.141.161:2200/ARG/Discovery_World_HD/index.m3u8",
+      "/testt.m3u8": "",
       "/CM.m3u8": "http://45.70.221.206/CM_OTT/playlist.m3u8"
+      
     
     };
 

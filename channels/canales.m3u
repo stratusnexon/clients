@@ -31,12 +31,12 @@ https://videostream.shockmedia.com.ar:19360/multivisionfederal/multivisionfedera
 https://g5.vxral-hor.transport.edge-access.net/a06/ngrp:gcba_video4-100042_all/Playlist.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="22.1" group-title="DIGITAL" tvg-logo="https://images.open-epg.com/x1002.png" tvg-id="Telefe.ar",Telefe
-http://190.7.19.206:8098/play/a0n0/index.m3u8
+http://45.134.141.161:2200/ARG/TELEFE_HD/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="13" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/canal-26-ar.png" tvg-id="Canal26.ar",Canal 26
-https://live.stratusnex.workers.dev/c26.m3u8
+https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="14" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/c5n-ar.png" tvg-id="C5N.ar",C5N
-http://190.7.19.206:8098/play/a0lm/index.m3u8
+https://www.youtube.com/c/c5n/live
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="15" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/la-nacion-mas-ar.png" tvg-id="LaNacion+.ar",LaNacion+
 http://45.70.221.206/LN_OTT/playlist.m3u8
@@ -59,13 +59,13 @@ https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
 https://g1.vxral-hor.transport.edge-access.net/b16/ngrp:c7_vivo01_dai_source-20001_all/playlist.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="21" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/cronica-hd-ar.png" tvg-id="CronicaTV.ar",Cronica
-http://45.70.221.206/CRONICA_OTT/playlist.m3u8
+https://www.youtube.com/c/cronicatv/live
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="22" group-title="DIGITAL" tvg-logo="https://i.imgur.com/DHv3yVj.png" tvg-id="Canal3Rosario.ar",El Tres 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
 https://smt-usr-edge01.sensa.com.ar/output/ARR2/C3RH/playlist.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="23" tvg-logo="https://i.imgur.com/wb3aYBe.png" group-title="DIGITAL" tvg-id="TelefeRosario.ar", Telefe Rosario [ Zapster ]
-https://live.stratusnex.workers.dev/teleferos.m3u8
+https://cdn-zapster-ros.trapemn.tv:1936/zapster-transco/Canal5Rosario.stream/playlist.m3u8
 
 
 
@@ -79,7 +79,7 @@ https://smt-usr-edge01.sensa.com.ar/output/SMT6/RTSh/playlist.m3u8
 https://unlimited1-saopaulo.dps.live/perfiltv/perfiltv.smil/playlist.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="27" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/argentina-12-ar.png" tvg-id="", Argentina12
-https://cdn-zapster-ros.trapemn.tv:1936/zapster-hls/InformacionPeriodistica.stream/playlist.m3u8
+https://www.youtube.com/c/IPNoticiasEnVivo/live
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="78.1" group-title="DIGITAL" tvg-logo="https://files.catbox.moe/f7jbdo.png" tvg-id="", Canal 8 San Juan
 https://live20.bozztv.com/akamaissh101/ssh101/canal8sanjuan/playlist.m3u8

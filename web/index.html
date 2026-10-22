@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web TV - Neon Edition</title>
+    <title>Web TV</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,26 +14,33 @@
             <video id="tv-player" autoplay playsinline></video>
         </div>
 
-        <!-- Menú Lateral Flotante Neón -->
-        <div class="sidebar" id="sidebar">
-            <!-- Encabezado con Nombre y Control de Luz -->
-            <div class="sidebar-header">
-                <h1 class="app-title">⚡ StratusNEX TV</h1>
+        <!-- Barra Superior Flotante -->
+        <div class="top-bar" id="top-bar">
+            <div class="brand-area">
+                <h1 class="app-title">⚡ NEXON TV</h1>
+            </div>
+            <div class="top-controls">
+                <!-- Botón Home para volver al primer canal -->
+                <button id="home-btn" class="focusable" tabindex="0" title="Volver al Home (Canal 1)">🏠 Home</button>
+                
+                <div class="category-filter">
+                    <select id="category-select" class="focusable" tabindex="0">
+                        <option value="ALL">⚡ Todas las Categorías</option>
+                    </select>
+                </div>
+
                 <button id="light-toggle-btn" class="focusable" tabindex="0" title="Apagar / Encender luz">💡</button>
             </div>
-            
-            <div class="category-filter">
-                <select id="category-select" class="focusable" tabindex="0">
-                    <option value="ALL">⚡ Todas las Categorías</option>
-                </select>
-            </div>
-
-            <ul id="channel-list">
-                <!-- Canales dinámicos -->
-            </ul>
         </div>
 
-        <!-- OSD minimalista neón -->
+        <!-- Slider Horizontal Inferior con Carrusel -->
+        <div class="slider-container" id="slider-container">
+            <div class="channel-slider" id="channel-list">
+                <!-- Tarjetas dinámicas con número y logo -->
+            </div>
+        </div>
+
+        <!-- OSD minimalista con número y nombre de canal -->
         <div class="osd-info" id="osd-info">
             <span id="current-channel-name">Cargando canal...</span>
         </div>

@@ -18,21 +18,39 @@ body {
 }
 
 .sidebar {
-    width: 350px;
+    width: 360px;
     background-color: #141414;
     padding: 20px;
     border-right: 2px solid #222;
-    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .sidebar h2 {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-size: 22px;
     color: #e50914;
 }
 
-.sidebar ul {
+.category-filter {
+    margin-bottom: 15px;
+}
+
+.category-filter select {
+    width: 100%;
+    padding: 10px;
+    background-color: #1f1f1f;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+}
+
+#channel-list {
     list-style: none;
+    overflow-y: auto;
+    flex: 1;
 }
 
 .sidebar li {
@@ -41,7 +59,7 @@ body {
     background-color: #1f1f1f;
     border-radius: 6px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 15px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -49,8 +67,9 @@ body {
 }
 
 /* Foco y selección para control remoto */
-.sidebar li:focus, .sidebar li.selected {
+.sidebar li:focus, .sidebar li.selected, .category-filter select:focus {
     background-color: #e50914;
+    border-color: #e50914;
     outline: none;
     transform: scale(1.02);
 }

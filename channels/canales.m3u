@@ -3,14 +3,14 @@
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="1" group-title="DIGITAL" tvg-logo="http://ziptv.alwaysdata.net/press/wp-content/uploads/2026/08/file_00000000c8b8820eaed678253980f3e15075690802530191531.png" tvg-id="",Canal 01 Senal Eventos
 https://zipstream.stratusnex.workers.dev/canaluno/live.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="2" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18242_dark_360w_270h.png" tvg-id="Metro.ar",Metro
-https://live.stratusnex.workers.dev/metro_sd.m3u8
+http://190.7.19.206:8098/play/a0mb/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="3" group-title="DIGITAL" tvg-logo="https://i.imgur.com/60vSWW0.png" tvg-id="AiredeSantaFe.ar",AIRE DE SANTA FE
 https://mdstrm.com/live-stream-playlist/6931a0eb06778645348008e0.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="4" group-title="DIGITAL" tvg-logo="https://i.imgur.com/HNcCX3h.png" tvg-id="TelefeInternacional.uy",Telefe Internacional
-https://live.stratusnex.workers.dev/telefeint.m3u8
+http://45.173.231.22:8000/play/a053/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="5" group-title="DIGITAL" tvg-logo="https://i.imgur.com/Vo6prbh.png" tvg-id="ElTreceInternacional.uy",El Trece Internacional
-https://live.stratusnex.workers.dev/eltreceint.m3u8
+http://45.173.231.22:8000/play/a09x/index.m3u8
 #EXTINF:-1 tvg-name="" group-title="DIGITAL" ch-number="6" tvg-id="CanalUniversidad.ar" tvg-logo="https://i.imgur.com/trmPKYw.png",Canal Universidad
 https://videostream.shockmedia.com.ar/hls/canaluniversidadmdp/canaluniversidadmdp.m3u8
 
@@ -31,15 +31,15 @@ https://videostream.shockmedia.com.ar:19360/multivisionfederal/multivisionfedera
 https://g5.vxral-hor.transport.edge-access.net/a06/ngrp:gcba_video4-100042_all/Playlist.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="22.1" group-title="DIGITAL" tvg-logo="https://images.open-epg.com/x1002.png" tvg-id="Telefe.ar",Telefe
-https://live.stratusnex.workers.dev/telefe.m3u8
+http://190.7.19.206:8098/play/a0n0/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="13" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/canal-26-ar.png" tvg-id="Canal26.ar",Canal 26
 https://live.stratusnex.workers.dev/c26.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="14" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/c5n-ar.png" tvg-id="C5N.ar",C5N
-https://joy.nx-pc.edge-apps.net/hls/84aje-kf2n1-d1fjp-jd44i.m3u8
+http://190.7.19.206:8098/play/a0lm/index.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="15" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/la-nacion-mas-ar.png" tvg-id="LaNacion+.ar",LaNacion+
-https://live.stratusnex.workers.dev/lnmas.m3u8
+http://45.70.221.206/LN_OTT/playlist.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="16" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/tn-todo-noticias-ar.png" tvg-id="TN.ar",TN
 #EXTVLCOPT:http-referrer=https://tn.com.ar/envivo/24hs
@@ -59,7 +59,7 @@ https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
 https://g1.vxral-hor.transport.edge-access.net/b16/ngrp:c7_vivo01_dai_source-20001_all/playlist.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="21" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/cronica-hd-ar.png" tvg-id="CronicaTV.ar",Cronica
-https://live.stratusnex.workers.dev/cronica.m3u8
+http://45.70.221.206/CRONICA_OTT/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="22" group-title="DIGITAL" tvg-logo="https://i.imgur.com/DHv3yVj.png" tvg-id="Canal3Rosario.ar",El Tres 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
 https://smt-usr-edge01.sensa.com.ar/output/ARR2/C3RH/playlist.m3u8
@@ -79,7 +79,7 @@ https://smt-usr-edge01.sensa.com.ar/output/SMT6/RTSh/playlist.m3u8
 https://unlimited1-saopaulo.dps.live/perfiltv/perfiltv.smil/playlist.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="27" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/argentina-12-ar.png" tvg-id="", Argentina12
-https://live.stratusnex.workers.dev/ar12.m3u8
+https://cdn-zapster-ros.trapemn.tv:1936/zapster-hls/InformacionPeriodistica.stream/playlist.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="78.1" group-title="DIGITAL" tvg-logo="https://files.catbox.moe/f7jbdo.png" tvg-id="", Canal 8 San Juan
 https://live20.bozztv.com/akamaissh101/ssh101/canal8sanjuan/playlist.m3u8
@@ -112,16 +112,16 @@ https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="35" group-title="DIGITAL" tvg-logo="https://canal3salta.com.ar/src/images/logo250x250.webp" tvg-id="",Canal 3 Salta
 https://ututotv.com.ar/live/stream.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="36" tvg-id="Encuentro.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s75767_white_360w_270h.png" group-title="DIGITAL",Encuentro
-https://live.stratusnex.workers.dev/encuentro.m3u8
+http://190.7.19.206:8098/play/a0lj/index.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="37" group-title="DIGITAL" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/canal-rural-ar.png" tvg-id="CanalRural.ar",Rural
-https://live.stratusnex.workers.dev/rural.m3u8
+http://190.7.19.206:8098/play/a0ma/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="38" group-title="DIGITAL" tvg-logo="https://cdn.m3u.cl/logo/303_Eco_TV.png" tvg-id="",Eco TV
 https://stream.arcast.com.ar/ecotv/ngrp:ecotv_all/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="39" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18075_dark_360w_270h.png" tvg-id="CanalA.ar",Canal a
-https://live.stratusnex.workers.dev/canala.m3u8
+http://190.7.19.206:8098/play/a0m4/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="40" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16879_dark_360w_270h.png" tvg-id="Volver.ar",Volver
-https://live.stratusnex.workers.dev/volver.m3u8
+http://190.7.19.206:8098/play/a0lx/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="41" group-title="DIGITAL" tvg-logo="https://lz24h.wordpress.com/wp-content/uploads/2026/09/bq29sfg1017235205063962896.png" tvg-id="Canal10MardelPlata.ar",Canal 10 MDP
 #EXTVLCOPT:http-referrer=https://webclient.ctcplus.com.ar/
 #EXTVLCOPT:http-user-agent=VisualOn OSMP+ Player(Linux;Android)
@@ -167,7 +167,7 @@ https://cdn.sensa.com.ar/output/SMT7/BVCh/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="89.1 tvg-logo="https://geo.edge.pontiscloud.com:9002/images/4126/CH_LOGO/40/40/0/0/49015720078226.png" group-title="DIGITAL",El Destape
 https://cdn-zapster-ros.trapemn.tv:1936/zapster-hls/Destape.stream/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="17.1" group-title="DIGITAL" tvg-logo="https://i.imgur.com/49iFAf0.png" tvg-id="", Canal 11 Entre Ríos
-https://live.stratusnex.workers.dev/canal11er.m3u8
+http://190.7.19.206:8098/play/a0pt/index.m3u8
 
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="15.1" group-title="DIGITAL" tvg-logo="https://i.ibb.co/Pv0kMtC1/Logo-Gen-TV.png",GenTV 

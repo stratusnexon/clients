@@ -51,7 +51,7 @@ export default {
       "telefe2.m3u8": "http://45.134.141.161:2200/ARG/TELEFE_HD/index.m3u8",    
       "/warner.m3u8": "http://45.134.141.161:2200/ARG/Warner_Channel_HD/index.m3u8",
       "/tnt.m3u8": "http://200.123.40.1:8000/play/a0ea/index.m3u8",
-      "/cinecanal.m3u8": "https://cdn-zapster-ros.trapemn.tv:1936/zapster-hls/cinecanal.stream/playlist.m3u8",
+      "/cinecanal.m3u8": "http://200.123.40.1:8000/play/a043/index.m3u8",
       "/space.m3u8": "http://200.123.40.1:8000/play/a057/index.m3u8",
       "/zspace.m3u8": "https://zapster.trapemn.tv:1936/zapster-hls/space.stream/playlist.m3u8",
       "/tntseries.m3u8": "http://200.123.40.1:8000/play/a05c/index.m3u8",

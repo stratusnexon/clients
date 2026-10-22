@@ -38,7 +38,7 @@ https://cdn-zapster-ros.trapemn.tv:1936/zapster-hls/LaNacion.stream/playlist.m3u
 https://live-01-01-tn.vodgc.net/TN_DAI_Beta/index.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="17" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/cnn-en-espanol-ar.png" tvg-id="CNNenEspañol.ar",CNN en Espanol
-https://channels.stratusnex.workers.dev/cnne.m3u8
+https://cdn-zapster-ros.trapemn.tv:1936/CD-LATAM/CNN/playlist.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="18" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/a24-ar.png" tvg-id="A24.uy",A24
 https://g5.vxral-slo.transport.edge-access.net/a12/ngrp:a24-100056_all/playlist.m3u8?sense=true
@@ -47,7 +47,7 @@ https://g5.vxral-slo.transport.edge-access.net/a12/ngrp:a24-100056_all/playlist.
 https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="20" group-title="DIGITAL" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCQW_AtMAHTSYpZq0OL6p1cr5s25HOsi1ablWAe3vyQWZsHPLuy1gHBd7j3SLlBi63YwpezyzhdGZGUdrwpNi8qfUv0-42ASNO4sF80LaALQXk3WKoChg5QDRfEXFSLNPvyMjtoXiuPLKjI1vbA-swoNqMnLGmGlT1finAVEQxwhLQkWV3UuBWsp63VfU/s585/Screenshot_20261016-235042-removebg-preview.png" tvg-id="TVPublica.ar",Canal 7 Siete
-https://g1.vxral-hor.transport.edge-access.net/b16/ngrp:c7_vivo01_dai_source-20001_all/playlist.m3u8
+https://cdn-zapster-ros.trapemn.tv:1936/zapster-hls/tvpublica.stream/playlist.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="21" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/cronica-hd-ar.png" tvg-id="CronicaTV.ar",Cronica
 https://cdn-zapster-ros.trapemn.tv:1936/zapster-hls/CronicaTV/playlist.m3u8
@@ -61,7 +61,7 @@ https://cdn-zapster-ros.trapemn.tv:1936/zapster-transco/Canal5Rosario.stream/pla
 
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="24" group-title="DIGITAL" tvg-logo="https://images.open-epg.com/16782301.png" tvg-id="ElNueve.ar",El Nueve
-https://live.stratusnex.workers.dev/elnueve.m3u8
+https://cdn-zapster-ros.trapemn.tv:1936/Zapster/Canal9.stream/playlist.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="25" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/rts-ar.png" tvg-id="RtsTelevisionSantafesina.ar",RTS MEDIOS
 https://smt-usr-edge01.sensa.com.ar/output/SMT6/RTSh/playlist.m3u8
@@ -70,13 +70,11 @@ https://smt-usr-edge01.sensa.com.ar/output/SMT6/RTSh/playlist.m3u8
 https://unlimited1-saopaulo.dps.live/perfiltv/perfiltv.smil/playlist.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="27" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/argentina-12-ar.png" tvg-id="", Argentina12
-https://www.youtube.com/c/IPNoticiasEnVivo/live
+https://cdn-zapster-ros.trapemn.tv:1936/zapster-hls/InformacionPeriodistica.stream/playlist.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="78.1" group-title="DIGITAL" tvg-logo="https://files.catbox.moe/f7jbdo.png" tvg-id="", Canal 8 San Juan
 https://live20.bozztv.com/akamaissh101/ssh101/canal8sanjuan/playlist.m3u8
 
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="29.1" tvg-name="Telediario Now" tvg-logo="https://play-lh.googleusercontent.com/T1Lo-sP-9uFGvXhT3jkyrIEUp9X1DR31_Cnl19vWaKyKPycPVtCmhKDDbtT7vWU4Sb3TY2w3o8GShHzEvolVpw" group-title="DIGITAL",Telediario Now
-https://channels.stratusnex.workers.dev/telediarionow.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="28" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s109331_dark_360w_270h.png" tvg-id="NetTV.ar",Net TV
 https://unlimited1-us.dps.live/nettv/nettv.smil/nettv/livestream1/playlist.m3u8

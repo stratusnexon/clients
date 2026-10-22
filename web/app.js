@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const lightToggleBtn = document.getElementById("light-toggle-btn");
     const homeBtn = document.getElementById("home-btn");
     
-    // URL de tu archivo M3U (según tu proyecto en [stratusnexon/clients](https://github.com/stratusnexon/clients))
+    // URL de tu archivo M3U
     const m3uUrl = "https://stratusnex.intinet.com.ar/channels/canales.m3u"; 
 
     let allChannels = [];
@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let currentIndex = 0;
     let hideMenuTimer = null;
     let lightsOn = true;
+    let hlsInstance = null; // Instancia única controlada
 
     // 1. Cargar y parsear M3U
     fetch(m3uUrl)
@@ -149,92 +150,85 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    let hlsInstance = null; // Variable global para controlar la instancia actual
+    // Función de reproducción robusta y limpia
+    function playStream(url) {
+        if (hlsInstance) {
+            hlsInstance.destroy();
+            hlsInstance = null;
+        }
 
-let hlsInstance = null;
+        videoElement.pause();
+        videoElement.removeAttribute('src');
+        videoElement.load();
 
-function playStream(url) {
-    if (hlsInstance) {
-        hlsInstance.destroy();
-        hlsInstance = null;
-    }
+        if (!url) return;
 
-    videoElement.pause();
-    videoElement.removeAttribute('src');
-    videoElement.load();
-
-    if (!url) return;
-
-    // Mostrar en el OSD que está cargando
-    currentChannelName.textContent = "🔄 Cargando stream...";
-    showOSD();
-
-    // Validar si es HTTP en sitio HTTPS (Contenido Mixto)
-    if (window.location.protocol === 'https:' && url.startsWith('http://')) {
-        console.warn("Advertencia: Intentando reproducir HTTP en una página HTTPS. Los navegadores bloquean esto.");
-    }
-
-    if (videoElement.canPlayType('application/vnd.apple.mpegurl')) {
-        videoElement.src = url;
-        videoElement.addEventListener('loadedmetadata', () => {
-            videoElement.play().catch(e => console.log("Error de reproducción:", e));
-        });
-    } 
-    else if (Hls.isSupported()) {
-        hlsInstance = new Hls({
-            maxBufferLength: 30,
-            liveSyncDurationCount: 3,
-            xhrSetup: function (xhr, url) {
-                xhr.withCredentials = false;
-            }
-        });
-
-        hlsInstance.loadSource(url);
-        hlsInstance.attachMedia(videoElement);
-        
-        hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => {
-            videoElement.play().then(() => {
-                // Restaurar el nombre real una vez que arranca
-                const activeLi = channelListContainer.querySelector("li.selected");
-                if (activeLi) {
-                    const num = activeLi.querySelector(".channel-number").textContent;
-                    const name = activeLi.querySelector(".channel-name").textContent;
-                    currentChannelName.textContent = `${num} - ${name}`;
-                }
-            }).catch(e => {
-                console.log("Autoplay bloqueado por el navegador:", e);
-                currentChannelName.textContent = "⚠️ Toca la pantalla para reproducir";
-            });
-        });
-
-        // Capturar errores específicos de carga
-        hlsInstance.on(Hls.Events.ERROR, (event, data) => {
-            if (data.fatal) {
-                switch (data.type) {
-                    case Hls.ErrorTypes.NETWORK_ERROR:
-                        console.error("Error de red o stream caído:", data);
-                        currentChannelName.textContent = "❌ Canal offline o sin conexión";
-                        hlsInstance.startLoad();
-                        break;
-                    case Hls.ErrorTypes.MEDIA_ERROR:
-                        console.error("Error de medios (códec no soportado):", data);
-                        currentChannelName.textContent = "❌ Formato no compatible";
-                        hlsInstance.recoverMediaError();
-                        break;
-                    default:
-                        currentChannelName.textContent = "❌ Error al reproducir canal";
-                        hlsInstance.destroy();
-                        hlsInstance = null;
-                        break;
-                }
-                showOSD();
-            }
-        });
-    } else {
-        currentChannelName.textContent = "❌ HLS no soportado en este navegador";
+        currentChannelName.textContent = "🔄 Cargando stream...";
         showOSD();
+
+        if (window.location.protocol === 'https:' && url.startsWith('http://')) {
+            console.warn("Advertencia: Intentando reproducir HTTP en una página HTTPS.");
+        }
+
+        if (videoElement.canPlayType('application/vnd.apple.mpegurl')) {
+            videoElement.src = url;
+            videoElement.addEventListener('loadedmetadata', () => {
+                videoElement.play().catch(e => console.log("Error de reproducción:", e));
+            });
+        } 
+        else if (Hls.isSupported()) {
+            hlsInstance = new Hls({
+                maxBufferLength: 30,
+                liveSyncDurationCount: 3,
+                xhrSetup: function (xhr, url) {
+                    xhr.withCredentials = false;
+                }
+            });
+
+            hlsInstance.loadSource(url);
+            hlsInstance.attachMedia(videoElement);
+            
+            hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => {
+                videoElement.play().then(() => {
+                    const activeLi = channelListContainer.querySelector("li.selected");
+                    if (activeLi) {
+                        const num = activeLi.querySelector(".channel-number").textContent;
+                        const name = activeLi.querySelector(".channel-name").textContent;
+                        currentChannelName.textContent = `${num} - ${name}`;
+                    }
+                }).catch(e => {
+                    console.log("Autoplay bloqueado por el navegador:", e);
+                    currentChannelName.textContent = "⚠️ Toca la pantalla para reproducir";
+                });
+            });
+
+            hlsInstance.on(Hls.Events.ERROR, (event, data) => {
+                if (data.fatal) {
+                    switch (data.type) {
+                        case Hls.ErrorTypes.NETWORK_ERROR:
+                            console.error("Error de red o stream caído:", data);
+                            currentChannelName.textContent = "❌ Canal offline o sin conexión";
+                            hlsInstance.startLoad();
+                            break;
+                        case Hls.ErrorTypes.MEDIA_ERROR:
+                            console.error("Error de medios (códec no soportado):", data);
+                            currentChannelName.textContent = "❌ Formato no compatible";
+                            hlsInstance.recoverMediaError();
+                            break;
+                        default:
+                            currentChannelName.textContent = "❌ Error al reproducir canal";
+                            hlsInstance.destroy();
+                            hlsInstance = null;
+                            break;
+                    }
+                    showOSD();
+                }
+            });
+        } else {
+            currentChannelName.textContent = "❌ HLS no soportado en este navegador";
+            showOSD();
+        }
     }
-}
 
     // Funciones de control de interfaz
     function showMenu() {

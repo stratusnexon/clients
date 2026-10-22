@@ -2,20 +2,26 @@ document.addEventListener("DOMContentLoaded", () => {
     const channelListContainer = document.getElementById("channel-list");
     const categorySelect = document.getElementById("category-select");
     const videoElement = document.getElementById("tv-player");
+    const sidebar = document.getElementById("sidebar");
+    const appContainer = document.getElementById("app-container");
+    const osdInfo = document.getElementById("osd-info");
+    const currentChannelName = document.getElementById("current-channel-name");
+    const lightToggleBtn = document.getElementById("light-toggle-btn");
     
-    // Puedes cambiar esto por una URL de prueba o la ruta a tu archivo m3u
     const m3uUrl = "https://stratusnex.intinet.com.ar/channels/canales.m3u"; 
 
     let allChannels = [];
     let activeChannels = [];
     let focusables = [];
     let currentIndex = 0;
+    let hideMenuTimer = null;
+    let lightsOn = true;
 
-    // 1. Cargar y parsear la lista M3U
+    // 1. Cargar y parsear M3U con logos
     fetch(m3uUrl)
         .then(response => response.text())
         .then(data => {
-            allChannels = parseM3UAdvanced(data);
+            allChannels = parseM3UWithLogos(data);
             populateCategories(allChannels);
             filterChannelsByGroup("ALL");
         })
@@ -24,8 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
             channelListContainer.innerHTML = "<li>Error al cargar canales</li>";
         });
 
-    // Analizador avanzado que extrae grupo, logo y nombre
-    function parseM3UAdvanced(content) {
+    function parseM3UWithLogos(content) {
         const lines = content.split("\n");
         let channels = [];
         let currentChannel = {};
@@ -35,15 +40,12 @@ document.addEventListener("DOMContentLoaded", () => {
             if (line.startsWith("#EXTINF:")) {
                 currentChannel = {};
                 
-                // Extraer group-title si existe
                 const groupMatch = line.match(/group-title="([^"]+)"/);
                 currentChannel.group = groupMatch ? groupMatch[1] : "General";
 
-                // Extraer tvg-logo si existe
                 const logoMatch = line.match(/tvg-logo="([^"]+)"/);
                 currentChannel.logo = logoMatch ? logoMatch[1] : "";
 
-                // Extraer el nombre del canal (después de la última coma)
                 const nameParts = line.split(",");
                 currentChannel.name = nameParts[nameParts.length - 1].trim() || "Canal sin nombre";
             } else if (line && !line.startsWith("#")) {
@@ -56,10 +58,8 @@ document.addEventListener("DOMContentLoaded", () => {
         return channels;
     }
 
-    // Poblar el menú desplegable de categorías
     function populateCategories(channels) {
         const groups = [...new Set(channels.map(c => c.group))].sort();
-        
         groups.forEach(group => {
             const option = document.createElement("option");
             option.value = group;
@@ -68,29 +68,40 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    // Filtrar canales según la categoría seleccionada
     function filterChannelsByGroup(group) {
         if (group === "ALL") {
-            activeChannels = allChannels.slice(0, 50); // Límite para rendimiento inicial
+            activeChannels = allChannels.slice(0, 50);
         } else {
             activeChannels = allChannels.filter(c => c.group === group);
         }
         renderChannels(activeChannels);
     }
 
-    // Renderizar lista en pantalla
     function renderChannels(channels) {
         channelListContainer.innerHTML = "";
         
         channels.forEach((channel, index) => {
             const li = document.createElement("li");
-            li.textContent = channel.name;
             li.setAttribute("tabindex", "0");
             li.setAttribute("data-stream", channel.url);
             li.classList.add("focusable");
             
-            li.addEventListener("click", () => {
+            const img = document.createElement("img");
+            img.classList.add("channel-logo");
+            img.src = channel.logo || "data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32'></svg>";
+            img.onerror = () => { img.style.display = 'none'; };
+
+            const span = document.createElement("span");
+            span.classList.add("channel-name");
+            span.textContent = channel.name;
+
+            li.appendChild(img);
+            li.appendChild(span);
+            
+            li.addEventListener("click", (e) => {
+                e.stopPropagation();
                 selectChannel(index);
+                hideMenu();
             });
 
             channelListContainer.appendChild(li);
@@ -103,7 +114,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function updateFocusables() {
-        // Incluimos tanto el selector de categorías como los elementos de la lista en la navegación
         focusables = document.querySelectorAll(".focusable");
     }
 
@@ -118,7 +128,11 @@ document.addEventListener("DOMContentLoaded", () => {
         if (listItems[currentIndex]) {
             listItems[currentIndex].focus();
             const url = listItems[currentIndex].getAttribute("data-stream");
+            const name = listItems[currentIndex].querySelector(".channel-name").textContent;
+            
+            currentChannelName.textContent = name;
             playStream(url);
+            showOSD();
         }
     }
 
@@ -136,13 +150,68 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    // Evento para cambiar de categoría desde el selector
-    categorySelect.addEventListener("change", (e) => {
-        filterChannelsByGroup(e.target.value);
+    // Funciones de control de interfaz
+    function showMenu() {
+        sidebar.classList.remove("hidden");
+        resetHideTimer();
+    }
+
+    function hideMenu() {
+        sidebar.classList.add("hidden");
+    }
+
+    function resetHideTimer() {
+        clearTimeout(hideMenuTimer);
+        hideMenuTimer = setTimeout(() => {
+            if (document.activeElement.tagName !== "SELECT" && document.activeElement !== lightToggleBtn) {
+                hideMenu();
+            }
+        }, 6000);
+    }
+
+    function showOSD() {
+        osdInfo.classList.add("visible");
+        setTimeout(() => {
+            osdInfo.classList.remove("visible");
+        }, 3000);
+    }
+
+    // Alternar luz (Apagar / Encender interfaz)
+    function toggleLights() {
+        lightsOn = !lightsOn;
+        if (lightsOn) {
+            sidebar.classList.remove("lights-out");
+            lightToggleBtn.textContent = "💡";
+        } else {
+            sidebar.classList.add("lights-out");
+            lightToggleBtn.textContent = "🌙";
+        }
+        resetHideTimer();
+    }
+
+    lightToggleBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        toggleLights();
     });
 
-    // Navegación por control remoto / teclado optimizada
+    appContainer.addEventListener("click", (e) => {
+        if (!sidebar.contains(e.target)) {
+            if (sidebar.classList.contains("hidden")) {
+                showMenu();
+            } else {
+                hideMenu();
+            }
+        }
+    });
+
+    categorySelect.addEventListener("change", (e) => {
+        filterChannelsByGroup(e.target.value);
+        resetHideTimer();
+    });
+
+    // Control por teclado / control remoto de TV
     document.addEventListener("keydown", (event) => {
+        showMenu();
         updateFocusables();
         if (focusables.length === 0) return;
 
@@ -169,12 +238,28 @@ document.addEventListener("DOMContentLoaded", () => {
                 break;
 
             case "Enter":
-                if (activeElement.tagName === "LI") {
+                if (activeElement === lightToggleBtn) {
+                    toggleLights();
+                } else if (activeElement.tagName === "LI") {
                     const idx = Array.from(channelListContainer.querySelectorAll("li")).indexOf(activeElement);
-                    if (idx !== -1) selectChannel(idx);
+                    if (idx !== -1) {
+                        selectChannel(idx);
+                        hideMenu();
+                    }
+                }
+                event.preventDefault();
+                break;
+                
+            case "Escape":
+            case "Backspace":
+                if (sidebar.classList.contains("hidden")) {
+                    showMenu();
+                } else {
+                    hideMenu();
                 }
                 event.preventDefault();
                 break;
         }
+        resetHideTimer();
     });
 });

@@ -9,11 +9,19 @@
 <body>
 
     <div class="tv-container">
-        <!-- Menú lateral de canales dinámico -->
+        <!-- Panel lateral con Categorías y Canales -->
         <div class="sidebar">
-            <h2>Lista de Canales</h2>
+            <h2>StratusNEX</h2>
+            
+            <!-- Selector de categorías -->
+            <div class="category-filter">
+                <select id="category-select" class="focusable" tabindex="0">
+                    <option value="ALL">Todas las Categorías</option>
+                </select>
+            </div>
+
             <ul id="channel-list">
-                <!-- Se cargarán dinámicamente desde el script -->
+                <!-- Se llenará dinámicamente -->
             </ul>
         </div>
 
@@ -23,7 +31,6 @@
         </div>
     </div>
 
-    <!-- Librería HLS.js para streams .m3u8 / HLS -->
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <script src="app.js"></script>
 </body>

@@ -2,12 +2,15 @@ document.addEventListener("DOMContentLoaded", () => {
     const channelListContainer = document.getElementById("channel-list");
     const categorySelect = document.getElementById("category-select");
     const videoElement = document.getElementById("tv-player");
-    const sidebar = document.getElementById("sidebar");
+    const topBar = document.getElementById("top-bar");
+    const sliderContainer = document.getElementById("slider-container");
     const appContainer = document.getElementById("app-container");
     const osdInfo = document.getElementById("osd-info");
     const currentChannelName = document.getElementById("current-channel-name");
     const lightToggleBtn = document.getElementById("light-toggle-btn");
+    const homeBtn = document.getElementById("home-btn");
     
+    // URL de tu archivo M3U (según tu proyecto en [stratusnexon/clients](https://github.com/stratusnexon/clients))
     const m3uUrl = "https://stratusnex.intinet.com.ar/channels/canales.m3u"; 
 
     let allChannels = [];
@@ -17,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let hideMenuTimer = null;
     let lightsOn = true;
 
-    // 1. Cargar y parsear M3U con logos
+    // 1. Cargar y parsear M3U
     fetch(m3uUrl)
         .then(response => response.text())
         .then(data => {
@@ -27,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
         })
         .catch(error => {
             console.error("Error al cargar la lista M3U:", error);
-            channelListContainer.innerHTML = "<li>Error al cargar canales</li>";
+            channelListContainer.innerHTML = "<li style='flex:1; text-align:center;'>Error al cargar canales</li>";
         });
 
     function parseM3UWithLogos(content) {
@@ -86,15 +89,21 @@ document.addEventListener("DOMContentLoaded", () => {
             li.setAttribute("data-stream", channel.url);
             li.classList.add("focusable");
             
+            // Número de canal formateado (01, 02, etc.)
+            const numBadge = document.createElement("span");
+            numBadge.classList.add("channel-number");
+            numBadge.textContent = String(index + 1).padStart(2, '0');
+
             const img = document.createElement("img");
             img.classList.add("channel-logo");
-            img.src = channel.logo || "data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32'></svg>";
+            img.src = channel.logo || "data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='40'></svg>";
             img.onerror = () => { img.style.display = 'none'; };
 
             const span = document.createElement("span");
             span.classList.add("channel-name");
             span.textContent = channel.name;
 
+            li.appendChild(numBadge);
             li.appendChild(img);
             li.appendChild(span);
             
@@ -109,6 +118,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         updateFocusables();
         if (focusables.length > 0) {
+            // Autoreproducción automática del primer canal al iniciar
             selectChannel(0);
         }
     }
@@ -127,10 +137,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (listItems[currentIndex]) {
             listItems[currentIndex].focus();
+            listItems[currentIndex].scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+            
             const url = listItems[currentIndex].getAttribute("data-stream");
             const name = listItems[currentIndex].querySelector(".channel-name").textContent;
+            const num = listItems[currentIndex].querySelector(".channel-number").textContent;
             
-            currentChannelName.textContent = name;
+            currentChannelName.textContent = `${num} - ${name}`;
             playStream(url);
             showOSD();
         }
@@ -152,18 +165,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Funciones de control de interfaz
     function showMenu() {
-        sidebar.classList.remove("hidden");
+        topBar.classList.remove("hidden");
+        sliderContainer.classList.remove("hidden");
         resetHideTimer();
     }
 
     function hideMenu() {
-        sidebar.classList.add("hidden");
+        topBar.classList.add("hidden");
+        sliderContainer.classList.add("hidden");
     }
 
     function resetHideTimer() {
         clearTimeout(hideMenuTimer);
         hideMenuTimer = setTimeout(() => {
-            if (document.activeElement.tagName !== "SELECT" && document.activeElement !== lightToggleBtn) {
+            if (document.activeElement.tagName !== "SELECT" && document.activeElement !== lightToggleBtn && document.activeElement !== homeBtn) {
                 hideMenu();
             }
         }, 6000);
@@ -176,14 +191,27 @@ document.addEventListener("DOMContentLoaded", () => {
         }, 3000);
     }
 
-    // Alternar luz (Apagar / Encender interfaz)
+    // Botón Home (Ir al Canal 1)
+    function goHome() {
+        categorySelect.value = "ALL";
+        filterChannelsByGroup("ALL");
+        selectChannel(0);
+        showMenu();
+    }
+
+    homeBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        goHome();
+    });
+
+    // Alternar luz
     function toggleLights() {
         lightsOn = !lightsOn;
         if (lightsOn) {
-            sidebar.classList.remove("lights-out");
+            appContainer.classList.remove("lights-out");
             lightToggleBtn.textContent = "💡";
         } else {
-            sidebar.classList.add("lights-out");
+            appContainer.classList.add("lights-out");
             lightToggleBtn.textContent = "🌙";
         }
         resetHideTimer();
@@ -194,9 +222,10 @@ document.addEventListener("DOMContentLoaded", () => {
         toggleLights();
     });
 
+    // Tocar la pantalla desvanece o muestra la interfaz
     appContainer.addEventListener("click", (e) => {
-        if (!sidebar.contains(e.target)) {
-            if (sidebar.classList.contains("hidden")) {
+        if (!topBar.contains(e.target) && !sliderContainer.contains(e.target)) {
+            if (sliderContainer.classList.contains("hidden")) {
                 showMenu();
             } else {
                 hideMenu();
@@ -209,7 +238,7 @@ document.addEventListener("DOMContentLoaded", () => {
         resetHideTimer();
     });
 
-    // Control por teclado / control remoto de TV
+    // Control por teclado / Control Remoto
     document.addEventListener("keydown", (event) => {
         showMenu();
         updateFocusables();
@@ -219,26 +248,32 @@ document.addEventListener("DOMContentLoaded", () => {
         const currentActiveIndex = Array.from(focusables).indexOf(activeElement);
 
         switch (event.key) {
-            case "ArrowUp":
+            case "ArrowLeft":
                 if (currentActiveIndex > 0) {
                     focusables[currentActiveIndex - 1].focus();
-                } else {
-                    focusables[focusables.length - 1].focus();
+                    if (focusables[currentActiveIndex - 1].tagName === "LI") {
+                        const idx = Array.from(channelListContainer.querySelectorAll("li")).indexOf(focusables[currentActiveIndex - 1]);
+                        if (idx !== -1) selectChannel(idx);
+                    }
                 }
                 event.preventDefault();
                 break;
 
-            case "ArrowDown":
+            case "ArrowRight":
                 if (currentActiveIndex < focusables.length - 1) {
                     focusables[currentActiveIndex + 1].focus();
-                } else {
-                    focusables[0].focus();
+                    if (focusables[currentActiveIndex + 1].tagName === "LI") {
+                        const idx = Array.from(channelListContainer.querySelectorAll("li")).indexOf(focusables[currentActiveIndex + 1]);
+                        if (idx !== -1) selectChannel(idx);
+                    }
                 }
                 event.preventDefault();
                 break;
 
             case "Enter":
-                if (activeElement === lightToggleBtn) {
+                if (activeElement === homeBtn) {
+                    goHome();
+                } else if (activeElement === lightToggleBtn) {
                     toggleLights();
                 } else if (activeElement.tagName === "LI") {
                     const idx = Array.from(channelListContainer.querySelectorAll("li")).indexOf(activeElement);
@@ -252,7 +287,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 
             case "Escape":
             case "Backspace":
-                if (sidebar.classList.contains("hidden")) {
+                if (sliderContainer.classList.contains("hidden")) {
                     showMenu();
                 } else {
                     hideMenu();

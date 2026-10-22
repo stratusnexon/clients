@@ -5,10 +5,10 @@
 }
 
 body {
-    background-color: #121212;
+    background-color: #0b0b0b;
     color: #ffffff;
-    font-family: sans-serif;
-    overflow: hidden; /* Evita barras de desplazamiento en la TV */
+    font-family: system-ui, -apple-system, sans-serif;
+    overflow: hidden;
 }
 
 .tv-container {
@@ -18,15 +18,17 @@ body {
 }
 
 .sidebar {
-    width: 300px;
-    background-color: #1e1e1e;
+    width: 350px;
+    background-color: #141414;
     padding: 20px;
-    border-right: 2px solid #333;
+    border-right: 2px solid #222;
+    overflow-y: auto;
 }
 
 .sidebar h2 {
     margin-bottom: 20px;
-    font-size: 24px;
+    font-size: 22px;
+    color: #e50914;
 }
 
 .sidebar ul {
@@ -34,20 +36,23 @@ body {
 }
 
 .sidebar li {
-    padding: 15px;
-    margin-bottom: 10px;
-    background-color: #2a2a2a;
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    background-color: #1f1f1f;
     border-radius: 6px;
     cursor: pointer;
-    font-size: 18px;
-    transition: background 0.2s, transform 0.2s;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: background 0.15s, transform 0.15s;
 }
 
-/* Estilo clave cuando el elemento recibe el foco (teclado o control remoto) */
+/* Foco y selección para control remoto */
 .sidebar li:focus, .sidebar li.selected {
-    background-color: #e50914; /* Estilo tipo Netflix / Rojo destacado */
+    background-color: #e50914;
     outline: none;
-    transform: scale(1.03);
+    transform: scale(1.02);
 }
 
 .player-container {

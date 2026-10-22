@@ -149,19 +149,69 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    function playStream(url) {
-        if (Hls.isSupported() && url.includes(".m3u8")) {
-            const hls = new Hls();
-            hls.loadSource(url);
-            hls.attachMedia(videoElement);
-            hls.on(Hls.Events.MANIFEST_PARSED, () => {
-                videoElement.play().catch(e => console.log("Autoplay bloqueado:", e));
-            });
-        } else {
-            videoElement.src = url;
-            videoElement.play().catch(e => console.log("Autoplay bloqueado:", e));
-        }
+    let hlsInstance = null; // Variable global para controlar la instancia actual
+
+function playStream(url) {
+    // 1. Destruir la instancia anterior de HLS si existe para liberar el reproductor
+    if (hlsInstance) {
+        hlsInstance.destroy();
+        hlsInstance = null;
     }
+
+    // 2. Limpiar la fuente actual del video nativo
+    videoElement.pause();
+    videoElement.removeAttribute('src');
+    videoElement.load();
+
+    if (!url) return;
+
+    // 3. Comprobar si el navegador soporta HLS nativamente (ej: Safari en iOS/Mac)
+    if (videoElement.canPlayType('application/vnd.apple.mpegurl')) {
+        videoElement.src = url;
+        videoElement.addEventListener('loadedmetadata', () => {
+            videoElement.play().catch(e => console.log("Autoplay bloqueado:", e));
+        });
+    } 
+    // 4. Si usa Hls.js (Chrome, Firefox, Smart TVs basadas en Chromium)
+    else if (Hls.isSupported()) {
+        hlsInstance = new Hls({
+            xhrSetup: function(xhr, url) {
+                // Configuración opcional para evitar bloqueos básicos de CORS si el servidor lo permite
+                xhr.withCredentials = false;
+            }
+        });
+
+        hlsInstance.loadSource(url);
+        hlsInstance.attachMedia(videoElement);
+        
+        hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => {
+            videoElement.play().catch(e => console.log("Autoplay bloqueado:", e));
+        });
+
+        // Manejo de errores de transmisión para que no se clave la app
+        hlsInstance.on(Hls.Events.ERROR, (event, data) => {
+            if (data.fatal) {
+                switch (data.type) {
+                    case Hls.ErrorTypes.NETWORK_ERROR:
+                        console.error("Error de red en el stream:", data);
+                        hlsInstance.startLoad();
+                        break;
+                    case Hls.ErrorTypes.MEDIA_ERROR:
+                        console.error("Error de medios en el stream, intentando recuperar:", data);
+                        hlsInstance.recoverMediaError();
+                        break;
+                    default:
+                        console.error("Error fatal irrerecuperable, destruyendo HLS", data);
+                        hlsInstance.destroy();
+                        hlsInstance = null;
+                        break;
+                }
+            }
+        });
+    } else {
+        console.error("Tu navegador no soporta reproducción HLS.");
+    }
+}
 
     // Funciones de control de interfaz
     function showMenu() {

@@ -75,7 +75,7 @@ export default {
       "/cartoonito.m3u8": "http://45.134.141.161:2200/ARG/Cartoonito/index.m3u8",
       "/cinelatino.m3u8": "http://45.5.118.152:8000/play/a05t/index.m3u8",
       "/usa.m3u8": "http://45.173.231.22:8000/play/a0cx/index.m3u8",
-      "/natgeo.m3u8": "http://200.123.40.1:8000/play/a0e9/index.m3u8",
+      "/natgeo.m3u8": "http://45.134.141.161:2200/ARG/Nat_Geographic_HD/index.m3u8",
       "/history2.m3u8": "http://200.123.40.1:8000/play/a052/index.m3u8",
       "/history.m3u8": "http://200.123.40.1:8000/play/a051/index.m3u8",
       "/europa.m3u8": "http://45.70.221.206/EUROPA_EUROPA_OTT/playlist.m3u8",

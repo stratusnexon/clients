@@ -151,32 +151,40 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let hlsInstance = null; // Variable global para controlar la instancia actual
 
+let hlsInstance = null;
+
 function playStream(url) {
-    // 1. Destruir la instancia anterior de HLS si existe para liberar el reproductor
     if (hlsInstance) {
         hlsInstance.destroy();
         hlsInstance = null;
     }
 
-    // 2. Limpiar la fuente actual del video nativo
     videoElement.pause();
     videoElement.removeAttribute('src');
     videoElement.load();
 
     if (!url) return;
 
-    // 3. Comprobar si el navegador soporta HLS nativamente (ej: Safari en iOS/Mac)
+    // Mostrar en el OSD que está cargando
+    currentChannelName.textContent = "🔄 Cargando stream...";
+    showOSD();
+
+    // Validar si es HTTP en sitio HTTPS (Contenido Mixto)
+    if (window.location.protocol === 'https:' && url.startsWith('http://')) {
+        console.warn("Advertencia: Intentando reproducir HTTP en una página HTTPS. Los navegadores bloquean esto.");
+    }
+
     if (videoElement.canPlayType('application/vnd.apple.mpegurl')) {
         videoElement.src = url;
         videoElement.addEventListener('loadedmetadata', () => {
-            videoElement.play().catch(e => console.log("Autoplay bloqueado:", e));
+            videoElement.play().catch(e => console.log("Error de reproducción:", e));
         });
     } 
-    // 4. Si usa Hls.js (Chrome, Firefox, Smart TVs basadas en Chromium)
     else if (Hls.isSupported()) {
         hlsInstance = new Hls({
-            xhrSetup: function(xhr, url) {
-                // Configuración opcional para evitar bloqueos básicos de CORS si el servidor lo permite
+            maxBufferLength: 30,
+            liveSyncDurationCount: 3,
+            xhrSetup: function (xhr, url) {
                 xhr.withCredentials = false;
             }
         });
@@ -185,31 +193,46 @@ function playStream(url) {
         hlsInstance.attachMedia(videoElement);
         
         hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => {
-            videoElement.play().catch(e => console.log("Autoplay bloqueado:", e));
+            videoElement.play().then(() => {
+                // Restaurar el nombre real una vez que arranca
+                const activeLi = channelListContainer.querySelector("li.selected");
+                if (activeLi) {
+                    const num = activeLi.querySelector(".channel-number").textContent;
+                    const name = activeLi.querySelector(".channel-name").textContent;
+                    currentChannelName.textContent = `${num} - ${name}`;
+                }
+            }).catch(e => {
+                console.log("Autoplay bloqueado por el navegador:", e);
+                currentChannelName.textContent = "⚠️ Toca la pantalla para reproducir";
+            });
         });
 
-        // Manejo de errores de transmisión para que no se clave la app
+        // Capturar errores específicos de carga
         hlsInstance.on(Hls.Events.ERROR, (event, data) => {
             if (data.fatal) {
                 switch (data.type) {
                     case Hls.ErrorTypes.NETWORK_ERROR:
-                        console.error("Error de red en el stream:", data);
+                        console.error("Error de red o stream caído:", data);
+                        currentChannelName.textContent = "❌ Canal offline o sin conexión";
                         hlsInstance.startLoad();
                         break;
                     case Hls.ErrorTypes.MEDIA_ERROR:
-                        console.error("Error de medios en el stream, intentando recuperar:", data);
+                        console.error("Error de medios (códec no soportado):", data);
+                        currentChannelName.textContent = "❌ Formato no compatible";
                         hlsInstance.recoverMediaError();
                         break;
                     default:
-                        console.error("Error fatal irrerecuperable, destruyendo HLS", data);
+                        currentChannelName.textContent = "❌ Error al reproducir canal";
                         hlsInstance.destroy();
                         hlsInstance = null;
                         break;
                 }
+                showOSD();
             }
         });
     } else {
-        console.error("Tu navegador no soporta reproducción HLS.");
+        currentChannelName.textContent = "❌ HLS no soportado en este navegador";
+        showOSD();
     }
 }
 

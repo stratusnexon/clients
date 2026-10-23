@@ -94,8 +94,8 @@ https://live.stratusnex.workers.dev/ar12.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="78.1" group-title="DIGITAL" tvg-logo="https://files.catbox.moe/f7jbdo.png" tvg-id="", Canal 8 San Juan
 https://live20.bozztv.com/akamaissh101/ssh101/canal8sanjuan/playlist.m3u8
 
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="29.1" tvg-name="Telediario Now" tvg-logo="https://play-lh.googleusercontent.com/T1Lo-sP-9uFGvXhT3jkyrIEUp9X1DR31_Cnl19vWaKyKPycPVtCmhKDDbtT7vWU4Sb3TY2w3o8GShHzEvolVpw" group-title="DIGITAL",Telediario Now
-https://channels.stratusnex.workers.dev/telediarionow.m3u8
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="29.1" tvg-name="Telediario Now" tvg-logo="http://res.cloudinary.com/doj39auqi/image/upload/v1684348695/ygs1l09aiaxf4ygejvxl.png" group-title="DIGITAL",Canal 24h
+https://joy.nx-pc.edge-apps.net/hls/h7m22-llhbf-mkh78-f4eo6.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="28" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s109331_dark_360w_270h.png" tvg-id="NetTV.ar",Net TV
 https://unlimited1-us.dps.live/nettv/nettv.smil/nettv/livestream1/playlist.m3u8

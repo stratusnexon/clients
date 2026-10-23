@@ -522,7 +522,7 @@ http://45.188.229.33:8000/play/a135/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="184" group-title="LATAM" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16046_dark_360w_270h.png" tvg-id="TVNChile.uy",TVN
 https://iptv.bitred.cl/tvn/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="185" group-title="LATAM" tvg-logo="https://www.reportv.com.ar/buscador/img/Logos/11290216.jpg" tvg-id="Univision.uy",Univision
-http://45.5.116.228:8000/play/a0kr/index.m3u8
+https://streaming.onnethn.com/UNIVISION/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="186" group-title="GENERAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s69367_white_360w_270h.png" tvg-id="RT.uy",RT en Español
 https://rt-esp.rttv.com/live/rtesp/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="187" group-title="LATAM" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s125383_light_360w_270h.png" tvg-id="Rcn",RCN Más

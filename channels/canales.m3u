@@ -589,7 +589,7 @@ https://cdn.sensa.com.ar/output/ET-01/cosquinrock/master.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="208" tvg-id="" group-title="RADIOS" tvg-logo="https://radiotv.ar/wp-content/uploads/2025/01/urbana_play.jpg" radio="true",Urbana Play
 https://live-ar1.cdnrad.com/hls/radio-285/live.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="209" tvg-name="Frecuencia Plus" tvg-logo="https://res.cloudinary.com/doj39auqi/image/upload/v1714824501/radios/logo_fmplus_br21jy.png" group-title=RADIOS" radio="true",Fm Plus Rosario
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="209" tvg-name="Frecuencia Plus" tvg-logo="https://res.cloudinary.com/doj39auqi/image/upload/v1714824501/radios/logo_fmplus_br21jy.png" group-title="RADIOS" radio="true",Fm Plus Rosario
 https://ice3.edge-apps.net/joy-radios/frecuencia_plus/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="431" tvg-name="Fm Vida" tvg-logo="https://i.imgur.com/0d3xdG4.png" group-title="RADIOS" radio="true",Fm Vida
 https://ice3.edge-apps.net/joy-radios/fmvida/playlist.m3u8
@@ -599,7 +599,7 @@ https://ipanel.instream.audio:7001/stream
 https://mdstrm.com/live-stream-playlist/68b74fd1d6512526f1f7c75a.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="212" group-title="RADIOS" tvg-logo="https://images.open-epg.com/x992.png" tvg-id="RadioMitre.ar",Mitre Buenos Aires
 https://channels.stratusnex.workers.dev/mitre.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="430" tvg-name="DSports Radio" tvg-logo="https://raw.githubusercontent.com/JeanMercado2009/tv-logos/refs/heads/main/countries/world-latin-america/dsports-lam.png" group-title="DIGITAL" radio="true",DSports Radio
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="430" tvg-name="DSports Radio" tvg-logo="https://raw.githubusercontent.com/JeanMercado2009/tv-logos/refs/heads/main/countries/world-latin-america/dsports-lam.png" group-title="Radios" radio="true",DSports Radio
 https://24403.live.streamtheworld.com/DSPORTSRADIOAAC.aac
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="213" group-title="RADIOS" tvg-logo="https://images.open-epg.com/x992.png" tvg-id="RadioMitre.ar" radio="true",Mitre Rosario
 https://media425.digitar.net:8091/mitre.mp3

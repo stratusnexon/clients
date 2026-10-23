@@ -251,7 +251,7 @@ https://amg00740-sofa-amg00740c11-lg-mx-8923.playouts.now.amagi.tv/playlist/amg0
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="88" group-title="ENTRETENIMIENTO" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s105609_gray_360w_270h.png" tvg-id="Cinecanal.ar",Cinecanal
 http://45.134.141.161:2200/ARG/Cinecanal_HD/index.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="89" tvg-id="Cinemax.cl" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s34933_white_360w_270h.png" group-title="DIGITAL",Cinemax
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="89" tvg-id="Cinemax.cl" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s34933_white_360w_270h.png" group-title="ENTRETENIMIENTO",Cinemax
 http://45.134.141.161:2200/ARG/Cinemax_HD/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="90" tvg-id="ComedyCentral.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10149_gray_360w_270h.png" group-title="ENTRETENIMIENTO",Comedy Central
 https://barinaslive1.boldmss.com/COMEDY/COMEDY.isml/COMEDY.m3u8
@@ -289,7 +289,7 @@ http://45.134.141.161:2200/ARG/FX_HD/index.m3u8
 http://45.5.118.152:8000/play/a09n/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="107" group-title="ENTRETENIMIENTO" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s90456_dark_360w_270h.png" tvg-id="E!Entertainment.ar",E! Entertainment
 http://45.134.141.161:2200/ARG/E_Entertainment/index.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="108" tvg-id="HBO.ar" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/hbo-us.png" group-title="DIGITAL",HBO
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="108" tvg-id="HBO.ar" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/hbo-us.png" group-title="ENTRETENIMIENTO",HBO
 http://45.134.141.161:2200/ARG/HBO_HD/index.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="160" tvg-logo="https://i.ibb.co/v645nnX1/Logo-Sony-Cine.png" group-title="ENTRETENIMIENTO",Sony Cine

@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://www.open-epg.com/files/chile1.xml.gz, https://www.open-epg.com/files/uruguay.xml.gz, https://www.open-epg.com/files/argentina.xml.gz, https://stratusnex.env.pm/live/epgzip.xml, https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/ar.xml.gz" x-generator="https://stratusnex.com.ar"
+#EXTM3U url-tvg="https://www.open-epg.com/files/chile1.xml.gz, https://www.open-epg.com/files/uruguay.xml.gz, https://www.open-epg.com/files/argentina.xml.gz, https://raw.githubusercontent.com/iamsaamu32/epg_channel/refs/heads/main/guia.xml, https://stratusnex.env.pm/live/epgzip.xml, https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/ar.xml.gz" x-generator="https://stratusnex.com.ar"
 # StratusNex
 # Canales: 340
 # Grupo: ZipTV
@@ -448,6 +448,10 @@ https://cdn-uw2-prod.tsv2.amagi.tv:443/linear/amg00047-tastemade-es16intl-canela
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="139" group-title="DIGITAL" tvg-logo="" tvg-id="SunChannel.ar" ,SunChannel
 http://45.181.120.147:9800/play/026/index.m3u8
 
+#EXTINF:-1 group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="254" tvg-logo="https://www.40mediagroup.com/images/channels/ent-channel.png" group-title="DIGITAL" tvg-name="" tvg-id="Ent Channel",Ent Channel
+https://cdn.global.elektamedia.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/master.m3u8
+#EXTINF:-1 group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="258" tvg-logo="https://www.40mediagroup.com/images/channels/ent-family.png" group-title="DIGITAL" tvg-name="" tvg-id="Ent Family",Ent Family
+https://cdn.global.elektamedia.com/live/c7eds/ENT_Family/SA_LIVE_hls_enc/master.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="141" group-title="DIGITAL" tvg-logo="" tvg-id="CanaldelaMusica.ar",Canal de la Música
 http://45.70.221.206/CM_OTT/playlist.m3u8
@@ -482,8 +486,12 @@ https://tls-cl.cdnz.cl/rewindtv/live/playlist.m3u8
 https://d1ktssaxrjabsg.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1vshdbah8e4f8/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="153" tvg-id="0d5283959d3a59bf87411e7077fd9e58" tvg-logo="https://i.imgur.com/Cf01Ybw.png" group-title="DIGITAL",Vevo Latino
 https://amg00056-amg00056c13-rakuten-es-3246.playouts.now.amagi.tv/playlist/amg00056-vevotvfast-vevolatinoes-rakutenes/playlist.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="322" tvg-id="6868152657543d1f8be4ece3" tvg-logo="https://images.pluto.tv/channels/6868152657543d1f8be4ece3/colorLogoPNG_1751652184592.png" group-title="DIGITAL",Concert Channel
-http://200.123.40.1:8000/play/a0eo/index.m3u8
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="255" tvg-id="68b88712e777774982269ce9" tvg-logo="https://images.pluto.tv/channels/68b88712e777774982269ce9/colorLogoPNG_1759784097851.png" group-title="DIGITAL",Tastemade Viajes
+https://amg27441-amg27441c2-rlaxx-us-10924.playouts.now.amagi.tv/playlist/amg27441-tastemadelatam-tastemadeviajes-rlaxxus/playlist.m3u8
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="256" tvg-id="68b887c2e77777498226a0de" tvg-logo="https://images.pluto.tv/channels/68b887c2e77777498226a0de/colorLogoPNG_1759784264793.png" group-title="DIGITAL",Tastemade Hogar
+https://amg27441-amg27441c1-rlaxx-us-10923.playouts.now.amagi.tv/playlist/amg27441-tastemadelatam-tastemadehogar-rlaxxus/playlist.m3u8
+#EXTINF:-1 ch-number="99.1" tvg-logo="https://24-7noticias.com/wp-content/uploads/2026/05/cropped-logo-pagina-1.png" group-title="DIGITAL" tvg-name="24/7 NOTICIAS",24/7 NOTICIAS
+https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="154" group-title="DIGITAL" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/4182/CH_LOGO/40/40/0/0/3734962507360.png?WORLDTV6",Canal 10 Televisión rionegrina
 #EXTVLCOPT:http-referrer=https://webclient.ctcplus.com.ar/
 #EXTVLCOPT:http-user-agent=VisualOn OSMP+ Player(Linux;Android)
@@ -797,19 +805,13 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=16319
 #
 #
 #
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="255" tvg-id="68b88712e777774982269ce9" tvg-logo="https://images.pluto.tv/channels/68b88712e777774982269ce9/colorLogoPNG_1759784097851.png" group-title="DIGITAL",Tastemade Viajes
-https://amg27441-amg27441c2-rlaxx-us-10924.playouts.now.amagi.tv/playlist/amg27441-tastemadelatam-tastemadeviajes-rlaxxus/playlist.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="256" tvg-id="68b887c2e77777498226a0de" tvg-logo="https://images.pluto.tv/channels/68b887c2e77777498226a0de/colorLogoPNG_1759784264793.png" group-title="DIGITAL",Tastemade Hogar
-https://amg27441-amg27441c1-rlaxx-us-10923.playouts.now.amagi.tv/playlist/amg27441-tastemadelatam-tastemadehogar-rlaxxus/playlist.m3u8
-#EXTINF:-1 group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="254" tvg-logo="https://www.40mediagroup.com/images/channels/ent-channel.png" group-title="DIGITAL" tvg-name="",Ent Channel
-https://cdn.global.elektamedia.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/master.m3u8
-#EXTINF:-1 group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="258" tvg-logo="https://www.40mediagroup.com/images/channels/ent-family.png" group-title="DIGITAL" tvg-name="",Ent Family
-https://cdn.global.elektamedia.com/live/c7eds/ENT_Family/SA_LIVE_hls_enc/master.m3u8
+
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="257" tvg-logo="https://cdn.freebiesupply.com/images/large/2x/el-pais-logo-white.png" group-title="DIGITAL" tvg-name="",EL PAIS
 https://d2epgk1fomaa1g.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-9n8y4tw0bk3an/live/fast-channel-el-pais/fast-channel-el-pais.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="259" tvg-logo="https://www.negocios.com/media/negocios/images/2025/07/17/2025071711115199359.png" group-title="DIGITAL" tvg-name="",NEGOCIOS TV
 https://negociostv-negociostv-samsunges.amagi.tv/hls/amagi_hls_data_negociost-negociostv-samsunges/CDN/playlist.m3u8
+
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="260" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjAOoJnJBFQ0dxjmnAGke-h7VNPikcolo7xbmLsWGw2YP7Pubu_tJjpr1B&amp;s=10" group-title="DIGITAL" tvg-name="",TRECE ESP.
 https://play.cdn.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/021/playlist.m3u8
 #
@@ -817,8 +819,6 @@ https://play.cdn.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/021/playlist.m3
 #
 #
 #Relay
-#EXTINF:-1 ch-number="99.1" tvg-logo="https://24-7noticias.com/wp-content/uploads/2026/05/cropped-logo-pagina-1.png" group-title="DIGITAL" tvg-name="24/7 NOTICIAS",24/7 NOTICIAS
-https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="16.1" group-title="DIGITAL" tvg-logo="https://i.ibb.co/RT2dTYB/el-trece.png" tvg-id="ElTrece.ar",El Trece [ DIGITAL ]
 #EXTVLCOPT:http-referrer=https://vodgc.net
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Mobile Safari/537.36

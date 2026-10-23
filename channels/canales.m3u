@@ -262,7 +262,7 @@ http://200.123.40.1:8000/play/a03y/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="93" group-title="ENTRETENIMIENTO" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002GM3XW.png_gray_360w_270h.png" tvg-id="AmcSeries.ar",AMC SERIES
 http://45.134.141.161:2200/ARG/Mas_Chic/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="94" group-title="ENTRETENIMIENTO" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s59337_gray_360w_270h.png" tvg-id="Amc.ar",AMC
-http://45.134.141.161:2200/ARG/AMC_HD/index.m3u8
+https://streaming.onnethn.com/AMC/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="95" group-title="ENTRETENIMIENTO" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s82178_white_360w_270h.png" tvg-id="Axn.ar",AXN
 http://45.134.141.161:2200/ARG/AXN_HD/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="96" group-title="ENTRETENIMIENTO" tvg-logo="" tvg-id="CineAr.ar",Cine.AR
@@ -351,7 +351,7 @@ http://45.5.118.152:8000/play/a0dl/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="177" tvg-id="A3Series.uy" tvg-logo="https://i.ibb.co/QF230yLz/0618.jpg" group-title="ENTRETENIMIENTO", A3Series
 http://45.186.106.194:9999/play/a00l/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="135" group-title="ENTRETENIMIENTO" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10918_white_360w_270h.png" tvg-id="Lifetime.ar",Lifetime
-http://45.181.120.147:9800/play/089/index.m3u8
+https://streaming.onnethn.com/LIFETIME/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="136" group-title="ENTRETENIMIENTO" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/06/69/6693700_03BC91674A4C6D72.png" tvg-id="Pasiones.ar",Pasiones
 http://45.134.141.161:2200/ARG/Pasiones_HD/index.m3u8
 

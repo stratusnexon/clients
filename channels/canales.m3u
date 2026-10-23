@@ -574,68 +574,68 @@ https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/m
 #Radios y Streamings
 #
 #
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="" tvg-id="" group-title="DIGITAL" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/4384/CH_LOGO/40/40/0/0/18277879079297.png",Futuröck
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="" tvg-id="" group-title="RADIOS" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/4384/CH_LOGO/40/40/0/0/18277879079297.png",Futuröck
 #EXTVLCOPT:http-user-agent=VisualOn OSMP+ Player(Linux;Android)
 #EXTVLCOPT:http-referrer=https://webclient.ctcplus.com.ar/
 https://cdn.sensa.com.ar/output/SMT6/FTRh/playlist.m3u8
 
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="" tvg-id="" group-title="DIGITAL" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/3982/CH_LOGO/40/40/0/0/67035155079040.png",La Popu
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="" tvg-id="" group-title="RADIOS" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/3982/CH_LOGO/40/40/0/0/67035155079040.png",La Popu
 #EXTVLCOPT:http-user-agent=VisualOn OSMP+ Player(Linux;Android)
 #EXTVLCOPT:http-referrer=https://webclient.ctcplus.com.ar/
 https://cdn.sensa.com.ar/output/ET-01/popular/master.m3u8
 
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="" tvg-id="" group-title="DIGITAL"  tvg-logo="https://geo.edge.pontiscloud.com:9002/images/3981/CH_LOGO/40/40/0/0/71941975079039.png",Cosquín Rock
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="" tvg-id="" group-title="RADIOS"  tvg-logo="https://geo.edge.pontiscloud.com:9002/images/3981/CH_LOGO/40/40/0/0/71941975079039.png",Cosquín Rock
 #EXTVLCOPT:http-user-agent=VisualOn OSMP+ Player(Linux;Android)
 #EXTVLCOPT:http-referrer=https://webclient.ctcplus.com.ar/
 https://cdn.sensa.com.ar/output/ET-01/cosquinrock/master.m3u8
 
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="208" tvg-id="" group-title="DIGITAL" tvg-logo="https://radiotv.ar/wp-content/uploads/2025/01/urbana_play.jpg" group-title="DIGITAL" radio="true",Urbana Play
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="208" tvg-id="" group-title="RADIOS" tvg-logo="https://radiotv.ar/wp-content/uploads/2025/01/urbana_play.jpg" radio="true",Urbana Play
 https://live-ar1.cdnrad.com/hls/radio-285/live.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="209" tvg-name="Frecuencia Plus" tvg-logo="https://res.cloudinary.com/doj39auqi/image/upload/v1714824501/radios/logo_fmplus_br21jy.png" group-title="DIGITAL" radio="true",Fm Plus Rosario
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="209" tvg-name="Frecuencia Plus" tvg-logo="https://res.cloudinary.com/doj39auqi/image/upload/v1714824501/radios/logo_fmplus_br21jy.png" group-title=RADIOS" radio="true",Fm Plus Rosario
 https://ice3.edge-apps.net/joy-radios/frecuencia_plus/playlist.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="431" tvg-name="Fm Vida" tvg-logo="https://i.imgur.com/0d3xdG4.png" group-title="DIGITAL" radio="true",Fm Vida
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="431" tvg-name="Fm Vida" tvg-logo="https://i.imgur.com/0d3xdG4.png" group-title="RADIOS" radio="true",Fm Vida
 https://ice3.edge-apps.net/joy-radios/fmvida/playlist.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="210" tvg-id="ElDestape.ar" tvg-name="El Destape" tvg-logo="https://i.imgur.com/fYkj676.png" group-title="DIGITAL" radio="true" , El Destape
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="210" tvg-id="ElDestape.ar" tvg-name="El Destape" tvg-logo="https://i.imgur.com/fYkj676.png" group-title="RADIOS" radio="true" , El Destape
 https://ipanel.instream.audio:7001/stream
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="211" group-title="DIGITAL" tvg-logo="https://images.open-epg.com/x991.png" tvg-id="RadioLa100.ar" radio="true" ,Radio La 100
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="211" group-title="RADIOS" tvg-logo="https://images.open-epg.com/x991.png" tvg-id="RadioLa100.ar" radio="true" ,Radio La 100
 https://mdstrm.com/live-stream-playlist/68b74fd1d6512526f1f7c75a.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="212" group-title="DIGITAL" tvg-logo="https://images.open-epg.com/x992.png" tvg-id="RadioMitre.ar",Mitre Buenos Aires
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="212" group-title="RADIOS" tvg-logo="https://images.open-epg.com/x992.png" tvg-id="RadioMitre.ar",Mitre Buenos Aires
 https://channels.stratusnex.workers.dev/mitre.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="430" tvg-name="DSports Radio" tvg-logo="https://raw.githubusercontent.com/JeanMercado2009/tv-logos/refs/heads/main/countries/world-latin-america/dsports-lam.png" group-title="DIGITAL" radio="true",DSports Radio
 https://24403.live.streamtheworld.com/DSPORTSRADIOAAC.aac
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="213" group-title="DIGITAL" tvg-logo="https://images.open-epg.com/x992.png" tvg-id="RadioMitre.ar" radio="true",Mitre Rosario
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="213" group-title="RADIOS" tvg-logo="https://images.open-epg.com/x992.png" tvg-id="RadioMitre.ar" radio="true",Mitre Rosario
 https://media425.digitar.net:8091/mitre.mp3
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="214" group-title="DIGITAL" tvg-logo="" tvg-id="RadioCadena.ar",Cadena3
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="214" group-title="RADIOS" tvg-logo="" tvg-id="RadioCadena.ar",Cadena3
 https://cdn.sensa.com.ar/output/ET-01/Cadena3/master.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="215" group-title="DIGITAL" tvg-id="" tvg-name="Mas FM" tvg-logo="https://cdn.m3u.cl/logo/1130_Mas_FM.png",Mas FM
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="215" group-title="RADIOS" tvg-id="" tvg-name="Mas FM" tvg-logo="https://cdn.m3u.cl/logo/1130_Mas_FM.png",Mas FM
 https://vivo.solumedia.com:19360/masfm/masfm.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="216" group-title="DIGITAL" tvg-logo="https://i.imgur.com/RWL10TG.png" tvg-id="",Vorterix
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="216" group-title="RADIOS" tvg-logo="https://i.imgur.com/RWL10TG.png" tvg-id="",Vorterix
 https://g1.mc-slo.transport.edge-access.net/a08/ngrp:vorterix_video1-20057_all/Playlist.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="217" group-title="DIGITAL" tvg-logo="https://static.mytuner.mobi/media/tvos_radios/207/latina-fm-1011.8f6ab5a0.png" tvg-id="radio",Latina
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="217" group-title="RADIOS" tvg-logo="https://static.mytuner.mobi/media/tvos_radios/207/latina-fm-1011.8f6ab5a0.png" tvg-id="radio",Latina
 https://stream-gtlc.telecentro.net.ar/hls/latinatvhls/main.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="218" group-title="DIGITAL" tvg-logo="https://i.imgur.com/XDYXv76.png" tvg-id="",Red LT
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="218" group-title="RADIOS" tvg-logo="https://i.imgur.com/XDYXv76.png" tvg-id="",Red LT
 https://rough-dream-f561.stratusnex.workers.dev/redtlrosario/playlist.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="219" group-title="DIGITAL" tvg-logo="https://i.imgur.com/iMrNUGf.png" tvg-id="",POP Rosario
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="219" group-title="RADIOS" tvg-logo="https://i.imgur.com/iMrNUGf.png" tvg-id="",POP Rosario
 https://vivo.solumedia.com:19360/canal3/canal3.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="220" group-title="DIGITAL" tvg-logo="https://i.imgur.com/oZq1bTN.jpeg" tvg-id="",AM 1330
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="220" group-title="RADIOS" tvg-logo="https://i.imgur.com/oZq1bTN.jpeg" tvg-id="",AM 1330
 https://nd106.republicaservers.com/hls/mariatti/index.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="221" tvg-name="Radio Realpolitik" tvg-logo="https://i.imgur.com/L9KCdTX.png" group-title="DIGITAL",Radio Realpolitik
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="221" tvg-name="Radio Realpolitik" tvg-logo="https://i.imgur.com/L9KCdTX.png" group-title="RADIOS",Radio Realpolitik
 https://vivo.solumedia.com:19360/realpolitik/realpolitik.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="222" group-title="DIGITAL" tvg-logo="https://images.pluto.tv/channels/63dac1b78795f300086d5ca6/colorLogoPNG_1758309507155.png" tvg-id="63dac1b78795f300086d5ca6",TikTok Radio en Español
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="222" group-title="RADIOS" tvg-logo="https://images.pluto.tv/channels/63dac1b78795f300086d5ca6/colorLogoPNG_1758309507155.png" tvg-id="63dac1b78795f300086d5ca6",TikTok Radio en Español
 https://jmp2.uk/rok-8e04e4c0e2cd5fe49b087a6ce5fd0d91.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="223" tvg-logo="https://radiosargentina.com.ar/png/VI--LT28.png" group-title="DIGITAL",LT28 Rafaela
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="223" tvg-logo="https://radiosargentina.com.ar/png/VI--LT28.png" group-title="RADIOS",LT28 Rafaela
 https://tv.streamcasthd.com:3215/live/radiorafaelalive.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="224" tvg-logo="https://radiosargentina.com.ar/png/VISOLSPO.png" group-title="DIGITAL",Sol Play
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="224" tvg-logo="https://radiosargentina.com.ar/png/VISOLSPO.png" group-title="RADIOS",Sol Play
 https://stream.arcast.live/sol915/ngrp:sol915_all/playlist.m3u8
 # Radios Eradio
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="225" tvg-id="eradio.ar" tvg-logo="https://i.imgur.com/55tV9pR.png" group-title="DIGITAL" group-logo="http://ziptv.alwaysdata.net/press/wp-content/uploads/2026/08/file_000000003d94820ea0346576b0adf6de3819593025956961599.png",ERadio
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="225" tvg-id="eradio.ar" tvg-logo="https://i.imgur.com/55tV9pR.png" group-title="RADIOS" group-logo="http://ziptv.alwaysdata.net/press/wp-content/uploads/2026/08/file_000000003d94820ea0346576b0adf6de3819593025956961599.png",ERadio
 https://channels.stratusnex.workers.dev/eradiotv.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="170" tvg-logo="https://i.imgur.com/15gMDG0.png" group-title="DIGITAL", Power HD
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="170" tvg-logo="https://i.imgur.com/15gMDG0.png" group-title="RADIOS", Power HD
 https://live2.tensila.com/1-1-1.power-tv/hls/master.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="51" group-title="DIGITAL" tvg-id="1382" tvg-name="Power Max TV" tvg-logo="https://cdn.m3u.cl/logo/1382_Power_Max_TV.png",Power Max TV 
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="51" group-title="RADIOS" tvg-id="1382" tvg-name="Power Max TV" tvg-logo="https://cdn.m3u.cl/logo/1382_Power_Max_TV.png",Power Max TV 
 https://videostream.shockmedia.com.ar:19360/radio1045/radio1045.m3u8
 #
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="226" tvg-id="" tvg-logo="https://i.imgur.com/VcqE8GS.png" group-title="DIGITAL" group-logo="",PopuTV - Paraguay
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="226" tvg-id="" tvg-logo="https://i.imgur.com/VcqE8GS.png" group-title="RADIOS" group-logo="",PopuTV - Paraguay
 http://45.188.229.33:8000/play/a1eo/index.m3u8
 #
 #
@@ -688,21 +688,21 @@ https://zipstream.stratusnex.workers.dev/zipstream/live.m3u8
 #
 #
 
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="236" group-title="DIGITAL" tvg-logo="https://dgo.nubenet.com.ar/static/new/logos/l23.webp",FREE HITS
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="236" group-title="MÚSICA" tvg-logo="https://dgo.nubenet.com.ar/static/new/logos/l23.webp",FREE HITS
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=16322
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="237" group-title="DIGITAL" tvg-logo="https://dgo.nubenet.com.ar/static/new/logos/l21.webp" tvg-id="",FREE TV ESTELAR
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="237" group-title="ENTRETENIMIENTO" tvg-logo="https://dgo.nubenet.com.ar/static/new/logos/l21.webp" tvg-id="",FREE TV ESTELAR
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=16318
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="238" group-title="DIGITAL" tvg-logo="https://dgo.nubenet.com.ar/static/new/logos/l24.webp" tvg-id="",FREE SABER MAS
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="238" group-title="ENTRETENIMIENTO" tvg-logo="https://dgo.nubenet.com.ar/static/new/logos/l24.webp" tvg-id="",FREE SABER MAS
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=16321
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="239" group-title="DIGITAL" tvg-logo="https://dgo.nubenet.com.ar/static/new/logos/l19.webp" tvg-id="",FREE TV ACCION
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="239" group-title="ENTRETENIMIENTO" tvg-logo="https://dgo.nubenet.com.ar/static/new/logos/l19.webp" tvg-id="",FREE TV ACCION
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=16317
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="240" group-title="DIGITAL" tvg-logo="http://ziptv.alwaysdata.net/press/wp-content/uploads/2026/08/a8e9a317-4831-496f-af6f-e724217c3b28-17265047293585361201671434501.jpg" tvg-id="",FREE TV CLASICO
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="240" group-title="ENTRETENIMIENTO" tvg-logo="http://ziptv.alwaysdata.net/press/wp-content/uploads/2026/08/a8e9a317-4831-496f-af6f-e724217c3b28-17265047293585361201671434501.jpg" tvg-id="",FREE TV CLASICO
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=16324
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="241" group-title="DIGITAL" tvg-logo="https://dgo.nubenet.com.ar/static/new/logos/l20.webp",FREE TV DRAMA
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="241" group-title="ENTRETENIMIENTO" tvg-logo="https://dgo.nubenet.com.ar/static/new/logos/l20.webp",FREE TV DRAMA
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=16316
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="242" group-title="DIGITAL" tvg-logo="https://dgo.nubenet.com.ar/static/new/logos/l25.webp",FREE TV FAMILIAR
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="242" group-title="ENTRETENIMIENTO" tvg-logo="https://dgo.nubenet.com.ar/static/new/logos/l25.webp",FREE TV FAMILIAR
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=16320
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="243" group-title="DIGITAL" tvg-logo="https://dgo.nubenet.com.ar/static/new/logos/l25.webp",FREE TV TERROR
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="243" group-title="ENTRETENIMIENTO" tvg-logo="https://dgo.nubenet.com.ar/static/new/logos/l25.webp",FREE TV TERROR
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=16319
 #
 #

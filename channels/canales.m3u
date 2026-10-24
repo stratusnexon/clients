@@ -41,7 +41,7 @@ https://live-01-01-tn.vodgc.net/TN_DAI_Beta/index.m3u8
 https://amg00803-cnnfast-amg00803c3-lg-es-5477.playouts.now.amagi.tv/playlist.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="18" group-title="GENERAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/a24-ar.png" tvg-id="A24.uy",A24
-https://g5.vxral-slo.transport.edge-access.net/a12/ngrp:a24-100056_all/playlist.m3u8?sense=true
+http://45.134.141.161:2200/ARG/A24/index.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="19" group-title="GENERAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/america-ar.png" tvg-id="America.ar",America TV
 https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
@@ -348,7 +348,8 @@ http://45.134.141.161:2200/ARG/Discovery_TLC_HD/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="137" group-title="CULTURA" tvg-logo="" tvg-id="HolaTV.ar",Hola TV
 http://45.5.118.152:8000/play/a0dl/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="177" tvg-id="A3Series.uy" tvg-logo="https://i.ibb.co/QF230yLz/0618.jpg" group-title="ENTRETENIMIENTO", A3Series
-http://45.186.106.194:9999/play/a00l/index.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+http://m3u.tvcluboficial.com/free/ReachBot/Kip/17.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="135" group-title="ENTRETENIMIENTO" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10918_white_360w_270h.png" tvg-id="Lifetime.ar",Lifetime
 https://streaming.onnethn.com/LIFETIME/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="136" group-title="ENTRETENIMIENTO" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/06/69/6693700_03BC91674A4C6D72.png" tvg-id="Pasiones.ar",Pasiones

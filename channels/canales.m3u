@@ -27,11 +27,10 @@ https://cdn-zapster-ros.trapemn.tv:1936/CD-LATAM/TelefeHD.stream/playlist.m3u8
 https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="14" group-title="GENERAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/c5n-ar.png" tvg-id="C5N.ar",C5N
-http://cloudtvserviceplatinum.site/live/ConsueloMolina11/W9C7EQYxsM/712705.ts
+http://45.134.141.161:2200/ARG/C5N/index.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="15" group-title="GENERAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/la-nacion-mas-ar.png" tvg-id="LaNacion+.ar",LaNacion+
-https://cdn-zapster-ros.trapemn.tv:1936/zapster-hls/LaNacion.stream/playlist.m3u8
-
+http://181.209.91.106:2222/Live/d528634dfbf39a5c97a181f7b2f4e93f/lntv.playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="16" group-title="GENERAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/tn-todo-noticias-ar.png" tvg-id="TN.ar",TN
 #EXTVLCOPT:http-referrer=https://tn.com.ar/envivo/24hs
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36

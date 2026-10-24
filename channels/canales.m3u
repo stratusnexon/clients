@@ -605,10 +605,6 @@ https://ice3.edge-apps.net/joy-radios/fmvida/playlist.m3u8
 https://ipanel.instream.audio:7001/stream
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="211" group-title="RADIOS" tvg-logo="https://images.open-epg.com/x991.png" tvg-id="RadioLa100.ar" radio="true" ,Radio La 100
 https://mdstrm.com/live-stream-playlist/68b74fd1d6512526f1f7c75a.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="212" group-title="RADIOS" tvg-logo="https://images.open-epg.com/x992.png" tvg-id="RadioMitre.ar",Mitre Buenos Aires
-https://channels.stratusnex.workers.dev/mitre.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="430" tvg-name="DSports Radio" tvg-logo="https://raw.githubusercontent.com/JeanMercado2009/tv-logos/refs/heads/main/countries/world-latin-america/dsports-lam.png" group-title="Radios" radio="true",DSports Radio
-https://24403.live.streamtheworld.com/DSPORTSRADIOAAC.aac
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="213" group-title="RADIOS" tvg-logo="https://images.open-epg.com/x992.png" tvg-id="RadioMitre.ar" radio="true",Mitre Rosario
 https://media425.digitar.net:8091/mitre.mp3
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="214" group-title="RADIOS" tvg-logo="" tvg-id="RadioCadena.ar",Cadena3
@@ -620,7 +616,7 @@ https://g1.mc-slo.transport.edge-access.net/a08/ngrp:vorterix_video1-20057_all/P
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="217" group-title="RADIOS" tvg-logo="https://static.mytuner.mobi/media/tvos_radios/207/latina-fm-1011.8f6ab5a0.png" tvg-id="radio",Latina
 https://stream-gtlc.telecentro.net.ar/hls/latinatvhls/main.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="218" group-title="RADIOS" tvg-logo="https://i.imgur.com/XDYXv76.png" tvg-id="",Red LT
-https://rough-dream-f561.stratusnex.workers.dev/redtlrosario/playlist.m3u8
+https://nd106.republicaservers.com/redtlrosario.mp4
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="219" group-title="RADIOS" tvg-logo="https://i.imgur.com/iMrNUGf.png" tvg-id="",POP Rosario
 https://vivo.solumedia.com:19360/canal3/canal3.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="220" group-title="RADIOS" tvg-logo="https://i.imgur.com/oZq1bTN.jpeg" tvg-id="",AM 1330
@@ -641,8 +637,6 @@ https://live2.tensila.com/1-1-1.power-tv/hls/master.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="51" group-title="RADIOS" tvg-id="1382" tvg-name="Power Max TV" tvg-logo="https://cdn.m3u.cl/logo/1382_Power_Max_TV.png",Power Max TV 
 https://videostream.shockmedia.com.ar:19360/radio1045/radio1045.m3u8
 #
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="226" tvg-id="" tvg-logo="https://i.imgur.com/VcqE8GS.png" group-title="RADIOS" group-logo="",PopuTV - Paraguay
-http://190.128.214.97:64333/play/a030/index.m3u8
 #
 #
 #

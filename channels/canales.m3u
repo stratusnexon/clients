@@ -46,8 +46,7 @@ http://45.134.141.161:2200/ARG/A24/index.m3u8
 https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="20" group-title="GENERAL" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCQW_AtMAHTSYpZq0OL6p1cr5s25HOsi1ablWAe3vyQWZsHPLuy1gHBd7j3SLlBi63YwpezyzhdGZGUdrwpNi8qfUv0-42ASNO4sF80LaALQXk3WKoChg5QDRfEXFSLNPvyMjtoXiuPLKjI1vbA-swoNqMnLGmGlT1finAVEQxwhLQkWV3UuBWsp63VfU/s585/Screenshot_20261016-235042-removebg-preview.png" tvg-id="TVPublica.ar",Canal 7 Siete
-https://cdn-zapster-ros.trapemn.tv:1936/zapster-hls/tvpublica.stream/playlist.m3u8
-
+http://181.209.91.106:2222/Live/d528634dfbf39a5c97a181f7b2f4e93f/tvpublica.playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="21" group-title="GENERAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/cronica-hd-ar.png" tvg-id="CronicaTV.ar",Cronica
 http://181.209.91.106:2222/Live/d528634dfbf39a5c97a181f7b2f4e93f/CronicaTv.playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="22" group-title="GENERAL" tvg-logo="https://i.imgur.com/DHv3yVj.png" tvg-id="Canal3Rosario.ar",El Tres 

@@ -526,7 +526,7 @@ http://45.188.229.33:8000/play/a135/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="184" group-title="LATAM" tvg-logo="https://i.ibb.co/d4c02WLg/Logo-TV-Mas.png" tvg-id="",TV+ HD
 https://jireh-8-hls-video-us-isp.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="185" group-title="LATAM" tvg-logo="https://www.reportv.com.ar/buscador/img/Logos/11290216.jpg" tvg-id="Univision.uy",Univision
-https://streaming.onnethn.com/UNIVISION/index.m3u8
+http://108.175.13.7/live/50610ddf-6f61-4208-93ba-f02911ce6194/40b6578fed6d0829/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="186" group-title="GENERAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s69367_white_360w_270h.png" tvg-id="RT.uy",RT en Español
 https://rt-esp.rttv.com/live/rtesp/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="187" group-title="LATAM" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s125383_light_360w_270h.png" tvg-id="Rcn",RCN Más

@@ -3,47 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web TV</title>
+    <title>StratusNEX - MOBILE</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <div class="tv-container" id="app-container">
-        <!-- Reproductor de Video en Fondo -->
-        <div class="player-container">
-            <video id="tv-player" autoplay playsinline></video>
-        </div>
-
-        <!-- Barra Superior Flotante -->
-        <div class="top-bar" id="top-bar">
-            <div class="brand-area">
-                <h1 class="app-title">STRATUSNEX TV</h1>
-            </div>
-            <div class="top-controls">
-                <!-- Botón Home para volver al primer canal -->
-                <button id="home-btn" class="focusable" tabindex="0" title="Volver al Home (Canal 1)">🏠 Home</button>
-                
-                <div class="category-filter">
-                    <select id="category-select" class="focusable" tabindex="0">
-                        <option value="ALL">Categorías</option>
-                    </select>
+        <div class="welcome-screen" id="welcome-screen">
+            <img src="https://stratusnex.intinet.com.ar/web/images/logo.png" alt="Stratusnex TV Logo" class="welcome-logo">
+            <h1 class="welcome-title">Bienvenido a Stratusnex</h1>
+            <p class="welcome-subtitle">Disfruta de más de 200 canales de entretenimiento directamente en tu televisión.</p>
+            <div class="welcome-info-grid">
+                <div class="welcome-card">
+                    <h3>🎮 Uso del Control Remoto</h3>
+                    <p>Usa las <strong>Flechas</strong> para navegar y <strong>Enter/OK</strong> para reproducir.</p>
                 </div>
+                <div class="welcome-card">
+                    <h3>⚡ Accesos Rápidos</h3>
+                    <p>Usa los botones numéricos o las categorías superiores.</p>
+                </div>
+            </div>
+            <button id="enter-btn" class="focusable" tabindex="0">▶ Ingresar a la Aplicación</button>
+        </div>
 
-                <button id="light-toggle-btn" class="focusable" tabindex="0" title="Apagar / Encender luz">💡</button>
+        <div class="player-container" id="player-slot">
+            <video id="tv-player" autoplay playsinline></video>
+            <img src="https://stratusnex.intinet.com.ar/web/images/logo.png" alt="Watermark" id="stream-watermark" class="watermark-logo">
+            <div class="offline-overlay" id="offline-overlay">
+                <div class="offline-icon">⚠️</div>
+                <div class="offline-title">Canal Fuera de Aire / Sin Señal</div>
+                <div class="offline-message">Este canal se encuentra con problemas o está fuera del aire.</div>
+                <div class="offline-support">📧 soporte@stratusnex.site.je</div>
             </div>
         </div>
 
-        <!-- Slider Horizontal Inferior con Carrusel -->
-        <div class="slider-container" id="slider-container">
-            <div class="channel-slider" id="channel-list">
-                <!-- Tarjetas dinámicas con número y logo -->
+        <div class="top-bar hidden" id="top-bar">
+            <div class="brand-area"><img src="https://stratusnex.intinet.com.ar/web/images/logo.png" alt="Logo" class="app-logo"></div>
+            <div class="top-controls">
+                <button id="home-btn" class="focusable" tabindex="0">🏠 Home</button>
+                <button id="movies-btn" class="focusable" tabindex="0">🎬 Películas</button>
+                <div class="categories-bar" id="categories-container"></div>
             </div>
         </div>
 
-        <!-- OSD minimalista con número y nombre de canal -->
-        <div class="osd-info" id="osd-info">
-            <span id="current-channel-name">Cargando canal...</span>
+        <div class="slider-container hidden" id="slider-container">
+            <div class="channel-slider" id="channel-list"></div>
         </div>
+
+        <div class="osd-info" id="osd-info"><span id="current-channel-name">Cargando...</span></div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>

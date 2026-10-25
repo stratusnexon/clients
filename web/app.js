@@ -1,13 +1,19 @@
 document.addEventListener("DOMContentLoaded", () => {
     const el = (id) => document.getElementById(id);
     const channelListContainer = el("channel-list"), categoriesContainer = el("categories-container");
+    const mobileCategoriesContainer = el("mobile-categories-container");
     const moviesBtn = el("movies-btn"), playerSlot = el("player-slot"), topBar = el("top-bar");
     const sliderContainer = el("slider-container"), appContainer = el("app-container");
     const osdInfo = el("osd-info"), currentChannelName = el("current-channel-name");
-    const homeBtn = el("home-btn"), streamWatermark = el("stream-watermark");
+    const homeBtn = el("home-btn"), menuToggleBtn = el("menu-toggle-btn"), streamWatermark = el("stream-watermark");
     const offlineOverlay = el("offline-overlay"), welcomeScreen = el("welcome-screen"), enterBtn = el("enter-btn");
     
-    // Rutas protegidas mediante codificación básica Base64 para evitar lectura visual directa
+    // Detección automática de dispositivo móvil
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth < 800;
+    if (isMobile) {
+        appContainer.classList.add("mobile-device");
+    }
+
     const decodeUrl = (b64) => atob(b64);
     const m3uChannelsUrl = decodeUrl("aHR0cHM6Ly9zdHJhdHVzbmV4LmludGluZXQuY29tLmFyL2NoYW5uZWxzL2NhbmFsZXMubTN1"); 
     const m3uMoviesUrl = decodeUrl("aHR0cHM6Ly9zdHJhdHVzbmV4LmludGluZXQuY29tLmFyL2NoYW5uZWxzL29uZGVtYW5kLm0zdQ=="); 
@@ -16,6 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let allChannels = [], activeChannels = [], focusables = [], currentIndex = 0;
     let hideMenuTimer = null, hlsInstance = null, currentM3uSource = m3uChannelsUrl, currentCategory = "", appStarted = false;
     let numericInputBuffer = "", numericTimer = null;
+    let accordionOpen = true;
 
     const categoryShortcuts = {
         "4220": "GENERAL", "4221": "ENTRETENIMIENTO", "4222": "DEPORTES", "4223": "MÚSICA",
@@ -41,6 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
             .then(data => {
                 allChannels = parseM3U(data);
                 categoriesContainer.innerHTML = "";
+                mobileCategoriesContainer.innerHTML = "";
                 moviesBtn.classList.toggle("active", url === m3uMoviesUrl);
                 populateCategoryButtons(allChannels, autoSelectFirst);
             })
@@ -70,23 +78,28 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function populateCategoryButtons(channels, autoSelectFirst) {
-        const recBtn = document.createElement("button");
-        recBtn.className = "category-btn focusable";
-        recBtn.setAttribute("tabindex", "0");
-        recBtn.setAttribute("data-group", "RECENT");
-        recBtn.textContent = "⭐ Recientes";
-        recBtn.addEventListener("click", (e) => { e.stopPropagation(); selectCategory("RECENT"); resetHideTimer(); });
-        categoriesContainer.appendChild(recBtn);
-
-        ([...new Set(channels.map(c => c.group))].sort()).forEach(group => {
-            if (categoriesContainer.querySelector(`[data-group="${group}"]`)) return;
+        const createBtn = (group, label) => {
             const btn = document.createElement("button");
             btn.className = "category-btn focusable";
             btn.setAttribute("tabindex", "0");
             btn.setAttribute("data-group", group);
-            btn.textContent = group;
-            btn.addEventListener("click", (e) => { e.stopPropagation(); selectCategory(group); resetHideTimer(); });
-            categoriesContainer.appendChild(btn);
+            btn.textContent = label;
+            btn.addEventListener("click", (e) => {
+                e.stopPropagation();
+                selectCategory(group);
+                resetHideTimer();
+            });
+            return btn;
+        };
+
+        // Recientes
+        categoriesContainer.appendChild(createBtn("RECENT", "⭐ Recientes"));
+        mobileCategoriesContainer.appendChild(createBtn("RECENT", "⭐ Recientes"));
+
+        ([...new Set(channels.map(c => c.group))].sort()).forEach(group => {
+            if (categoriesContainer.querySelector(`[data-group="${group}"]`)) return;
+            categoriesContainer.appendChild(createBtn(group, group));
+            mobileCategoriesContainer.appendChild(createBtn(group, group));
         });
 
         if (channels.length > 0) selectCategory("RECENT", autoSelectFirst);
@@ -94,7 +107,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function selectCategory(group, playFirst = false) {
         currentCategory = group;
-        categoriesContainer.querySelectorAll(".category-btn").forEach(btn => {
+        document.querySelectorAll(".category-btn").forEach(btn => {
             btn.classList.toggle("selected", btn.getAttribute("data-group") === group);
         });
         activeChannels = (group === "RECENT") ? getRecentChannels() : allChannels.filter(c => c.group === group);
@@ -144,7 +157,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 e.stopPropagation();
                 const idx = activeChannels.findIndex(c => c.url === channel.url);
                 if (idx !== -1) selectChannel(idx);
-                hideMenu();
+                if (isMobile) toggleAccordionMenu(false);
             });
             channelListContainer.appendChild(li);
         });
@@ -213,10 +226,11 @@ document.addEventListener("DOMContentLoaded", () => {
     function showMenu() {
         if (!appStarted) return;
         topBar.classList.remove("hidden");
-        sliderContainer.classList.remove("hidden");
+        if (!isMobile || accordionOpen) {
+            sliderContainer.classList.remove("hidden");
+        }
         const listItems = channelListContainer.querySelectorAll("li");
         if (listItems[currentIndex] && listItems[currentIndex].classList.contains("selected")) {
-            listItems[currentIndex].focus();
             listItems[currentIndex].scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
         }
         resetHideTimer();
@@ -225,10 +239,32 @@ document.addEventListener("DOMContentLoaded", () => {
     function hideMenu() {
         if (!appStarted) return;
         topBar.classList.add("hidden");
-        sliderContainer.classList.add("hidden");
+        if (isMobile) {
+            sliderContainer.classList.add("accordion-hidden");
+            accordionOpen = false;
+        } else {
+            sliderContainer.classList.add("hidden");
+        }
     }
 
+    function toggleAccordionMenu(forceState) {
+        if (!appStarted) return;
+        accordionOpen = (forceState !== undefined) ? forceState : !accordionOpen;
+        if (accordionOpen) {
+            topBar.classList.remove("hidden");
+            sliderContainer.classList.remove("hidden", "accordion-hidden");
+        } else {
+            sliderContainer.classList.add("accordion-hidden");
+        }
+    }
+
+    menuToggleBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        toggleAccordionMenu();
+    });
+
     function resetHideTimer() {
+        if (isMobile) return; // En móvil dejamos que el usuario abra y cierre manualmente con el botón o tocando la pantalla
         clearTimeout(hideMenuTimer);
         hideMenuTimer = setTimeout(() => {
             if (appStarted && !topBar.contains(document.activeElement) && document.activeElement !== moviesBtn && document.activeElement !== homeBtn) hideMenu();
@@ -245,8 +281,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     appContainer.addEventListener("click", (e) => {
         if (!appStarted) return;
-        if (!topBar.contains(e.target) && !sliderContainer.contains(e.target)) {
-            sliderContainer.classList.contains("hidden") ? showMenu() : hideMenu();
+        if (!topBar.contains(e.target) && !sliderContainer.contains(e.target) && !mobileCategoriesContainer.contains(e.target)) {
+            if (isMobile) {
+                toggleAccordionMenu();
+            } else {
+                sliderContainer.classList.contains("hidden") ? showMenu() : hideMenu();
+            }
         }
     });
 

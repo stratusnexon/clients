@@ -7,19 +7,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="tv-container" id="app-container">
+   <div class="tv-container" id="app-container">
         <div class="welcome-screen" id="welcome-screen">
             <img src="https://stratusnex.intinet.com.ar/web/images/logo.png" alt="Stratusnex TV Logo" class="welcome-logo">
             <h1 class="welcome-title">Bienvenido a Stratusnex</h1>
-            <p class="welcome-subtitle">Disfruta de más de 200 canales de entretenimiento directamente en tu televisión.</p>
+            <p class="welcome-subtitle">Disfruta de más de 200 canales de entretenimiento.</p>
             <div class="welcome-info-grid">
                 <div class="welcome-card">
-                    <h3>🎮 Uso del Control Remoto</h3>
-                    <p>Usa las <strong>Flechas</strong> para navegar y <strong>Enter/OK</strong> para reproducir.</p>
-                </div>
-                <div class="welcome-card">
-                    <h3>⚡ Accesos Rápidos</h3>
-                    <p>Usa los botones numéricos o las categorías superiores.</p>
+                    <h3>🎮 Control / Táctil</h3>
+                    <p>Usa tu control remoto en TV o toca la pantalla en tu celular.</p>
                 </div>
             </div>
             <button id="enter-btn" class="focusable" tabindex="0">▶ Ingresar a la Aplicación</button>
@@ -39,11 +35,15 @@
         <div class="top-bar hidden" id="top-bar">
             <div class="brand-area"><img src="https://stratusnex.intinet.com.ar/web/images/logo.png" alt="Logo" class="app-logo"></div>
             <div class="top-controls">
+                <button id="menu-toggle-btn">☰ Menú</button>
                 <button id="home-btn" class="focusable" tabindex="0">🏠 Home</button>
                 <button id="movies-btn" class="focusable" tabindex="0">🎬 Películas</button>
                 <div class="categories-bar" id="categories-container"></div>
             </div>
         </div>
+
+        <!-- Dropdown de categorías exclusivo para móviles -->
+        <div class="mobile-categories-dropdown" id="mobile-categories-container"></div>
 
         <div class="slider-container hidden" id="slider-container">
             <div class="channel-slider" id="channel-list"></div>
@@ -51,7 +51,6 @@
 
         <div class="osd-info" id="osd-info"><span id="current-channel-name">Cargando...</span></div>
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <script src="app.js"></script>
 </body>

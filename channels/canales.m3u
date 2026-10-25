@@ -349,8 +349,8 @@ http://m3u.tvcluboficial.com/free/ReachBot/Kip/509.m3u8
 http://m3u.tvcluboficial.com/free/ReachBot/Kip/558.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="134" group-title="CULTURA" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/tlc-ar.png" tvg-id="TLC.cl",TLC
 http://45.134.141.161:2200/ARG/Discovery_TLC_HD/index.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="137" group-title="CULTURA" tvg-logo="" tvg-id="HolaTV.ar",Hola TV
-http://45.5.118.152:8000/play/a0dl/index.m3u8
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="137" group-title="ENTRETENIMIENTO" tvg-logo="https://i.imgur.com/3UsDEbB.png" tvg-id="",MyTime Movie Network 
+https://appletree-mytime-samsungmexico.amagi.tv/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="177" tvg-id="A3Series.uy" tvg-logo="https://i.ibb.co/QF230yLz/0618.jpg" group-title="ENTRETENIMIENTO", A3Series
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 http://m3u.tvcluboficial.com/free/ReachBot/Kip/17.m3u8
@@ -669,8 +669,10 @@ https://zipstream.stratusnex.workers.dev/simpson/live.m3u8
 https://zipstream.stratusnex.workers.dev/gravityfalls/live.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="234" group-title="DIGITAL" tvg-logo="https://lge-static.ottera.tv/prod/run/linear_channel/thumbnails/poster/305x400/rebelde_vertical_logo_320x419.png", Rebelde 24/7 
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=16288&avod=1&coppa=0&td=6&is_lat=[LMT]&dnt=[DNS]&us_privacy=[US_PRIVACY]&did=[DEVICE_ID]&ip=[IP]&ua=[UA]&ifa_type=[IFA_TYPE]&app_bundle=[APP_BUNDLE]&app_store_url=[APP_STOREURL]&app_name=[APP_NAME]&custom_targeting=html5&custom_4=lg_channels_sp&player_height=720&player_width=1280&content_channel=lg_channels&content_dist_name=lg_channels&device_make=[DEVICE_MAKE]&device_model=[DEVICE_MODEL]&device_os=html5&consent=[GDPR_CONSENT]&gdpr=[GDPR]&gender=not_specified&yob=0&livestream=1&custom_param_0=[DEVICE_MODEL]&custom_param_1=tv&custom_param_2=[DEVICE_MAKE]&custom_param_3=[DEVICE_ID]&custom_param_4=lg_channels&custom_param_5=html5&fck=[FCK]&viewsize=[VIEWSIZE]&nonce=[NONCE]&keep_scte=1
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="235" tvg-id="zipstream.ar" tvg-name="ZIPStream" tvg-logo="https://lz24h.wordpress.com/wp-content/uploads/2026/09/file_0000000054d0820ea5505d8812b54bf39050936303523331891.png" group-title="DIGITAL" ,ZipTV 24/7
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="235" tvg-id="zipstream.ar" tvg-name="ZIPStream" tvg-logo="https://stratusnex.intinet.com.ar/web/images/stratusnextv.png" group-title="DIGITAL" ,STRATUSNEX TV
 https://zipstream.stratusnex.workers.dev/zipstream/live.m3u8
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="235" tvg-id="zipstream.ar" tvg-name="ZIPStream" tvg-logo="https://stratusnex.intinet.com.ar/web/images/stratusnextv.png" group-title="DIGITAL" ,SPARK TV
+https://68fa646cfc3f456983d7e97be9b62c64.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/LG-mx_SparkTV/playlist.m3u8
 #
 #
 #

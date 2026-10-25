@@ -25,7 +25,7 @@ export default {
 "/rural.m3u8": "http://45.179.152.42:8000/play/a03o",
 "/canala.m3u8": "http://190.7.19.206:8098/play/a0m4/index.m3u8",
 "/volver.m3u8": "http://190.7.19.206:8098/play/a0lx/index.m3u8",
-"/quieromusica.m3u8": "http://158.172.155.130:8000/play/a00a/index.m3u8",
+"/quieromusica.m3u8": "https://joy.nx-pc.edge-apps.net/hls/3la6l-e802j-1ekem-6k9o6.m3u8",
 "/htv.m3u8": "http://45.173.231.22:8000/play/a0d6/index.m3u8",
 "/mtv.m3u8": "http://45.173.231.22:8000/play/a0aw/index.m3u8",
 "/amsports.m3u8": "http://45.179.152.42:8000/play/a03f",

@@ -1,142 +1,166 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const channelListContainer = document.getElementById("channel-list");
-    const categorySelect = document.getElementById("category-select");
-    const videoElement = document.getElementById("tv-player");
-    const topBar = document.getElementById("top-bar");
-    const sliderContainer = document.getElementById("slider-container");
-    const appContainer = document.getElementById("app-container");
-    const osdInfo = document.getElementById("osd-info");
-    const currentChannelName = document.getElementById("current-channel-name");
-    const lightToggleBtn = document.getElementById("light-toggle-btn");
-    const homeBtn = document.getElementById("home-btn");
+    const el = (id) => document.getElementById(id);
+    const channelListContainer = el("channel-list"), categoriesContainer = el("categories-container");
+    const moviesBtn = el("movies-btn"), playerSlot = el("player-slot"), topBar = el("top-bar");
+    const sliderContainer = el("slider-container"), appContainer = el("app-container");
+    const osdInfo = el("osd-info"), currentChannelName = el("current-channel-name");
+    const homeBtn = el("home-btn"), streamWatermark = el("stream-watermark");
+    const offlineOverlay = el("offline-overlay"), welcomeScreen = el("welcome-screen"), enterBtn = el("enter-btn");
     
-    // URL de tu archivo M3U
-    const m3uUrl = "https://stratusnex.intinet.com.ar/channels/canales.m3u"; 
+    // Rutas protegidas mediante codificación básica Base64 para evitar lectura visual directa
+    const decodeUrl = (b64) => atob(b64);
+    const m3uChannelsUrl = decodeUrl("aHR0cHM6Ly9zdHJhdHVzbmV4LmludGluZXQuY29tLmFyL2NoYW5uZWxzL2NhbmFsZXMubTN1"); 
+    const m3uMoviesUrl = decodeUrl("aHR0cHM6Ly9zdHJhdHVzbmV4LmludGluZXQuY29tLmFyL2NoYW5uZWxzL29uZGVtYW5kLm0zdQ=="); 
+    const defaultLogoUrl = decodeUrl("aHR0cHM6Ly9zdHJhdHVzbmV4LmludGluZXQuY29tLmFyL3dlYi9pbWFnZXMvbG9nby5wbmc=");
 
-    let allChannels = [];
-    let activeChannels = [];
-    let focusables = [];
-    let currentIndex = 0;
-    let hideMenuTimer = null;
-    let lightsOn = true;
-    let hlsInstance = null; // Instancia única controlada
+    let allChannels = [], activeChannels = [], focusables = [], currentIndex = 0;
+    let hideMenuTimer = null, hlsInstance = null, currentM3uSource = m3uChannelsUrl, currentCategory = "", appStarted = false;
+    let numericInputBuffer = "", numericTimer = null;
 
-    // 1. Cargar y parsear M3U
-    fetch(m3uUrl)
-        .then(response => response.text())
-        .then(data => {
-            allChannels = parseM3UWithLogos(data);
-            populateCategories(allChannels);
-            filterChannelsByGroup("ALL");
-        })
-        .catch(error => {
-            console.error("Error al cargar la lista M3U:", error);
-            channelListContainer.innerHTML = "<li style='flex:1; text-align:center;'>Error al cargar canales</li>";
-        });
+    const categoryShortcuts = {
+        "4220": "GENERAL", "4221": "ENTRETENIMIENTO", "4222": "DEPORTES", "4223": "MÚSICA",
+        "4224": "LATAM", "4225": "RADIOS", "4226": "PACKPREMIUM", "4227": "CULTURA", "4228": "DIGITAL", "9999": "RECENT"
+    };
 
-    function parseM3UWithLogos(content) {
+    enterBtn.focus();
+
+    function startApp() {
+        if (appStarted) return;
+        appStarted = true;
+        welcomeScreen.classList.add("hidden");
+        loadM3U(m3uChannelsUrl, true);
+        showMenu();
+    }
+
+    enterBtn.addEventListener("click", (e) => { e.stopPropagation(); startApp(); });
+
+    function loadM3U(url, autoSelectFirst = true) {
+        currentM3uSource = url;
+        fetch(url)
+            .then(res => res.text())
+            .then(data => {
+                allChannels = parseM3U(data);
+                categoriesContainer.innerHTML = "";
+                moviesBtn.classList.toggle("active", url === m3uMoviesUrl);
+                populateCategoryButtons(allChannels, autoSelectFirst);
+            })
+            .catch(() => { channelListContainer.innerHTML = "<li style='flex:1; text-align:center;'>Error al cargar</li>"; });
+    }
+
+    function parseM3U(content) {
         const lines = content.split("\n");
-        let channels = [];
-        let currentChannel = {};
-
+        let channels = [], currentChannel = {};
         for (let line of lines) {
             line = line.trim();
             if (line.startsWith("#EXTINF:")) {
                 currentChannel = {};
-                
                 const groupMatch = line.match(/group-title="([^"]+)"/);
-                currentChannel.group = groupMatch ? groupMatch[1] : "General";
-
+                currentChannel.group = groupMatch ? groupMatch[1].trim() : "General";
                 const logoMatch = line.match(/tvg-logo="([^"]+)"/);
-                currentChannel.logo = logoMatch ? logoMatch[1] : "";
-
+                currentChannel.logo = (logoMatch ? logoMatch[1].trim() : "") || defaultLogoUrl;
                 const nameParts = line.split(",");
-                currentChannel.name = nameParts[nameParts.length - 1].trim() || "Canal sin nombre";
+                currentChannel.name = nameParts[nameParts.length - 1].trim() || "Sin nombre";
             } else if (line && !line.startsWith("#")) {
                 currentChannel.url = line;
-                if (currentChannel.name && currentChannel.url) {
-                    channels.push({ ...currentChannel });
-                }
+                if (currentChannel.name && currentChannel.url) channels.push({ ...currentChannel });
             }
         }
+        channels.forEach((ch, idx) => { ch.channelNumber = idx + 1; });
         return channels;
     }
 
-    function populateCategories(channels) {
-        const groups = [...new Set(channels.map(c => c.group))].sort();
-        groups.forEach(group => {
-            const option = document.createElement("option");
-            option.value = group;
-            option.textContent = group;
-            categorySelect.appendChild(option);
+    function populateCategoryButtons(channels, autoSelectFirst) {
+        const recBtn = document.createElement("button");
+        recBtn.className = "category-btn focusable";
+        recBtn.setAttribute("tabindex", "0");
+        recBtn.setAttribute("data-group", "RECENT");
+        recBtn.textContent = "⭐ Recientes";
+        recBtn.addEventListener("click", (e) => { e.stopPropagation(); selectCategory("RECENT"); resetHideTimer(); });
+        categoriesContainer.appendChild(recBtn);
+
+        ([...new Set(channels.map(c => c.group))].sort()).forEach(group => {
+            if (categoriesContainer.querySelector(`[data-group="${group}"]`)) return;
+            const btn = document.createElement("button");
+            btn.className = "category-btn focusable";
+            btn.setAttribute("tabindex", "0");
+            btn.setAttribute("data-group", group);
+            btn.textContent = group;
+            btn.addEventListener("click", (e) => { e.stopPropagation(); selectCategory(group); resetHideTimer(); });
+            categoriesContainer.appendChild(btn);
         });
+
+        if (channels.length > 0) selectCategory("RECENT", autoSelectFirst);
     }
 
-    function filterChannelsByGroup(group) {
-        if (group === "ALL") {
-            activeChannels = allChannels.slice(0, 50);
-        } else {
-            activeChannels = allChannels.filter(c => c.group === group);
-        }
-        renderChannels(activeChannels);
+    function selectCategory(group, playFirst = false) {
+        currentCategory = group;
+        categoriesContainer.querySelectorAll(".category-btn").forEach(btn => {
+            btn.classList.toggle("selected", btn.getAttribute("data-group") === group);
+        });
+        activeChannels = (group === "RECENT") ? getRecentChannels() : allChannels.filter(c => c.group === group);
+        renderChannels(activeChannels, playFirst);
     }
 
-    function renderChannels(channels) {
+    function getRecentChannels() {
+        try { const saved = localStorage.getItem("stratus_recent_channels"); return saved ? JSON.parse(saved) : []; } catch (e) { return []; }
+    }
+
+    function addRecentChannel(channel) {
+        let recents = getRecentChannels().filter(c => c.url !== channel.url);
+        recents.unshift(channel);
+        if (recents.length > 10) recents.pop();
+        try { localStorage.setItem("stratus_recent_channels", JSON.stringify(recents)); } catch (e) {}
+    }
+
+    function renderChannels(channels, playFirst = false) {
         channelListContainer.innerHTML = "";
-        
+        if (channels.length === 0) {
+            channelListContainer.innerHTML = "<li style='flex:1; text-align:center; color:#777; justify-content:center;'>Sin contenido</li>";
+            updateFocusables();
+            return;
+        }
+
         channels.forEach((channel, index) => {
             const li = document.createElement("li");
             li.setAttribute("tabindex", "0");
             li.setAttribute("data-stream", channel.url);
             li.classList.add("focusable");
             
-            // Número de canal formateado (01, 02, etc.)
             const numBadge = document.createElement("span");
             numBadge.classList.add("channel-number");
-            numBadge.textContent = String(index + 1).padStart(2, '0');
+            numBadge.textContent = String(channel.channelNumber || index + 1).padStart(2, '0');
 
             const img = document.createElement("img");
             img.classList.add("channel-logo");
-            img.src = channel.logo || "data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='40'></svg>";
-            img.onerror = () => { img.style.display = 'none'; };
+            img.src = channel.logo;
+            img.onerror = () => { img.src = defaultLogoUrl; };
 
             const span = document.createElement("span");
             span.classList.add("channel-name");
             span.textContent = channel.name;
 
-            li.appendChild(numBadge);
-            li.appendChild(img);
-            li.appendChild(span);
-            
+            li.appendChild(numBadge); li.appendChild(img); li.appendChild(span);
             li.addEventListener("click", (e) => {
                 e.stopPropagation();
-                selectChannel(index);
+                const idx = activeChannels.findIndex(c => c.url === channel.url);
+                if (idx !== -1) selectChannel(idx);
                 hideMenu();
             });
-
             channelListContainer.appendChild(li);
         });
 
         updateFocusables();
-        if (focusables.length > 0) {
-            // Autoreproducción automática del primer canal al iniciar
-            selectChannel(0);
-        }
+        if (playFirst && focusables.length > 0) selectChannel(0);
     }
 
-    function updateFocusables() {
-        focusables = document.querySelectorAll(".focusable");
-    }
+    function updateFocusables() { focusables = document.querySelectorAll(".focusable"); }
 
     function selectChannel(index) {
         currentIndex = index;
         const listItems = channelListContainer.querySelectorAll("li");
-        
-        listItems.forEach((item, idx) => {
-            item.classList.toggle("selected", idx === currentIndex);
-        });
+        listItems.forEach((item, idx) => { item.classList.toggle("selected", idx === currentIndex); });
 
-        if (listItems[currentIndex]) {
+        if (listItems[currentIndex] && listItems[currentIndex].getAttribute("data-stream")) {
             listItems[currentIndex].focus();
             listItems[currentIndex].scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
             
@@ -145,99 +169,61 @@ document.addEventListener("DOMContentLoaded", () => {
             const num = listItems[currentIndex].querySelector(".channel-number").textContent;
             
             currentChannelName.textContent = `${num} - ${name}`;
+            offlineOverlay.classList.remove("visible");
             playStream(url);
             showOSD();
+
+            const selObj = activeChannels[index];
+            streamWatermark.style.display = (selObj && selObj.group.toUpperCase() === "DIGITAL") ? "block" : "none";
+            if (selObj && currentCategory !== "RECENT") addRecentChannel(selObj);
         }
     }
 
-    // Función de reproducción robusta y limpia
     function playStream(url) {
-        if (hlsInstance) {
-            hlsInstance.destroy();
-            hlsInstance = null;
+        if (hlsInstance) { hlsInstance.destroy(); hlsInstance = null; }
+        if (!playerSlot.querySelector("video")) {
+            playerSlot.innerHTML = `<video id="tv-player" autoplay playsinline></video><img src="${defaultLogoUrl}" alt="Watermark" id="stream-watermark" class="watermark-logo">`;
         }
+        const videoElement = document.getElementById("tv-player");
+        videoElement.pause(); videoElement.removeAttribute('src'); videoElement.load();
 
-        videoElement.pause();
-        videoElement.removeAttribute('src');
-        videoElement.load();
+        if (!url) { offlineOverlay.classList.add("visible"); return; }
 
-        if (!url) return;
-
-        currentChannelName.textContent = "🔄 Cargando stream...";
-        showOSD();
-
-        if (window.location.protocol === 'https:' && url.startsWith('http://')) {
-            console.warn("Advertencia: Intentando reproducir HTTP en una página HTTPS.");
-        }
-
-        if (videoElement.canPlayType('application/vnd.apple.mpegurl')) {
-            videoElement.src = url;
-            videoElement.addEventListener('loadedmetadata', () => {
-                videoElement.play().catch(e => console.log("Error de reproducción:", e));
-            });
-        } 
-        else if (Hls.isSupported()) {
-            hlsInstance = new Hls({
-                maxBufferLength: 30,
-                liveSyncDurationCount: 3,
-                xhrSetup: function (xhr, url) {
-                    xhr.withCredentials = false;
-                }
-            });
-
+        if (Hls.isSupported()) {
+            hlsInstance = new Hls({ maxBufferLength: 30, maxMaxBufferLength: 60, liveSyncDurationCount: 3, lowLatencyMode: true, xhrSetup: (xhr) => { xhr.withCredentials = false; } });
             hlsInstance.loadSource(url);
             hlsInstance.attachMedia(videoElement);
-            
-            hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => {
-                videoElement.play().then(() => {
-                    const activeLi = channelListContainer.querySelector("li.selected");
-                    if (activeLi) {
-                        const num = activeLi.querySelector(".channel-number").textContent;
-                        const name = activeLi.querySelector(".channel-name").textContent;
-                        currentChannelName.textContent = `${num} - ${name}`;
-                    }
-                }).catch(e => {
-                    console.log("Autoplay bloqueado por el navegador:", e);
-                    currentChannelName.textContent = "⚠️ Toca la pantalla para reproducir";
-                });
-            });
-
-            hlsInstance.on(Hls.Events.ERROR, (event, data) => {
+            hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => { videoElement.play().catch(() => {}); });
+            hlsInstance.on(Hls.Events.ERROR, (_, data) => {
                 if (data.fatal) {
-                    switch (data.type) {
-                        case Hls.ErrorTypes.NETWORK_ERROR:
-                            console.error("Error de red o stream caído:", data);
-                            currentChannelName.textContent = "❌ Canal offline o sin conexión";
-                            hlsInstance.startLoad();
-                            break;
-                        case Hls.ErrorTypes.MEDIA_ERROR:
-                            console.error("Error de medios (códec no soportado):", data);
-                            currentChannelName.textContent = "❌ Formato no compatible";
-                            hlsInstance.recoverMediaError();
-                            break;
-                        default:
-                            currentChannelName.textContent = "❌ Error al reproducir canal";
-                            hlsInstance.destroy();
-                            hlsInstance = null;
-                            break;
-                    }
-                    showOSD();
+                    if (data.type === Hls.ErrorTypes.NETWORK_ERROR) hlsInstance.startLoad();
+                    else if (data.type === Hls.ErrorTypes.MEDIA_ERROR) hlsInstance.recoverMediaError();
+                    else { hlsInstance.destroy(); hlsInstance = null; offlineOverlay.classList.add("visible"); }
                 }
             });
+        } else if (videoElement.canPlayType('application/vnd.apple.mpegurl')) {
+            videoElement.src = url;
+            videoElement.addEventListener('loadedmetadata', () => { videoElement.play().catch(() => {}); });
+            videoElement.addEventListener('error', () => { offlineOverlay.classList.add("visible"); });
         } else {
-            currentChannelName.textContent = "❌ HLS no soportado en este navegador";
-            showOSD();
+            offlineOverlay.classList.add("visible");
         }
     }
 
-    // Funciones de control de interfaz
     function showMenu() {
+        if (!appStarted) return;
         topBar.classList.remove("hidden");
         sliderContainer.classList.remove("hidden");
+        const listItems = channelListContainer.querySelectorAll("li");
+        if (listItems[currentIndex] && listItems[currentIndex].classList.contains("selected")) {
+            listItems[currentIndex].focus();
+            listItems[currentIndex].scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+        }
         resetHideTimer();
     }
 
     function hideMenu() {
+        if (!appStarted) return;
         topBar.classList.add("hidden");
         sliderContainer.classList.add("hidden");
     }
@@ -245,122 +231,85 @@ document.addEventListener("DOMContentLoaded", () => {
     function resetHideTimer() {
         clearTimeout(hideMenuTimer);
         hideMenuTimer = setTimeout(() => {
-            if (document.activeElement.tagName !== "SELECT" && document.activeElement !== lightToggleBtn && document.activeElement !== homeBtn) {
-                hideMenu();
-            }
+            if (appStarted && !topBar.contains(document.activeElement) && document.activeElement !== moviesBtn && document.activeElement !== homeBtn) hideMenu();
         }, 6000);
     }
 
     function showOSD() {
         osdInfo.classList.add("visible");
-        setTimeout(() => {
-            osdInfo.classList.remove("visible");
-        }, 3000);
+        setTimeout(() => { osdInfo.classList.remove("visible"); }, 3000);
     }
 
-    // Botón Home (Ir al Canal 1)
-    function goHome() {
-        categorySelect.value = "ALL";
-        filterChannelsByGroup("ALL");
-        selectChannel(0);
-        showMenu();
-    }
+    homeBtn.addEventListener("click", (e) => { e.stopPropagation(); currentM3uSource !== m3uChannelsUrl ? loadM3U(m3uChannelsUrl, false) : selectCategory("RECENT", false); showMenu(); });
+    moviesBtn.addEventListener("click", (e) => { e.stopPropagation(); loadM3U(m3uMoviesUrl, false); showMenu(); });
 
-    homeBtn.addEventListener("click", (e) => {
-        e.stopPropagation();
-        goHome();
-    });
-
-    // Alternar luz
-    function toggleLights() {
-        lightsOn = !lightsOn;
-        if (lightsOn) {
-            appContainer.classList.remove("lights-out");
-            lightToggleBtn.textContent = "💡";
-        } else {
-            appContainer.classList.add("lights-out");
-            lightToggleBtn.textContent = "🌙";
-        }
-        resetHideTimer();
-    }
-
-    lightToggleBtn.addEventListener("click", (e) => {
-        e.stopPropagation();
-        toggleLights();
-    });
-
-    // Tocar la pantalla desvanece o muestra la interfaz
     appContainer.addEventListener("click", (e) => {
+        if (!appStarted) return;
         if (!topBar.contains(e.target) && !sliderContainer.contains(e.target)) {
-            if (sliderContainer.classList.contains("hidden")) {
-                showMenu();
-            } else {
-                hideMenu();
-            }
+            sliderContainer.classList.contains("hidden") ? showMenu() : hideMenu();
         }
     });
 
-    categorySelect.addEventListener("change", (e) => {
-        filterChannelsByGroup(e.target.value);
-        resetHideTimer();
-    });
-
-    // Control por teclado / Control Remoto
     document.addEventListener("keydown", (event) => {
-        showMenu();
-        updateFocusables();
+        if (!appStarted) { if (event.key === "Enter") { startApp(); event.preventDefault(); } return; }
+
+        if (/^[0-9]$/.test(event.key)) {
+            showMenu();
+            numericInputBuffer += event.key;
+            currentChannelName.textContent = `Código: ${numericInputBuffer}`;
+            showOSD();
+            clearTimeout(numericTimer);
+            numericTimer = setTimeout(() => {
+                const typedCode = numericInputBuffer; numericInputBuffer = "";
+                if (categoryShortcuts[typedCode]) {
+                    selectCategory(categoryShortcuts[typedCode], false);
+                    currentChannelName.textContent = `📁 Categoría: ${categoryShortcuts[typedCode]}`;
+                    showOSD();
+                } else {
+                    const targetNumber = parseInt(typedCode, 10);
+                    const itemIndex = activeChannels.findIndex(c => c.channelNumber === targetNumber);
+                    if (itemIndex !== -1) { selectChannel(itemIndex); hideMenu(); }
+                    else { currentChannelName.textContent = `❌ Canal ${targetNumber} no existe`; showOSD(); }
+                }
+            }, 1000);
+            event.preventDefault();
+            return;
+        }
+
+        showMenu(); updateFocusables();
         if (focusables.length === 0) return;
 
         const activeElement = document.activeElement;
         const currentActiveIndex = Array.from(focusables).indexOf(activeElement);
 
         switch (event.key) {
-            case "ArrowLeft":
-                if (currentActiveIndex > 0) {
-                    focusables[currentActiveIndex - 1].focus();
-                    if (focusables[currentActiveIndex - 1].tagName === "LI") {
-                        const idx = Array.from(channelListContainer.querySelectorAll("li")).indexOf(focusables[currentActiveIndex - 1]);
-                        if (idx !== -1) selectChannel(idx);
-                    }
+            case "ArrowLeft": if (currentActiveIndex > 0) focusables[currentActiveIndex - 1].focus(); event.preventDefault(); break;
+            case "ArrowRight": if (currentActiveIndex < focusables.length - 1) focusables[currentActiveIndex + 1].focus(); event.preventDefault(); break;
+            case "ArrowUp":
+                if (activeElement.tagName === "LI") {
+                    let idx = Array.from(channelListContainer.querySelectorAll("li")).indexOf(activeElement);
+                    if (idx > 0) selectChannel(idx - 1);
                 }
-                event.preventDefault();
-                break;
-
-            case "ArrowRight":
-                if (currentActiveIndex < focusables.length - 1) {
-                    focusables[currentActiveIndex + 1].focus();
-                    if (focusables[currentActiveIndex + 1].tagName === "LI") {
-                        const idx = Array.from(channelListContainer.querySelectorAll("li")).indexOf(focusables[currentActiveIndex + 1]);
-                        if (idx !== -1) selectChannel(idx);
-                    }
+                event.preventDefault(); break;
+            case "ArrowDown":
+                if (activeElement.tagName === "LI") {
+                    let idx = Array.from(channelListContainer.querySelectorAll("li")).indexOf(activeElement);
+                    if (idx !== -1 && idx < channelListContainer.querySelectorAll("li").length - 1) selectChannel(idx + 1);
                 }
-                event.preventDefault();
-                break;
-
+                event.preventDefault(); break;
             case "Enter":
-                if (activeElement === homeBtn) {
-                    goHome();
-                } else if (activeElement === lightToggleBtn) {
-                    toggleLights();
-                } else if (activeElement.tagName === "LI") {
-                    const idx = Array.from(channelListContainer.querySelectorAll("li")).indexOf(activeElement);
-                    if (idx !== -1) {
-                        selectChannel(idx);
-                        hideMenu();
-                    }
+                if (activeElement === homeBtn) homeBtn.click();
+                else if (activeElement === moviesBtn) moviesBtn.click();
+                else if (activeElement.classList.contains("category-btn")) selectCategory(activeElement.getAttribute("data-group"), false);
+                else if (activeElement.tagName === "LI") {
+                    let idx = Array.from(channelListContainer.querySelectorAll("li")).indexOf(activeElement);
+                    if (idx !== -1) { selectChannel(idx); hideMenu(); }
                 }
-                event.preventDefault();
-                break;
-                
+                event.preventDefault(); break;
             case "Escape":
             case "Backspace":
-                if (sliderContainer.classList.contains("hidden")) {
-                    showMenu();
-                } else {
-                    hideMenu();
-                }
-                event.preventDefault();
-                break;
+                sliderContainer.classList.contains("hidden") ? showMenu() : hideMenu();
+                event.preventDefault(); break;
         }
         resetHideTimer();
     });

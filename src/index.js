@@ -27,7 +27,7 @@ export default {
 "/volver.m3u8": "http://190.7.19.206:8098/play/a0lx/index.m3u8",
 "/quieromusica.m3u8": "https://joy.nx-pc.edge-apps.net/hls/3la6l-e802j-1ekem-6k9o6.m3u8",
 "/htv.m3u8": "http://45.173.231.22:8000/play/a0d6/index.m3u8",
-"/mtv.m3u8": "http://45.173.231.22:8000/play/a0aw/index.m3u8",
+"/mtv.m3u8": "https://barinaslive1.boldmss.com/MTV/MTV.isml/MTV.m3u8",
 "/amsports.m3u8": "http://45.179.152.42:8000/play/a03f",
 "/canal11er.m3u8": "http://190.7.19.206:8098/play/a0pt/index.m3u8",
 "/eldestape.m3u8": "https://cdn-zapster-ros.trapemn.tv:1936/zapster-hls/Destape.stream/playlist.m3u8",

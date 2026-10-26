@@ -40,8 +40,9 @@ https://videostream.shockmedia.com.ar:19360/multivisionfederal/multivisionfedera
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="12" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/canal-de-la-ciudad-ar.png" tvg-id="CanaldelaCiudad.ar",Canal de la Ciudad
 https://g5.vxral-hor.transport.edge-access.net/a06/ngrp:gcba_video4-100042_all/Playlist.m3u8
 
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="22.1" group-title="DIGITAL" tvg-logo="https://images.open-epg.com/x1002.png" tvg-id="Telefe.ar",Telefe
-https://live.stratusnex.workers.dev/telefe.m3u8
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="67.1" tvg-logo="https://i.imgur.com/x6hiZRU.png" group-title="DIGITAL" tvg-id="TelefeSantaFe.ar", Telefe Santa Fe
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,like Gecko) Chrome/152.0.0.0 Safari/537.36 
+https://cdn.sensa.com.ar/output/ARR4/TSFH/playlist.m3u8?|referer=https://player.sensa.com.ar/&webtoken=1.0
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="13" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/canal-26-ar.png" tvg-id="Canal26.ar",Canal 26
 https://live.stratusnex.workers.dev/c26.m3u8
 
@@ -529,6 +530,8 @@ https://cdn.sensa.com.ar/output/ARR4/TSFH/playlist.m3u8?|referer=https://player.
 https://vivo.solumedia.com:19360/celta/celta.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="169" tvg-logo="https://i.imgur.com/1CCplpb.png" tvg-id="ElTrece.ar" group-title="DIGITAL", El Trece
 https://joy.nx-pc.edge-apps.net/hls/e5df7-k5p3m-2m2nf-jnd7m.m3u8
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="22.1" group-title="DIGITAL" tvg-logo="https://images.open-epg.com/x1002.png" tvg-id="Telefe.ar",Telefe
+https://live.stratusnex.workers.dev/telefe.m3u8
 
 #170
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="171" tvg-logo="https://i.imgur.com/8xqYg4C.png" group-title="DIGITAL", RTN TV

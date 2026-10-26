@@ -340,7 +340,8 @@ http://45.134.141.161:2200/ARG/Nat_Geographic_HD/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="138" group-title="CULTURA" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16331_dark_360w_270h.png" tvg-id="AnimalPlanet.cl",Animal Planet
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 http://m3u.tvcluboficial.com/free/ReachBot/Kip/41.m3u8
-
+#EXTINF:-1 tvg-id="hgtv.latin.america.mx" tvg-name="CUL | HGTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/05/HGTV_logo.png" group-title="CULTURA" xm-ott="{ID}",HGTV 
+http://livetv-plus.com:8880/live/Fabianlopez/VFEPV/178146.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="132" group-title="CULTURA" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/history-channel-2-ar.png" tvg-id="History2.ar",History 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 http://m3u.tvcluboficial.com/free/ReachBot/Kip/509.m3u8

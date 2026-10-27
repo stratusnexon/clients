@@ -675,6 +675,8 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=16288&avod=1&coppa=0&td=6&
 https://zipstream.stratusnex.workers.dev/zipstream/live.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="235" tvg-id="zipstream.ar" tvg-name="ZIPStream" tvg-logo="https://stratusnex.intinet.com.ar/web/images/stratusnextv.png" group-title="DIGITAL" ,SPARK TV
 https://68fa646cfc3f456983d7e97be9b62c64.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/LG-mx_SparkTV/playlist.m3u8
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="235" tvg-id="zipstream.ar" tvg-name="ZIPStream" tvg-logo="https://stratusnex.intinet.com.ar/web/images/stratusnextv.png" group-title="DIGITAL" ,CINE ROMANCE
+https://dbrb49pjoymg4.cloudfront.net/10001/99991142/hls/master.m3u8?ads.xumo_channelId=99991142
 #
 #
 #

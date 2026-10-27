@@ -122,16 +122,16 @@ https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="35" group-title="DIGITAL" tvg-logo="https://canal3salta.com.ar/src/images/logo250x250.webp" tvg-id="",Canal 3 Salta
 https://ututotv.com.ar/live/stream.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="36" tvg-id="Encuentro.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s75767_white_360w_270h.png" group-title="DIGITAL",Encuentro
-https://live.stratusnex.workers.dev/encuentro.m3u8
+https://joy.nx-pc.edge-apps.net/hls/9bh05-pfjmo-a54l8-a4hgk.m3u8 
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="37" group-title="DIGITAL" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/canal-rural-ar.png" tvg-id="CanalRural.ar",Rural
-https://live.stratusnex.workers.dev/rural.m3u8
+https://joy.nx-pc.edge-apps.net/hls/465a1-enb61-ad17j-55bp2.m3u8 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="38" group-title="DIGITAL" tvg-logo="https://cdn.m3u.cl/logo/303_Eco_TV.png" tvg-id="",Eco TV
 https://stream.arcast.com.ar/ecotv/ngrp:ecotv_all/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="39" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18075_dark_360w_270h.png" tvg-id="CanalA.ar",Canal a
-https://live.stratusnex.workers.dev/canala.m3u8
+https://joy.nx-pc.edge-apps.net/hls/k0eh2-j12j2-35nn-1dmde.m3u8 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="40" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16879_dark_360w_270h.png" tvg-id="Volver.ar",Volver
-https://live.stratusnex.workers.dev/volver.m3u8
+https://joy.nx-pc.edge-apps.net/hls/9c3on-i089p-mnmkk-jpi5f.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="41" group-title="DIGITAL" tvg-logo="https://lz24h.wordpress.com/wp-content/uploads/2026/09/bq29sfg1017235205063962896.png" tvg-id="Canal10MardelPlata.ar",Canal 10 MDP
 #EXTVLCOPT:http-referrer=https://webclient.ctcplus.com.ar/
 #EXTVLCOPT:http-user-agent=VisualOn OSMP+ Player(Linux;Android)
@@ -202,15 +202,15 @@ http://45.173.231.22:8000/play/a08y/index.m3u8
 https://b5cce558f58c4843a8264d282ebce3ec.mediatailor.us-east-1.amazonaws.com/v1/dash/dffceb859a31f14d0ed059ef6b4e2e4d850e60b1/live_1071/1071_DIRECTV_SPORTS_HD_DASH/manifest.mpd
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="56" tvg-id="Espn.ar" group-title="DIGITAL",ESPN
-https://live.stratusnex.workers.dev/espn.m3u8
+https://joy.nx-pc.edge-apps.net/hls/k6e4b-2jhe5-76pae-1fham.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="57" tvg-id="FoxSports.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s141469_dark_360w_270h.png" group-title="DIGITAL",Fox Sports
 https://live.stratusnex.workers.dev/fox1.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="58" tvg-id="Espn2.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s88735_gray_360w_270h.png" group-title="DIGITAL",ESPN 2
-https://live.stratusnex.workers.dev/espn2.m3u8
+https://joy.nx-pc.edge-apps.net/hls/io3a7-ob45b-2dnm5-ac8ak.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="59" tvg-id="Espn3.ar" group-title="DIGITAL",ESPN 3
-https://live.stratusnex.workers.dev/espn3.m3u8
+https://joy.nx-pc.edge-apps.net/hls/io0j9-gb1bf-d0738-kkn17.m3u8 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="60" tvg-id="Espn4.ar" group-title="DIGITAL",ESPN 4
-https://live.stratusnex.workers.dev/espn4.m3u8
+https://joy.nx-pc.edge-apps.net/hls/ohcfd-666pp-pkifp-28l43.m3u8 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="61" tvg-id="FoxSports2.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002KWQJ6.png_white_360w_270h.png" group-title="DIGITAL",Fox Sports 2
 https://live.stratusnex.workers.dev/fox2.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="62" tvg-id="" tvg-logo="https://i.imgur.com/A8XpNAE.png" group-title="DIGITAL",DAZN

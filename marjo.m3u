@@ -112,7 +112,7 @@ https://cdn.mycloudstream.io/hls/live/broadcast/pgv5kerk/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="30" group-title="DIGITAL" tvg-logo="https://i.imgur.com/ThZvP3q.png",TDC Firmat
 https://tdcserver.com:19360/tdconlione-2/tdconlione-2.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="31" group-title="DIGITAL" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgU_yRDvXCFRNoky9jhR8qg3iLjg5bPqF2mJLuIoPVBbnzUfQ67KPaf_V5lmxckUMTbf9UQ4wSiAo8iJH5zSYy3tAbBq9QdFHlH6EEMbUON4wPBtDQINJXrdbrFf1_bf4f6SEJNod5fpt8gqPyIDotkU69DYZ8kYU7bQCEKC_iS5dOUb9OvyZif_XUxEtE/s695/carastv.png" tvg-id="",CarasTV
-http://190.61.90.17:40000/play/a043/index.m3u8
+https://unlimited1-us.dps.live/carastv/carastv.smil/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="32" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/canal-9-televida-ar.png" tvg-id="Canal9Televida.ar" group-title="DIGITAL",LV83 Televida 9
 https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/playlist.m3u8
 

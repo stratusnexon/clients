@@ -259,7 +259,7 @@ http://181.78.12.119:16123/play/a0dc/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="93" group-title="ENTRETENIMIENTO" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002GM3XW.png_gray_360w_270h.png" tvg-id="AmcSeries.ar",AMC SERIES
 http://45.134.141.161:2200/ARG/Mas_Chic/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="94" group-title="ENTRETENIMIENTO" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s59337_gray_360w_270h.png" tvg-id="Amc.ar",AMC
-http://livetv-plus.com:8880/live/Fabianlopez/VFEPV/159149.m3u8
+https://amc-amcespanol-1-us.vizio.wurl.tv/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="95" group-title="ENTRETENIMIENTO" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s82178_white_360w_270h.png" tvg-id="Axn.ar",AXN
 http://45.134.141.161:2200/ARG/AXN_HD/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="96" group-title="ENTRETENIMIENTO" tvg-logo="" tvg-id="CineAr.ar",Cine.AR

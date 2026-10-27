@@ -371,7 +371,8 @@ https://cdn-uw2-prod.tsv2.amagi.tv:443/linear/amg00047-tastemade-es16intl-canela
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="139" group-title="ENTRETENIMIENTO" tvg-logo="https://i.imgur.com/sHjKyXT.png" tvg-id="" ,Global TV 
 http://190.93.224.42/GLOBAL/index.m3u8
-
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="" group-title="ENTRETENIMIENTO" tvg-logo="https://i.imgur.com/AVwNOZZ.jpeg" tvg-id="" ,De Pelicula
+http://livetv-plus.com:8880/live/Fabianlopez/VFEPV/9506.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="141" group-title="MÚSICA" tvg-logo="" tvg-id="CanaldelaMusica.ar",Canal de la Música
 http://45.70.221.206/CM_OTT/playlist.m3u8
@@ -508,7 +509,7 @@ https://9757738f.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2VsZW
 
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="333" group-title="LATAM" tvg-logo="https://i.ibb.co/BV1xk9ps/0858.jpg" tvg-id="",Claro Cinema
-http://45.186.106.194:9999/play/a04r/index.m3u8
+http://livetv-plus.com:8880/live/Fabianlopez/VFEPV/276307.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="199" tvg-id="5cf0622da00ca1e2f6fac712" tvg-logo="https://radiosargentina.com.ar/png/VI-ESTRE.png" group-title="LATAM",Estrella TV
 https://amg00567-estrellamedia-estrellatv-estrellamedia-5tdh5.amagi.tv/playlist/amg00567-estrellamedia-estrellatv-estrellamedia/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="178" group-title="LATAM" tvg-logo="https://i.ibb.co/nqgp93Vg/0910.jpg" tvg-id="",Latina

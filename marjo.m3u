@@ -833,9 +833,11 @@ http://45.70.221.206/DSPORTS_OTT/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="22.1" group-title="DIGITAL" tvg-logo="https://i.imgur.com/DHv3yVj.png" tvg-id="Canal3Rosario.ar",El Tres [ Zapster ]
 https://zapster.trapemn.tv:1936/zapster/El3HD.stream/playlist.m3u8
 
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="0.1" group-title="" tvg-logo="" tvg-id="",Test
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="0.1" group-title="" tvg-logo="" tvg-id="" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36" referrer="https://webclient.axsbolivia.com/",Test
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://oikoapp.xyz/owner/results.php?key=e693edee3bb6b3eab4e24a9293d1204d&keyid=6ad6f6cfee9c415dff0674701bf71683
+#EXTVLCOPT:http-referrer=https://webclient.axsbolivia.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36
 https://cdn.sensa.com.ar/live/sta01/TlfRos/live_dash_cld/TlfRos.mpd
 
 
@@ -843,9 +845,11 @@ https://cdn.sensa.com.ar/live/sta01/TlfRos/live_dash_cld/TlfRos.mpd
 #EXTVLCOPT:http-referrer=http://bantel-cdn1.iptvperu.tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Mobile Safari/537.36
 http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/axn.stream/playlist.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="0.3" group-title="" tvg-logo="" tvg-id="", Test [ Clone ]
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="0.3" group-title="" tvg-logo="" tvg-id="" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36" referrer="https://webclient.axsbolivia.com/", Test [ Clone ]
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://oikoapp.xyz/owner/results.php?keyid=bd1767fe3554f1285222b5610105c0e9&key=839d5b1eec7eb70d68c1e1531fc0d6d4
+#EXTVLCOPT:http-referrer=https://webclient.axsbolivia.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36
 https://cdn.sensa.com.ar/live/eds/C5N/live_dash_cld/C5N.mpd
 #
 #

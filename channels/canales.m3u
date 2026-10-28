@@ -246,7 +246,7 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=13231&avod=1&coppa=0&td=6&
 https://amg00740-sofa-amg00740c11-lg-mx-8923.playouts.now.amagi.tv/playlist/amg00740-addigitalinternationalcorp-freezonespanish-lgmx/playlist.m3u8?ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.usprivacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]&ads.givn=[NONCE]&ads.dmake=[DEVICE_MAKE]
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="88" group-title="ENTRETENIMIENTO" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s105609_gray_360w_270h.png" tvg-id="Cinecanal.ar",Cinecanal
-http://livetv-plus.com:8880/live/Fabianlopez/VFEPV/159151.m3u8
+http://siriustv.lat:8000/play/a059/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="89" tvg-id="Cinemax.cl" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s34933_white_360w_270h.png" group-title="ENTRETENIMIENTO",Cinemax
 http://45.134.141.161:2200/ARG/Cinemax_HD/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="90" tvg-id="ComedyCentral.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10149_gray_360w_270h.png" group-title="ENTRETENIMIENTO",Comedy Central
@@ -255,7 +255,7 @@ https://barinaslive1.boldmss.com/COMEDY/COMEDY.isml/COMEDY.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 http://m3u.tvcluboficial.com/free/ReachBot/Kip/293.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="92" group-title="ENTRETENIMIENTO" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10035_white_360w_270h.png" tvg-id="AandE.ar",A&E
-http://181.78.12.119:16123/play/a0dc/index.m3u8
+http://siriustv.lat:8000/play/a04x/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="93" group-title="ENTRETENIMIENTO" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002GM3XW.png_gray_360w_270h.png" tvg-id="AmcSeries.ar",AMC SERIES
 http://45.134.141.161:2200/ARG/Mas_Chic/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="94" group-title="ENTRETENIMIENTO" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s59337_gray_360w_270h.png" tvg-id="Amc.ar",AMC
@@ -284,7 +284,7 @@ http://m3u.tvcluboficial.com/free/ReachBot/Kip/276.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="104" group-title="CULTURA" tvg-logo="https://03mcdecdnimagerepository.blob.core.windows.net/epguideimage/channel/I32.png" tvg-id="InvestigationDiscovery.ar",Discovery ID
 http://45.134.141.161:2200/ARG/Discovery_Investigation_HD/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="105" tvg-id="FX.ar" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/world-latin-america/fx-lam.png" group-title="ENTRETENIMIENTO",FX
-http://45.134.141.161:2200/ARG/FX_HD/index.m3u8
+http://siriustv.lat:8000/play/a048/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="106" group-title="ENTRETENIMIENTO" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s87687_dark_360w_270h.png" tvg-id="FilmAndArts.ar",Film & Arts
 http://livetv-plus.com:8880/live/Fabianlopez/VFEPV/19535.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="107" group-title="ENTRETENIMIENTO" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s90456_dark_360w_270h.png" tvg-id="E!Entertainment.ar",E! Entertainment
@@ -295,7 +295,7 @@ http://45.134.141.161:2200/ARG/HBO_HD/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="160" tvg-logo="https://i.ibb.co/v645nnX1/Logo-Sony-Cine.png" group-title="ENTRETENIMIENTO",Sony Cine
 https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="111" tvg-logo="https://i.ibb.co/HgyS8tL/sony-channel.png" tvg-id="SonyChannel.ar" group-title="ENTRETENIMIENTO",Sony
-http://181.78.12.119:16123/play/a0d8/index.m3u8
+http://siriustv.lat:8000/play/a058/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="112" group-title="ENTRETENIMIENTO" tvg-logo="https://i.ibb.co/HFpZ6CC/sony-movies.png" tvg-id="SonyMovies.ar",Sony Movies
 http://181.78.12.119:16123/play/a0de/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="113" tvg-name="Sony One Cinema" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/00/Sony_One_2024.png/revision/latest?cb=20240808205124" group-title="ENTRETENIMIENTO",Sony One Cinema
@@ -305,7 +305,7 @@ http://45.134.141.161:2200/ARG/Space_HD/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="115" tvg-id="StarChannel.ar" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/star-channel-ar.png" group-title="ENTRETENIMIENTO",Star Channel
 http://45.134.141.161:2200/ARG/Star_Channel_HD/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="116" group-title="ENTRETENIMIENTO" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s111651_light_360w_270h.png" tvg-id="",Cine Premium
-http://181.78.12.119:16123/play/ch49/index.m3u8
+http://siriustv.lat:8000/play/a0a3/index.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="117" tvg-id="StudioUniversal.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s29017_dark_360w_270h.png" group-title="ENTRETENIMIENTO",Studio Universal
 http://181.78.12.119:16123/play/a0bu/index.m3u8
@@ -330,16 +330,15 @@ http://45.134.141.161:2200/ARG/Universal_Channel/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="130" group-title="ENTRETENIMIENTO" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/world-latin-america/warner-channel-lam.png" tvg-id="Warner.ar",Warner Channel
 http://45.134.141.161:2200/ARG/Warner_Channel_HD/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="336" tvg-id="Eurochannel.ar" tvg-logo="https://i.imgur.com/69hK0Mc.png" group-title="ENTRETENIMIENTO", EuroChannel
-http://45.5.118.152:8000/play/a03e/index.m3u8
+http://siriustv.lat:8000/play/a04a/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="330" group-title="ENTRETENIMIENTO" tvg-logo="https://yt3.googleusercontent.com/f4ClnogtOTfPmuEMCIMGHDRU8OXZK7J7V448aoGa7ZoLI1WLYqZazZ9pyJoYRwwBfZXMUkHAY3o=s900-c-k-c0x00ffffff-no-rj" tvg-id="",Todo Novelas
 https://dtsszjrztq9ti.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-yshah5p4v45g1/ToDoNovelas_ES.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="196" group-title="ENTRETENIMIENTO" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/europa_europa-mediano.png" tvg-id="EuropaEuropa.ar",Europa Europa
 http://livetv-plus.com:8880/live/Fabianlopez/VFEPV/473708.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="131" group-title="CULTURA" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/world-latin-america/national-geographic-lam.png" tvg-id="NationalGeographic.ar",Nat Geo
-http://45.134.141.161:2200/ARG/Nat_Geographic_HD/index.m3u8
+
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="138" group-title="CULTURA" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16331_dark_360w_270h.png" tvg-id="AnimalPlanet.cl",Animal Planet
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
-http://m3u.tvcluboficial.com/free/ReachBot/Kip/41.m3u8
+http://siriustv.lat:8000/play/a050/index.m3u8
 #EXTINF:-1 tvg-id="hgtv.latin.america.mx" tvg-name="CUL | HGTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/05/HGTV_logo.png" group-title="CULTURA" xm-ott="{ID}",HGTV 
 http://livetv-plus.com:8880/live/Fabianlopez/VFEPV/178146.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="132" group-title="CULTURA" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/history-channel-2-ar.png" tvg-id="History2.ar",History 2
@@ -356,7 +355,7 @@ https://appletree-mytime-samsungmexico.amagi.tv/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 http://m3u.tvcluboficial.com/free/ReachBot/Kip/17.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="135" group-title="ENTRETENIMIENTO" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10918_white_360w_270h.png" tvg-id="Lifetime.ar",Lifetime
-http://livetv-plus.com:8880/live/Fabianlopez/VFEPV/19536.m3u8
+http://45.134.141.161:2200/ARG/LIFETIME_HD/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="136" group-title="ENTRETENIMIENTO" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/06/69/6693700_03BC91674A4C6D72.png" tvg-id="Pasiones.ar",Pasiones
 http://45.134.141.161:2200/ARG/Pasiones_HD/index.m3u8
 

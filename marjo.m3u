@@ -309,7 +309,7 @@ https://barinaslive1.boldmss.com/COMEDY/COMEDY.isml/COMEDY.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="91" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/mexico/distrito-comedia-mx.png" tvg-id="DistritoComedia.uy" group-title="DIGITAL",Distrito Comedia
 http://45.5.118.152:8000/play/a08q/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="92" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10035_white_360w_270h.png" tvg-id="AandE.ar",A&E
-http://200.123.40.1:8000/play/a03y/index.m3u8
+http://siriustv.lat:8000/play/a0cz/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="93" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002GM3XW.png_gray_360w_270h.png" tvg-id="AmcSeries.ar",AMC SERIES
 https://joy.nx-pc.edge-apps.net/hls/f9em3-fn7h4-a75fc-c056h.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="94" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s59337_gray_360w_270h.png" tvg-id="Amc.ar",AMC
@@ -380,11 +380,11 @@ https://live.stratusnex.workers.dev/tcm.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="119" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s21257_dark_360w_270h.png" tvg-id="HGTV.ar" ",HGTV
 http://190.7.19.206:8098/play/a0me/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="121" tvg-id="TNT.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11164_dark_360w_270h.png" group-title="DIGITAL",TNT
-https://live.stratusnex.workers.dev/tnt.m3u8
+https://joy.nx-pc.edge-apps.net/hls/3cfmo-i74jf-j0b2a-bm53n.m3u8 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="122" tvg-id="TNTNovelas.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s140026_dark_360w_270h.png" group-title="DIGITAL",TNT Novelas
-https://live.stratusnex.workers.dev/tntnovelas.m3u8
+https://joy.nx-pc.edge-apps.net/hls/dk7p1-42odm-8n3cb-cnc2l.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="123" tvg-id="TNTSeries.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s91993_dark_360w_270h.png" group-title="DIGITAL",TNT Series
-https://live.stratusnex.workers.dev/tntseries.m3u8
+https://joy.nx-pc.edge-apps.net/hls/o7hff-5j8a5-kfh7n-focci.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="124" group-title="DIGITAL" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/07/88/7881365_5A454C03C7E85861.png" tvg-id="Golden.ar",Golden
 http://45.181.120.147:9800/play/086/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="125" group-title="DIGITAL" tvg-logo="https://images.pluto.tv/channels/639751f81a36b400072b8f5a/logo.png?w=380&h=110&trim=auto&trim-sd=10&trim-md=0&fit=clip&fm=png" tvg-id="639751f81a36b400072b8f5a",KANAL DRAMA
@@ -417,7 +417,7 @@ http://45.181.120.147:9800/play/074/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="196" group-title="DIGITAL" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/europa_europa-mediano.png" tvg-id="EuropaEuropa.ar",Europa Europa
 http://45.70.221.206/EUROPA_EUROPA_OTT/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="131" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/world-latin-america/national-geographic-lam.png" tvg-id="NationalGeographic.ar",Nat Geo
-https://live.stratusnex.workers.dev/natgeo.m3u8
+https://joy.nx-pc.edge-apps.net/hls/o6mj8-i7n93-67ej8-712ao.m3u8 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="138" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16331_dark_360w_270h.png" tvg-id="AnimalPlanet.cl",Animal Planet
 http://45.181.120.147:9800/play/103/index.m3u8
 

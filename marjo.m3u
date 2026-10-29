@@ -474,6 +474,8 @@ https://cloud.tvomix.com/KPOPMIX/index.m3u8
 https://channels.stratusnex.workers.dev/149.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="147" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s80924_dark_360w_270h.png" tvg-id="MTV.ar",MTV
 https://live.stratusnex.workers.dev/mtv.m3u8
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="404" group-title="DIGITAL" tvg-logo="https://i.imgur.com/C50z556.png" tvg-id="",TOP Latino
+http://cdn1.eco.cdn.moderntv.eu/econocable/stream/TOPLATINO/40-hls/live-media.m3u8?_cdn_attrs=account%3Deconocable%2Cresource%3DTOPLATINO_stream_qf&_cdn_session=4149849044&_cdn_token=c55d26d371d39edb6601f6bbe0283de8b0938052
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="148" group-title="DIGITAL" tvg-logo="https://cdn.m3u.cl/logo/1062_Canal_VM_Latino.png" tvg-name="VM Latino",VM Latino
 https://59ef525c24caa.streamlock.net/vmtv/vmlatino/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="149" group-title="DIGITAL" tvg-logo="https://i.imgur.com/NVxHxJn.png" tvg-id="", TELEHIT 
@@ -482,6 +484,8 @@ http://cdnexterno.thomas-talk.me:8081/externo/canal_telehithd/playlist.m3u8
 https://live-evg5.tv360.bitel.com.pe/bitel/mixtvSRT/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="151" group-title="DIGITAL" tvg-logo="https://cdn.m3u.cl/logo/156_Rewind.png" tvg-name="",Rewind TV
 https://tls-cl.cdnz.cl/rewindtv/live/playlist.m3u8
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="402" group-title="DIGITAL" tvg-logo="https://images.pluto.tv/channels/6868152657543d1f8be4ece3/thumbnail.jpg?auto=&ixlib=react-9.1.5&w=224&h=124&dpr=2&q=50" user-agent="AivAndroidPlayer/1.0 (AndroidDevice)" referer="https://www.primevideo.com/" kty="clearkey" ktl="https://oikoapp.xyz/owner/results.php?key=f4c71a56cd5df07d5a114f9668b114de&keyid=f03e699fb4603c8b1518936fc5c9c13a",CONCERT CHANNEL
+https://netskrt.live.pv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/labtefjwbn/out/v1/1b1ca0a8ecbb4e03ba9327fd099911d2/cenc.mpd
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="152" tvg-id="" tvg-logo="https://i.imgur.com/Cf01Ybw.png" group-title="DIGITAL",Vevo POP
 https://d1ktssaxrjabsg.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1vshdbah8e4f8/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="153" tvg-id="0d5283959d3a59bf87411e7077fd9e58" tvg-logo="https://i.imgur.com/Cf01Ybw.png" group-title="DIGITAL",Vevo Latino

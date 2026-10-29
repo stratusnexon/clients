@@ -383,7 +383,8 @@ https://stream-gtlc.telecentro.net.ar/hls/musictophls/main.m3u8
 #EXTVLCOPT:http-user-agent=VisualOn OSMP+ Player(Linux;Android)
 #EXTVLCOPT:http-referrer=https://webclient.ctcplus.com.ar/
 https://cdn.sensa.com.ar/output/SMT1/BLBH/playlist.m3u8
-
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="404" group-title="MÚSICA" tvg-logo="https://i.imgur.com/C50z556.png" tvg-id="",TOP Latino
+http://cdn1.eco.cdn.moderntv.eu/econocable/stream/TOPLATINO/40-hls/live-media.m3u8?_cdn_attrs=account%3Deconocable%2Cresource%3DTOPLATINO_stream_qf&_cdn_session=4149849044&_cdn_token=c55d26d371d39edb6601f6bbe0283de8b0938052
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="143" group-title="MÚSICA" tvg-logo="https://i.imgur.com/t7LPdGE.png" tvg-id="",E40
 https://copacotf.desdeparaguay.net/e40tv/e40tv_py_alta/playlist.m3u8?admin=tvaccion
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="144" group-title="MÚSICA" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/06/55/6551636_BB2F922E6C894C1C.png" tvg-id="HTV.ar" audio-track="es",HTV

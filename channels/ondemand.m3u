@@ -1,8 +1,603 @@
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png" tvg-name="" group-title="DRAMA" tvg-logo="https://i.imgur.com/UtcK3Oh.jpeg" tvg-id="",Infierno bajo el agua
-http://livetv-plus.com:8880/movie/Fabianlopez/VFEPV/93033.mp4
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png" tvg-name="" group-title="ACCION" tvg-logo="https://i.imgur.com/R2ny4Z7.jpeg" tvg-id="",Persecución al límite
-http://livetv-plus.com:8880/movie/Fabianlopez/VFEPV/92971.mp4
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png" tvg-name="" group-title="SUSPENSO" tvg-logo="https://i.imgur.com/MDgSKl1.jpeg" tvg-id="",Cien años de perdón
-http://livetv-plus.com:8880/movie/Fabianlopez/VFEPV/92901.mp4
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png" tvg-name="" group-title="SUSPENSO" tvg-logo="https://i.imgur.com/inEuhIy.jpeg" tvg-id="",El hombre más buscado
-http://livetv-plus.com:8880/movie/Fabianlopez/VFEPV/88841.mp4
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/XJShTDgZ/2.jpg" group-title="Películas",2012 | 2009 | Latino
+https://ia801408.us.archive.org/31/items/el-infierno/2012.ia.mp4
+#EXTINF:-1 tvg-logo="https://i.ibb.co/QF4fjj5/abr.jpg" group-title="Películas",Abrázame Como Antes | 2016 | Latino
+https://archive.org/serve/abrazame-como-antes/Abra%CC%81zame%20como%20antes.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/2yYQvTxq/ac.jpg" group-title="Películas",Actividad Paranormal | Los Elegidos | 2014 | Latino
+https://ia801806.us.archive.org/11/items/i-hate-summer-2020/Paranormal%20Activity%20Los%20sen%CC%83alados%20%282014%29.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Y93Jgg3f/al.jpg" group-title="Películas",Al Diablo Con El Diablo | 2000 | Latino
+https://ia601209.us.archive.org/33/items/s-1-t-0v-13r-4-30-2004-1080p-3-47-gb/4l%20D14bl0%20c0n%203l%20D14bl0%20720p%20LAT%20890%2C61%20MB.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/6QzzYPZ5/am1.jpg" group-title="Películas",American Pie | 1 | 1999 | Latino
+https://archive.org/download/rise-up_202212/Rise%20up.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/ZnQpkKMq/am2.jpg" group-title="Películas",American Pie | 2 | 2001 | Latino
+https://archive.org/download/american-pie-2-2001-720p-amas-diez/American%20Pie%202%20%282001%29%20720p-AmasDiez.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/J0mMXTPJ/ang.jpg" group-title="Películas",Angry Birds | 2016 | Latino
+https://ia601609.us.archive.org/24/items/angr-bir-la-pel-cula-dvdrip-1307856/AngrBir___la_pel_cula_DVDRip__1307856.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/vZhxpKSY/an1.jpg" group-title="Películas",Annabelle | 1 | 2014 | Latino
+https://archive.org/download/041_20200519_202005/041.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/nzf7BZdS/an2.jpg" group-title="Películas",Annabelle | 2 | La Creación | 2017 | Latino
+https://archive.org/download/041_20200519_202005/042.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/KjhYK7sp/an3.jpg" group-title="Películas",Annabelle | 3 | 2019 | Vuelve a Casa | Latino
+https://archive.org/download/muneca/mu%C3%B1eca.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/ncnbBcn8/as.jpg" group-title="Películas",Asi es en la Tierra como en el Infierno | 2014 | Latino
+https://archive.org/serve/sl-n-la-tl-3-rr.-hd-asi-en-la-tierra-como-en-el-infierno.-hd-terror/%40Sl-N-LA-Tl3RR%40.HD%20Asi%20En%20La%20Tierra%20Como%20En%20el%20Infierno.HD%20Terror.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/HLw5bC6M/bar.jpg" group-title="Películas",Barbie | 2023 | Latino
+https://archive.org/download/captura-de-pantalla-2023-11-11-005823/Barbie.2023.720p-Dual-Lat.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Y92P1gf5/bat1.jpg" group-title="Películas",Batman | 1 | 1989 | Latino
+https://archive.org/download/004_20200426_202004/004.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/nhM1x2VS/bat2.jpg" group-title="Películas",Batman | 2 | Regresa | 1992 | Latino
+https://archive.org/download/bartofinal/bartofinal.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/t4vdzWXC/be.jpg" group-title="Películas",Beetlejuice | 1988 | Latino
+https://archive.org/serve/1988-btjs/1988BTJS.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/9f9561mR/bo.jpg" group-title="Películas",Bohemian Rhapsody | 2018 | Latino
+https://archive.org/download/la-pas-1i-0on-d-3-cr-1i-5to-2004-1080p-4-33-gb/BoOhe3m1ian%20Rha4ps0dy%20720p%201%2C96%20GB.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/tTSqsHLZ/b1.jpg" group-title="Películas",Buscando a Nemo | 1 | 2003 | Latino
+https://archive.org/download/lokng-4-n-3m-0/Lokng%204%20N3m0.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/prm286H0/b2.jpg" group-title="Películas",Buscando a Dory | 1 | 2016 | Latino
+https://archive.org/download/agtbf/cassa/bady.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/FK6Xn5jx/ca.jpg" group-title="Películas",Carrie | 2013 | Latino
+http://fina.dyndns.tv/Peliculas/Carrie%202013.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/9FDJTyNg/car1.jpg" group-title="Películas",Cars | 2006 | Latino
+https://ia601608.us.archive.org/8/items/c-4rs-hd-720p-699968/C4r%27s_HD__720p___699968.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/tJvKGnrN/ce.jpg" group-title="Películas",Cementerio del Terror | 1985 | Latino
+https://archive.org/serve/cementerio-del-terror-1985_202603/Cementerio%20del%20Terror%20%281985%29.ia.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/k4m2Ngtg/pet.jpg" group-title="Películas",Cementerio de Mascotas | 1989 | Latino
+https://archive.org/download/h-4llow-33n/chambers/C3m3nt3rio%20de%20M4scot4s.avi
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/0QkwRN5H/pet2.jpg" group-title="Películas",Cementerio de Mascotas | 2 | 1992 | Latino
+https://archive.org/download/h-4llow-33n/chambers/C3m3nt3rio%20M4scot4s%202.avi
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/tTT856zk/pet3.jpg" group-title="Películas",Cementerio de Mascotas | 2019 | Remake | Latino
+http://fina.dyndns.tv/Peliculas/Cementerio%20de%20Animales%202019.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/YCkdhqkS/b.jpg" group-title="Películas",Chicos Buenos | 2019 | Latino
+https://archive.org/download/ch-1c-0s-bu-3n-0s-2019-1080p-3-07-gb/Ch1c0s%20bu3n0s%20%282019%29%201080p%203%2C07%20GB.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/c1Q5NsTY/chu1.jpg" group-title="Películas",Chucky | 1 | El Muñeco Diabólico | 1988 | Latino
+https://ia601509.us.archive.org/20/items/chucky-muneco-diabolico-pelicula-completa-en-espanol-latino-480p-none/Chucky%20Mu%C3%B1eco%20diab%C3%B3lico%20%20-%20pel%C3%ADcula%20completa%20en%20espa%C3%B1ol%20latino-%28480pNone%29.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/zGfdWTNS/chu4.jpg" group-title="Películas",Chucky | 4 | La Novia | 1998 | Latino
+https://archive.org/serve/la-novia-de-chucky_202409/La%20Novia%20de%20Chucky.ia.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/FHZTZzMf/cl.jpg" group-title="Películas",Click | 2006 | Latino
+https://ia803209.us.archive.org/22/items/la-pas-1i-0on-d-3-cr-1i-5to-2004-1080p-4-33-gb/Cl1ckE4%202006%20-%20Adam%20Sandler%20HD%201%2C65%20GB.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/sxLF5Y9s/co1.jpg" group-title="Películas",Cómo Entrenar a Tu Dragón | 1 | 2010 | Latino
+https://archive.org/download/videoplayback21_20200323/sub1d0_p4r4_5tr34ming_P5F11X/videoplayback1.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/8kXV8G89/co2.jpg" group-title="Películas",Cómo Entrenar a Tu Dragón | 2 | 2014 | Latino
+https://archive.org/download/videoplayback21_20200323/sub1d0_p4r4_5tr34ming_P5F11X/videoplayback21.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/L6qkDtBw/co3.jpg" group-title="Películas",Cómo Entrenar a Tu Dragón | 3 | 2019 | Latino
+https://archive.org/download/videoplayback21_20200323/sub1d0_p4r4_5tr34ming_P5F11X/videoplayback4.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/MTSW-YhCN/cont.jpg" group-title="Películas",Contagio | 2011 | Latino
+https://archive.org/download/53843645/5384_3645.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/ncr3059k/cr.jpg" group-title="Películas",Cronica de Un Niño Solo | 1965 | Latino
+https://archive.org/serve/cronica-de-un-nino-solo-1965/Cronica%20de%20un%20ni%C3%B1o%20solo%281965%29.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ7cQpmm/cue.jpg" group-title="Películas",Cuentos de la Cripta | Caballero del Diablo | 1995 | Latino
+https://dl.dropboxusercontent.com/s/xmapsav85e4879t/Cuentos%20de%20la%20cripta%20Caballero%20del%20diablo%201995%20%28SS_CANY%29.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ7cQpmm/cue.jpg" group-title="Películas",Cuentos de la Cripta | El Club de Los Vampiros | 1996 | Latino
+https://dl.dropbox.com/s/a19ebhbl3ard2li/Cuentos%20de%20la%20cripta%20Burdel%20de%20sangre%201996.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Gp8q6q25/dar.jpg" group-title="Películas",Dark Skies | 2013 | Latino
+https://archive.org/serve/dark.-skies.-2013.latino-e-ingles-subt/Dark.Skies.2013.latino-e-ingles-subt.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/pXydY0PZ/dea1.jpg" group-title="Películas",Deadpool | 1 | 2016 | Latino
+https://archive.org/download/42_20210331/42.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/ZRTb9Hf6/dea2.jpg" group-title="Películas",Deadpool | 2 | 2018 | Latino
+https://archive.org/download/43_20210331/43.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/d09R2x7f/d1.jpg" group-title="Películas",Destino Final | 1 | 2000 | Latino
+https://archive.org/serve/destino-final-1-2002-en-latino/Destino%20final%201%20%282002%29%20EN%20LATINO.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/sfLY4SX3/d2.jpg" group-title="Películas",Destino Final | 2 | 2003 | Latino
+https://archive.org/download/df-3_20210525/Acce/DF2.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/5yXwM9Pc/d3.jpg" group-title="Películas",Destino Final | 3 | 2006 | Latino
+https://archive.org/download/df-3_20210525/Acce/DF3.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/kGLWMrZ2/d4.jpg" group-title="Películas",Destino Final | 4 | 2009 | Latino
+https://archive.org/download/df-5_20210525/ACCE%202/DF4.ts
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/rFtSnm0x/d5.jpg" group-title="Películas",Destino Final | 5 | 2011 | Latino
+https://archive.org/download/df-5_20210525/ACCE%202/DF5.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/fyHnXRNW/digi.jpg" group-title="Películas",Digimon | La Pelicula | 2000 | Latino
+https://archive.org/download/digimon-digital-monsters-la-pelicula/Digimon%20Digital%20Monsters%20La%20Pel%C3%ADcula.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Kcwms80x/dim.jpg" group-title="Películas",Dimensión Desconocida | 1983 | Latino
+https://archive.org/serve/la-dimension-de-desconocida/la%20dimensi%C3%B3n%20de%20desconocida.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/2S9Q3ZkL/d.jpg" group-title="Películas",Doreamon | Película 3D CG | 2014 | Latino
+https://archive.org/serve/doraemon-la-pelicula-latino/Doraemon%20La%20Pelicula%20Latino.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/NG7P2Xrv/dra.jpg" group-title="Películas",El Drácula | 1931 | Latino
+https://archive.org/download/dra-cula.-esp.-mp-4./DR%C3%81CULA.%20ESP.%20MP4..ia.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/PxDqPpfq/arj.jpg" group-title="Películas",El Aro | Versión Japonés | 1998 | Castellano
+https://archive.org/serve/ringu-el_circulo-esp/Ringu%20-By%20ProdigyO-.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/C5LPYn1t/ela.jpg" group-title="Películas",El Atrapasueños | 2020 | Latino
+https://archive.org/download/2_20200502_20200502_2301/1.3/1.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Xv8dwcVB/cor.jpg" group-title="Películas",El Cadáver De La Novia | 2005 | Latino
+https://archive.org/serve/elcadaverdelanovia_201908/El%20cadaver%20de%20la%20novia.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/D0CDxckd/elc.jpg" group-title="Películas",El Chico | 2000 | Latino
+https://archive.org/serve/0271-el-chico-2000-720p-d-s-spa-eng-v/0271-El%20Chico%20%282000%29%20720p%20D%20S%20spa%20eng%20v.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Kz8FXbGn/c.jpg" group-title="Películas",El Club de los Villanos | 2001 | Latino
+https://archive.org/serve/el-club-de-los-villanos/El%20Club%20de%20los%20Villanos.ia.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/0ySsDCkv/con1.jpg" group-title="Películas",El Conjuro | 1 | 2013 | Latino
+https://archive.org/download/044_20200519_202005/043.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/q7XHZM6Z/con2.jpg" group-title="Películas",El Conjuro | 2 | 2016 | Latino
+https://archive.org/download/044_20200519_202005/044.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/pTWMNbDV/con3.jpg" group-title="Películas",El Conjuro | 3 | 2021 | El Diablo me obligó a hacerlo | Latino
+https://archive.org/download/manguera1_202106/Th3%20C0njur1n5.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/1XSrZgdB/eldi.jpg" group-title="Películas",El Diablo Metió La Mano | 1999 | Latino
+https://dl.dropbox.com/s/nqonx0enr8xlcbr/Idle%20Hands%20%28SS_CANY%29.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/RCGR0ySB/eld.jpg" group-title="Películas",El Día de La Bestia | 1995 | Castellano
+https://archive.org/serve/el-dia-de-la-bestia-1995/El%20d%C3%ADa%20de%20la%20bestia%20%281995%29.ia.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Dwhz7btF/le1.jpg" group-title="Películas",El Duende Maldito | 1 | 1993 | Latino
+https://archive.org/download/el-duende-maldito-1_1/el-duende-maldito-1_1.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/8zbzczSv/le2.jpg" group-title="Películas",El Duende Maldito | 2 | 1994 | Latino
+https://archive.org/serve/el-duende-maldito-2_1/el-duende-maldito-2_1.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/YSn2NDjq/le3.jpg" group-title="Películas",El Duende Maldito | 3 | 1995 | Latino
+https://archive.org/serve/el-duende-maldito-3_1/el-duende-maldito-3_1.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/HxrY6070/le4.jpg" group-title="Películas",El Duende Maldito | 4 | 1997 | En El Espacio | Latino
+https://archive.org/serve/el-duende-maldito-4-en-el-espacio_1/el-duende-maldito-4-en-el-espacio_1.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/RF2My3ck/le5.jpg" group-title="Películas",El Duende Maldito | 5 | 2000 | En El Vecindario | Latino
+https://archive.org/serve/el-duende-maldito-5-en-el-vecindario_1/el-duende-maldito-5-en-el-vecindario_1.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/8CPP6gp0/le7.jpg" group-title="Películas",El Duende Maldito | 6 | 2014 | Origen | Latino
+https://archive.org/serve/el-duende-maldito-7-el-origen/el%20duende%20maldito%207%20el%20origen.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/KjLZ2ZfR/le8.jpg" group-title="Películas",El Duende Maldito | 7 | 2018 | Regresa | Latino
+https://archive.org/serve/duelde-maldito-6-el-regreso/duelde%20maldito%206%20el%20regreso.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/9MhmFyVY/ele.jpg" group-title="Películas",El Espinazo del Diablo | 2001 | Español
+https://archive.org/serve/devils-backbone-the-guillermo-del-toro-2001/Devil%27s%20Backbone%2C%20The%20-Guillermo%20del%20Toro%20%282001%29.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/C5JZcsHP/exor.jpg" group-title="Películas",El Exorcista | 1 | 1973 | Latino
+https://archive.org/download/045_20200519_202005/045.avi
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/pLwgjB2q/exor2.jpg" group-title="Películas",El Exorcista | 2 | 1977 | El Hereje | Latino
+https://archive.org/download/045_20200519_202005/046.avi
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/CKLS5NJX/exor3.jpg" group-title="Películas",El Exorcista | 3 | 1990 | Latino
+https://archive.org/download/045_20200519_202005/047.avi
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Gm7C9y0c/elg.jpg" group-title="Películas",El Gato en El Sombrero | 2003 | Latino
+https://archive.org/download/la-pas-1i-0on-d-3-cr-1i-5to-2004-1080p-4-33-gb/El%20g4Tto%20en%203l%20s0mbr3ro%20720p%20DUAL%201%2C77%20GB.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/J40218cT/resi1.jpg" group-title="Películas",El Huésped Maldito | 1 | 2002 | Resident Evil | Latino
+https://archive.org/download/r.-e.-h.-m/R.E.H.M.MP4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/3xDfvZqm/resi2.jpg" group-title="Películas",El Huésped Maldito | 2 | 2004 | Apocalipsis | Latino
+https://archive.org/download/6_20200518_20200518/2.MP4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/pdbGYFN7/resi3.jpg" group-title="Películas",El Huésped Maldito | 3 | 2002 | La Extinción | Latino
+https://archive.org/download/6_20200518_20200518/3.MP4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Xvf22Y4v/resi4.jpg" group-title="Películas",El Huésped Maldito | 4 | 2002 | La Resurrección | Latino
+https://archive.org/download/6_20200518_20200518/4.MP4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/gJ4gWtwF/resi5.jpg" group-title="Películas",El Huésped Maldito | 5 | 2002 | La Venganza | Latino
+https://archive.org/download/6_20200518_20200518/5.MP4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/j25Zd6NW/resi6.jpg" group-title="Películas",El Huésped Maldito | 6 | 2002 | El Capítulo Final | Latino
+https://archive.org/download/6_20200518_20200518/6.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/tR5xpxCG/ethan.jpg" group-title="Películas",El Libro de la Vida | 2014 | Latino
+https://archive.org/serve/el-libro-de-la-vida_202205/El%20Libro%20de%20la%20Vida.ia.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/wTt9Hq2J/ed.jpg" group-title="Películas",El Joven Manos de Tijeras | 1990 | Latino
+https://archive.org/download/peliculas-1990/Ver%20El%20Joven%20Manos%20de%20Tijera%20%281990%29%20Online%20Latino%20HD.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/K8pfrLLf/elp.jpg" group-title="Películas",El Payaso del Mal | 2014 | Latino
+https://archive.org/serve/el-payaso-del-mal-2014/El%20payaso%20del%20mal%202014.ia.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvZRhWjd/pu0.jpg" group-title="Películas",El Pueblo de Los Malditos | 1960 | Latino
+https://archive.org/serve/ElPuebloDeLosMalditos/El%20Pueblo%20De%20Los%20Malditos.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/tT7vSvfb/j.jpg" group-title="Películas",El Regalo Prometido | 1996 | Latino
+https://archive.org/download/15100618137557008468/1_5100618137557008468.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/3JGP1dtt/re1.jpg" group-title="Películas",El Regreso de los Muertos Vivientes | 1 | 1985 | Latino
+https://archive.org/download/ayer_20200214/ayer.avi
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/qvdW54Y4/re2.jpg" group-title="Películas",El Regreso de los Muertos Vivientes | 2 | 1988 | Latino
+https://archive.org/download/hoy2_20200216/hoy%202.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/sD7pg9Qh/re3.jpg" group-title="Películas",El Regreso de los Muertos Vivientes | 3 | 1993 | Latino
+https://archive.org/download/manana3/ma%C3%B1ana%203.avi
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/CKQPs0yC/res.jpg" group-title="Películas",El Resplandor | 1 | 1980 | Latino
+https://archive.org/serve/ver-pelicula-el-resplandor-online-sin-publicidad-o-movidy/Ver%20Pelicula%20El%20resplandor%20Online%20%E2%9C%85%20Sin%20Publicidad%20%E2%80%A2%20Movidy.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/MGHH61Sc/elr.jpg" group-title="Películas",El Rey León | 1 | 1994 | Latino
+https://archive.org/serve/ver-el-rey-leon-online-gratis-cuevana-3/Ver_El_rey_le%C3%B3n_Online_Gratis_-_Cuevana_3.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/6QQqWgZL/elr2.jpg" group-title="Películas",El Rey León | 2 | 1998 | Latino
+https://archive.org/serve/ver-el-rey-leon-ii-el-reino-de-simba-1998-online-hd-cuevana/Ver_El_rey_le%C3%B3n_II__El_reino_de_Simba_1998_online_HD_-_Cuevana.mp4
+#EXTINF:-1 tvg-logo="https://i.ibb.co/TBXMLXTB/else.jpg" group-title="Películas",El Sexto Sentido | 1999 | Latino
+https://ia600507.us.archive.org/14/items/60-c-3nt-1do-1080p-lat-1.73-gb/6%E2%81%B0%20C3nt1do%201080p%20LAT%201.73%20GB.ia.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/8P5fK7Q2/els.jpg" group-title="Películas",El Sótano | 1988 | Subtitulada
+https://archive.org/serve/el-sotano-1988-pelicula-de-terror-subtitulada-net-movies-peliculas-en-espanol/El%20S%C3%B3tano%20%281988%29%20_%20Pel%C3%ADcula%20de%20Terror%20_%20Subtitulada%20_%20NetMovies%20-%20Pel%C3%ADculas%20En%20Espa%C3%B1ol.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/HnZSGQTt/quin.jpg" group-title="Películas",El Quinto Elemento | 1997 | Latino
+https://archive.org/download/50-el-3m-3nt-0-1080p-lat-2.42-gb/5%E2%81%B0%20el3m3nt0%201080p%20LAT%202.42%20GB.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/WpM9PQxX/it.jpg" group-title="Películas",Eso | 1 | 1990 | Latino
+https://archive.org/serve/it-eso-2017-parte-2-hd-1080p-latino/IT%20ESO%2FIT%2C720p.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/RZgyjmM9/it1.jpg" group-title="Películas",Eso | 1 | 2017 | Remake | Latino
+https://archive.org/serve/it-eso-2017-parte-2-hd-1080p-latino/IT%20ESO%2FIt%20%28Eso%29%20%282017%29%20%20parte%201%20HD%201080p%20Latino.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/FHjCz2t9/mi.jpg" group-title="Películas",Espejos Siniestros | 2008 | Latino
+https://archive.org/serve/espejos-siniestro-1-lat-720p-id-13515/Espejos%20Siniestro%201%20LAT%20720p%20id_13515.ia.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/HnWn8v4r/ese.jpg" group-title="Películas",Ése es Mi Hijo | 2012 | Latino
+https://archive.org/download/h-4rr-1y-p-0tt-3r-p-4rt-3-1-1080p-dual-4.69-gb/Ezs3%20E%27s%20m1%20h1j%E2%81%B0%20%282012%29%20HD%201%2C51%20GB.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/rsKKZynF/es.jpg" group-title="Películas",Este cuerpo no es mio | 2002 | Latino
+https://ia601600.us.archive.org/1/items/est-3-cuer-o-no-es-el-m-o-dvdrip-797213/Est3_cuer_o_no_es_el_m_o_DVDRip__797213.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/2jLy62Gq/et.jpg" group-title="Películas",E.T. | El Extraterrestre | 1982 | Latino
+https://archive.org/download/elex_20210814_202108/elex.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/fRQ9nrh7/ev1.jpg" group-title="Películas",Evil Dead | 1 | 1981 | Latino
+https://archive.org/download/thede1981/aaa/thede1981.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/vTHcHJZk/ev3.jpg" group-title="Películas",Evil Dead | 3 | 1992 | Latino
+https://archive.org/download/eldespertardeldiablo3elejercitodelastinieblas/El%20Despertar%20del%20Diablo%203%20-%20El%20ej%C3%A9rcito%20de%20las%20tinieblas.avi
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/ZRHGZggW/ev4.jpg" group-title="Películas",Evil Dead | 4 | 2013 | Remake | Latino
+https://archive.org/serve/posesion-infernal-evil-dead/Posesi%C3%B3n%20infernal%20%28Evil%20Dead%29.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/kGhpYzfW/ex.jpg" group-title="Películas",Ex Máquina | 2014 | Latino
+https://ia601505.us.archive.org/21/items/face8d50-86b3-11ea-9ec8-2fed9c96a746/face8d50-86b3-11ea-9ec8-2fed9c96a746.MP4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/k5QTyCpY/ext.jpg" group-title="Películas",Extraordinario | 2017 | Latino
+https://archive.org/download/l-4-n-1n-3r-4-y-el-pr-3s-1d-3nt-1080p-4-32-gb/3xtr4-0rd1nar1%E2%81%B0%20%282017%29%201080p%202%2C36%20GB.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/6Qw6gb1P/f.jpg" group-title="Películas",Feliz Navidad | 2022 | Latino
+https://archive.org/serve/christmas-bloody-christmas-feliz-navidad-2022/Christmas%20Bloody%20Christmas%20Feliz%20Navidad%202022.ia.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/rpGq82Hv/fi.jpg" group-title="Películas",Five Nights at Freddy's | 1 | 2023 | Latino
+https://archive.org/serve/five-nights-at-freddys-2023-1080p-dual-2.86-gb/Five%20Nights%20At%20Freddys%20%282023%29%201080p%20DUAL%202.86%20GB.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/BnH2KsMj/fi2.jpg" group-title="Películas",Five Nights at Freddy's | 2 | 2025 | Latino
+https://archive.org/serve/ver-five-nights-at-freddys-2-2025-online-gratis-en-espanol-ver-peliculas-ultra/Ver_Five_Nights_At_Freddy%E2%80%99s_2_%282025%29_Online_Gratis_en_Espa%C3%B1ol_-_VerPeliculasUltra.ia.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/L6XH520R/fr.jpg" group-title="Películas",Frankenstein | 1931 | Latino
+https://archive.org/download/frankenstein-1931-doblada-al-espanol/Frankenstein%20%281931%29%20Doblada%20al%20espa%C3%B1ol.m4v
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/m2txS5n4/fra.jpg" group-title="Películas",Frankenweenie | 2012 | Latino
+https://dl.dropboxusercontent.com/s/v23tj65gb8jwpjf/Frankenweenie.2012.mp4?fbclid=IwAR0o0pgU71iSg4V2IPAjDv-oX9sXDpjcz3GhBUe4CaYqJ4nC_GDenBBfB0I
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/K8Y5gzHT/ha13.jpg" group-title="Películas",Halloween | 13 | 2022 | Final | Latino
+https://archive.org/serve/halloween-la-noche-final_202210/Halloween%20La%20Noche%20Final.ia.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/zXTWCQs3/han.jpg" group-title="Películas",Hancock | 2008 | Latino
+https://archive.org/download/h-4nc-0ck-1080p-dual-2-87-gb/H4nc0ck%201080p%20DUAL%202%2C87%20GB.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Qtd0jP3y/hp1.jpg" group-title="Películas",Harry Potter | 1 | 2001 | Y La Piedra Filosofal | Latino
+http://archive.org/download/ezra_2_201904/subid0_p4r4_stre4m1ng_a85/1.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/qRDQqLBM/hp2.jpg" group-title="Películas",Harry Potter | 2 | 2002 | La Cámara Secreta | Latino
+http://archive.org/download/ezra_2_201904/subid0_p4r4_stre4m1ng_a85/2.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/QCBmTTVg/hp3.jpg" group-title="Películas",Harry Potter | 3 | 2004 | Y El Prisionero de Azkaban | Latino
+http://archive.org/download/ezra_2_201904/subid0_p4r4_stre4m1ng_a85/3.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/C5WNHxf3/hp4.jpg" group-title="Películas",Harry Potter | 4 | 2005 | Y El Cáliz de Fuego | Latino
+http://archive.org/download/ezra_2_201904/subid0_p4r4_stre4m1ng_a85/4.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/DfDBKBYx/hp5.jpg" group-title="Películas",Harry Potter | 5 | 2007 | Y La Orden del Fénix | Latino
+http://archive.org/download/ezra_2_201904/subid0_p4r4_stre4m1ng_a85/5.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Sxbdnj48/hp6.jpg" group-title="Películas",Harry Potter | 6 | 2009 | Y El Misterio del Principe | Latino
+http://archive.org/download/ezra_2_201904/subid0_p4r4_stre4m1ng_a85/6.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/4N9w4VDs/hp7.jpg" group-title="Películas",Harry Potter | 7 | 2010 | Y Las Reliquias de la Muerte Parte 1 | Latino
+http://archive.org/download/ezra_2_201904/subid0_p4r4_stre4m1ng_a85/7.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/yNMpyn4Q/hp8.jpg" group-title="Películas",Harry Potter | 8 | 2011 | Y Las Reliquias de la Muerte Parte 2 | Latino
+http://archive.org/download/ezra_2_201904/subid0_p4r4_stre4m1ng_a85/8.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/D00dy8JY/his.jpg" group-title="Películas",Historias de miedo para contar en la oscuridad | 2019 | Latino
+https://dl.dropboxusercontent.com/s/zwwwtuy63c3yac8/Scary.stories.to.tell.in.the.dark.2019.1080p-dual-lat-cinecalidad.is.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/yxRFj5Lc/m1.jpg" group-title="Películas",Hombres de Negro | 1 | 1997 | Latino
+https://archive.org/download/hombres-de-negro_202108/Hombres%20De%20Negro.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/NF8xYSRY/m2.jpg" group-title="Películas",Hombres de Negro | 2 | 2002 | Latino
+https://archive.org/download/hombres-de-negro-2_202108/Hombres%20de%20Negro%202.avi
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/j5P1w8y3/m3x.jpg" group-title="Películas",Hombres de Negro | 3 | 2012 | Latino
+https://archive.org/download/hombres-de-negro-3_20210803/Hombres%20De%20Negro%203.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/tJG1vQNM/ho.jpg" group-title="Películas",Home | No hay lugar como el hogar | 2015 | Latino
+https://ia601604.us.archive.org/2/items/casahogar-dvdrip-968263/Casahogar_DVDRip__968263.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/RZz3YmSJ/h1.jpg" group-title="Películas",Hotel Transylvania | 1 | 2012 | Latino
+https://archive.org/serve/hotel.-transylvania/Hotel.Transylvania.2012.latino-e-ingles-subt.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/3xCy5qNS/h2.jpg" group-title="Películas",Hotel Transylvania | 2 | 2015 | Latino
+https://ia601604.us.archive.org/2/items/hot-tran-2-dvdrip-1394245/HotTran_2_DVDRip__1394245.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/R0SW-MTnM/h3.jpg" group-title="Películas",Hotel Transylvania | 3 | 2018 | Monstruos de Vacaciones | Latino
+https://archive.org/download/hotel-transylvania-3/HT3/Hotel%20Transylvania%203.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/YSdhjm1Q/h4.jpg" group-title="Películas",Hotel Transylvania | 4 | 2022 | Transformanía | Latino
+https://ia601607.us.archive.org/24/items/hot-transi-4-hd-720p-1415600/HotTransi4_HD__720p___1415600.mp4
+#EXTINF:-1 tvg-logo="https://i.ibb.co/wh0PWShH/ia.jpg" group-title="Películas",I.A. | Inteligencia Artificial | 2001 | Latino
+https://ia601206.us.archive.org/32/items/int-3l-1g-3nc-14-art-1f-1c1-4l-2001-60fps-dual-9-78-gb/Int3l1g3nc1%E2%81%B4%20Art1f1c%C2%B94l%20%282001%29%2060fps%20DUAL%209%2C78%20GB.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Gmg1Drjv/a1.jpg" group-title="Películas",Inactividad Paranormal | 2013 | Latino
+https://archive.org/serve/y-donde-esta-el-fantasma-1-720-p-hd/Y%20donde%20est%C3%A1%20el%20fantasma%201%28720P_HD%29.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/SRfRQ4WH/ins2.jpg" group-title="Películas",Intensamente | 2 | 2024 | Latino
+https://archive.org/download/457626384-3837006406554626-8111903668788379276-n/IntensaMente.2.2024.720p-Dual-Lat.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/43LXcNVv/je1.jpg" group-title="Películas",Jefe en Pañales | 1 | 2017 | Latino
+https://ia601503.us.archive.org/26/items/9c6f1/9c6f1.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/261r7R7s/je2.jpg" group-title="Películas",Jefe en Pañales | 2 | Negocios de Familia | 2021 | Latino
+https://archive.org/download/manguera_20210707/Th3.B055.B4by2.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/TYn1GxDg/jov.jpg" group-title="Películas",Jóvenes Brujas | 1996 | Sub Español
+https://archive.org/download/fuck_20200517/The%20Craft%20%281996%29.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/76sgXMHW/ju.jpg" group-title="Películas",Jumanji | 1995 | Latino
+https://archive.org/download/027_20200428/027.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/5yJmMMvY/ka.jpg" group-title="Películas",Karate Kid | Remake | 2010 | Latino
+https://ia600500.us.archive.org/32/items/kar-4-45-t-3e-kiid-720p-lat-1.3-gb/Kar4%E2%85%98t3e%20KIid%20720p%20LAT%201.3%20GB.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/KvMYPpzk/ki.jpg" group-title="Películas",King Kong | 1933 | Latino
+https://archive.org/serve/king-kong-1933-espanol_202401/King%20Kong%20-1933-%20Espa%C3%B1ol.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/fLpFHCdw/cer.jpg" group-title="Películas",La Casa de Cera | 2005 | Latino
+https://archive.org/download/aloctpsj/Lunes/cscer.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/zvrKLNkX/haun.jpg" group-title="Películas",La Casa Embrujada | 1963 | Ingles | Subtitulo
+https://archive.org/serve/haunting-the-1963-1080-p-vose/Haunting%2C%20The%20-%20%281963%29%20%5B1080P%5D%20-%20VOSE.ia.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/YqnQ0gQS/i1.jpg" group-title="Películas",La Era del Hielo | 1 | 2002 | Latino
+https://archive.org/serve/la-era-del-hielo-1/LA%20ERA%20DEL%20HIELO%201.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/T3KgDwcJ/i2.jpg" group-title="Películas",La Era del Hielo | 2 | 2006 | Latino
+https://archive.org/serve/la-era-del-hielo-2/LA%20ERA%20DEL%20HIELO%202.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Vv3ct9mn/i3.jpg" group-title="Películas",La Era del Hielo | 3 | 2009 | Latino
+https://archive.org/download/hielo-4/Hielo3.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/4dg9q1RW/i4.jpg" group-title="Películas",La Era del Hielo | 4 | 2012 | Latino
+https://archive.org/serve/la-era-de-hielo-4_202207/%20La%20Era%20de%20Hielo%204.ia.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/6p9hh3wg/fa.jpg" group-title="Películas",La Fábrica de Chocolates | 1 | Willy Wonka | 1971 | Latino
+https://archive.org/download/caramelo_202004/caramelo/caramelo.avi
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/RZXLpBZF/fa2.jpg" group-title="Películas",La Fábrica de Chocolates | 2 | Charlie | 2005 | Latino
+https://ia601608.us.archive.org/35/items/charls-la-f-bric-chocola-hd-1080p-786361/Charl%27s_la_F_bricChocolaHD__1080p___786361.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/TYHP5Y4L/ad1A.jpg" group-title="Películas",La Familia Addams | 1 | 1991 | Latino
+https://ia601600.us.archive.org/14/items/l-0oc-0s-addms-1991-720p-lat/L0oc0sAddm%27s%20%5B1991%5D%20720p%20LAT.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/1RWBrg2n/laf.jpg" group-title="Películas",La Fiesta de Salchichas | 2016 | Latino
+https://ia600501.us.archive.org/30/items/la-f-13st-4-d-3-s-4lch-1ch-4s-720p-1-36-gb/la%20f13st4%20d3%20s4lch1ch4s%20720p%201%2C36%20GB.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/7ZXsqbY3/lag.jpg" group-title="Películas",La Guardería de Papá | 2003 | Latino
+https://ia600504.us.archive.org/35/items/le-4-gu4rder-14-720p-lat-885.07-mb/Le4%20Gu%E2%81%B4rder14%20720p%20LAT%20885.07%20MB.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/BQXXgV8b/lah.jpg" group-title="Películas",La Hora del Terror | 2007 | Latino
+https://ia801007.us.archive.org/0/items/la-hora-del-terror.-2007/La_Hora_Del_Terror.2007.ia.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/85RJNQJz/lal.jpg" group-title="Películas",La Llave Mágica | 1995 | Latino
+https://archive.org/serve/llm_20240326/llm.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/9F4bvmNs/hill.jpg" group-title="Películas",La Mansión Embrujada en la Montaña | 1959 | Ingles | Subtitulo
+https://archive.org/serve/house-on-haunted-hill-1959-burned-subts./House%20On%20Haunted%20Hill%20-%20%281959%29%20%5BBurned%20Subts.%5D.ia.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/T1Fj6WPJ/dem.jpg" group-title="Películas",La Noche del Demonio | 1 | 2010 | Latino
+https://archive.org/serve/LANOCHEDELDEMONIO/LA%20NOCHE%20DEL%20DEMONIO.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/tgK7jC0R/lan.jpg" group-title="Películas",La Novia de Frankenstein | 1935 | Latino
+https://archive.org/download/lp-473-pl/LP473PL.m4v
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/8CVmzTXG/om1.jpg" group-title="Películas",La Profecía | 1 | 1976 | Latino
+https://archive.org/download/la-profecia/La%20Profec%C3%ADa%201.ia.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/gcfDTyyr/om2.jpg" group-title="Películas",La Profecía | 2 | 1978 | Latino
+https://archive.org/download/la-profecia/La%20Profec%C3%ADa%202.ia.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bNcxTy8t/om3.jpg" group-title="Películas",La Profecía | 3 | 1981 | El Ultimo Conflicto | Latino
+https://archive.org/download/la-profecia/La%20Profec%C3%ADa%203.ia.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/zvy1Xs0C/om4.jpg" group-title="Películas",La Profecía | 4 | 1991 | Renacer | Latino
+https://archive.org/download/la-profecia/La%20Profec%C3%ADa%204.ia.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/3Ryn531L/lap.jpg" group-title="Películas",La Propuesta | 2009 | Latino
+https://archive.org/download/l-4-pr-0pu-3t-4-2009-1080p-dual-3.31-gb/L4%20pr0pu3%24t4%202009%201080p%20DUAL%203.31%20GB.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VkdrRNLh/to1.jpg" group-title="Películas",Las Tortugas Ninja | 1 | 1990 | Latino
+https://archive.org/download/las-tortugas-ninja_202106/Las%20Tortugas%20Ninja.avi
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/85V7NBB8/to2.jpg" group-title="Películas",Las Tortugas Ninja | 2 | 1991 | El Secreto del Ooze | Latino
+https://archive.org/download/las-tortugas-ninja-2-the-secret-of-the-ooze_202106/Las%20Tortugas%20Ninja%202%20The%20Secret%20Of%20The%20Ooze.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/NFsLrszp/to3.jpg" group-title="Películas",Las Tortugas Ninja | 3 | 1993 | Latino
+https://archive.org/download/las-tortugas-ninja-3-the-turtles-are-back-in-time_202106/Las%20Tortugas%20Ninja%203%20The%20Turtles%20Are%20Back%20In%20Time.avi
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/fT72zPKv/late.jpg" group-title="Películas",La Terminal | 2004 | Latino
+https://ia601401.us.archive.org/25/items/5014771701339128124/1_5014771701339128124.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/DzkfbTBm/ll1.jpg" group-title="Películas",Lluvia de Hamburguesas | 1 | 2009 | Latino
+https://archive.org/download/4e58_20200103/4e58.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/XJnVQgMb/ll2.jpg" group-title="Películas",Lluvia de Hamburguesas | 2 | 2013 | Latino
+https://archive.org/download/4e58_20200103/0934c.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/434MYrYC/loc.jpg" group-title="Películas",Locura de Amor en Las Vegas | 2008 | Latino
+https://ia601603.us.archive.org/4/items/l-4s-veg-5s-hd-720p-1060814/L4s_Veg5s_HD__720p___1060814.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/02yyFjx9/box.jpg" group-title="Películas",Los BoxTrolls | 2014 | Latino
+https://archive.org/serve/b-0xtl-0ll-5/B0xtl0ll5.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/NjMzsxqq/gh4.jpg" group-title="Películas",Los Cazafantasmas | 4 | 2021 | El Legado | Latino
+https://archive.org/serve/ghostbusters-el-legado-hd-720p-1410284/Ghostbusters__El_legado_HD__720p___1410284.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/d0JWt5gp/losc1.jpg" group-title="Películas",Los Croods | 1 | 2013 | Latino
+https://archive.org/download/videoplayback21_20200323/sub1d0_p4r4_5tr34ming_P5F11X/videoplayback31.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/HW8tHGVj/losc.jpg" group-title="Películas",Los Croods | 2 | 2020 | Una Nueva Era | Latino
+https://archive.org/download/videoplayback63_202012/sub1d0_p4r4_5tr34ming_P5F11X/videoplayback63.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/2y51Ynx9/me1.jpg" group-title="Películas",Los Fockers | 1 | 2000 | Conoce a mis padres | Latino
+https://ia801405.us.archive.org/35/items/1267658901/1.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/hv3fthyD/me2.jpg" group-title="Películas",Los Fockers | 2 | 2004 | La familia de mi esposo | Latino
+https://ia801405.us.archive.org/35/items/1267658901/2.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/g0SJDxpv/me3.jpg" group-title="Películas",Los Fockers | 3 | 2010 | Los pequeños | Latino
+https://ia801405.us.archive.org/35/items/1267658901/3.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/nVjJG731/ch1.jpg" group-title="Películas",Los Niños del Maíz | 1 | 1984 | Latino
+https://archive.org/serve/LosNiosDelMaiz11984/Los%20ni%C3%B1os%20del%20maiz%201%201984.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/L8TK8Vsm/ch2.jpg" group-title="Películas",Los Niños del Maíz | 2 | 1992 | El Sacrificio Final | Latino
+https://archive.org/download/LosNiosDelMaiz11984/Los%20ni%C3%B1os%20del%20maiz%202%20el%20sacrificio%20final%201992.MP4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Gpm08sBG/ch3.jpg" group-title="Películas",Los Niños del Maíz | 3 | 1995 | La Cosecha | Latino
+https://archive.org/download/LosNiosDelMaiz11984/Los%20ni%C3%B1os%20del%20maiz%203%20la%20cosecha%201995.MP4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/0QzLZR0N/ch4.jpg" group-title="Películas",Los Niños del Maíz | 4 | 1996 | El Portal | Latino
+https://archive.org/download/LosNiosDelMaiz11984/Los%20ni%C3%B1os%20del%20maiz%204%20el%20portal%201996.MP4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/9F5vPkRW/ch5.jpg" group-title="Películas",Los Niños del Maíz | 5 | 1998 | Camino Hacia El Terror | Latino
+https://archive.org/download/LosNiosDelMaiz11984/Los%20ni%C3%B1os%20del%20maiz%205%20camino%20hacia%20el%20terror%201998.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/fyX1ncFn/ch6.jpg" group-title="Películas",Los Niños del Maíz | 6 | 1999 | El Regreso de Isaac | Latino
+https://archive.org/download/LosNiosDelMaiz11984/Los%20ni%C3%B1os%20del%20maiz%206%20el%20regreso%20de%20isaac1999.MP4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/hGyk9Pxw/ch7.jpg" group-title="Películas",Los Niños del Maíz | 7 | 2001 | Revelaciones | Latino
+https://archive.org/download/LosNiosDelMaiz11984/Los%20ni%C3%B1os%20del%20maiz%207%20revelaciones%202001.MP4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/V622VGKW/ch8.jpg" group-title="Películas",Los Niños del Maíz | 8 | 2009 | Latino
+https://archive.org/download/LosNiosDelMaiz11984/Los%20ni%C3%B1os%20del%20maiz%208%202009.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/rytBrTpn/ch9.jpg" group-title="Películas",Los Niños del Maíz | 9 | 2011 | Genesis | Latino
+https://archive.org/download/LosNiosDelMaiz11984/Los%20ni%C3%B1os%20del%20maiz%209%20genesis%202011.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/8PQmTMQW/lano.jpg" group-title="Películas",La Noche de Los Muertos Vivientes | 1968 | Latino
+https://archive.org/serve/night-of-the-living-dead-1968-doblada-al-espanol/Night%20of%20the%20Living%20Dead%20%281968%29%20Doblada%20al%20espa%C3%B1ol.m4v
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/25XpFntJ/los.jpg" group-title="Películas",Los Picapiedras | 1994 | Latino
+https://ia601600.us.archive.org/26/items/los-picarock-hd-720p-840192/LosPicarock_HD__720p___840192.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/pr1dNwfv/loss.jpg" group-title="Películas",Los Simpsons | La Película | 2007 | Latino
+https://ia601604.us.archive.org/30/items/lo-simpson-pel-1cul-4-hd-720p-972715/LoSimpsonPel1cul4_HD__720p___972715.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/1zFNYXSv/los3.jpg" group-title="Películas",Los Tres Chiflados | 2012 | Latino
+https://archive.org/serve/los-tres-chiflados_202202/Los%20Tres%20Chiflados.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VL9NFj8F/luca.jpg" group-title="Películas",Luca | 2021 | Latino
+https://archive.org/download/carros_20210625_1634/L8c4.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/pLrvD3rQ/m.jpg" group-title="Películas",Masacre de Halloween de 1962 | 2023 | Latino
+https://archive.org/serve/1962-halloween-massacre-2023/1962%20Halloween%20Massacre%202023.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Yqv11qzx/mas3.jpg" group-title="Películas",Masacre de Texas | 1974 | Latino
+https://archive.org/serve/la-masacre-de-texas-peli-cula-completa/LA%20MASACRE%20DE%20TEXAS%20-%20PEL%C3%8DCULA%20COMPLETA.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/ZKnMpCzw/mat.jpg" group-title="Películas",Matilda | 1996 | Latino
+https://archive.org/download/m-4t-1lda/M4t1lda.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/YCKDLSDW/ma.jpg" group-title="Películas",May | 2002 | Subtitulada
+https://archive.org/serve/may-2002-vose-anydownloader.com-1/may-2002-vose-anydownloader.com%20%281%29.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Hn25d2WB/m3.jpg" group-title="Películas",M3gan | 2023 | Latino
+https://dl.dropbox.com/s/4w81gjxtx8p9x4m/M3G4N.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/QdmBQP5S/men.jpg" group-title="Películas",Mentiroso Mentiroso | 1997 | Latino
+https://archive.org/download/mentiroso-mentiroso/Mentiroso%20Mentiroso/MENTIROSO%20MENTIROSO.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/gkNbcCTF/ro.jpg" group-title="Películas",Mi Amigo Robot | 2023 | Latino
+https://dl.dropbox.com/scl/fi/j6zz8asik2juc8xq3oguq/RBD.mp4?rlkey=jjwls5sfsk8lwstiz38je7o60
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Hncg3r0w/mip1.jpg" group-title="Películas",Mi Pobre Diablillo | 1 | 1990 | Latino
+https://archive.org/download/m-1-d-14bl-1ll-0-1-imax-dual-2.49-gb/M1%20d14bl1ll0%201%20IMAX%20DUAL%202.49%20GB.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/KvPVb7YK/mip2.jpg" group-title="Películas",Mi Pobre Diablillo | 2 | 1991 | Latino
+https://archive.org/download/m-1-d-14bl-1ll-0-2-imax-dual-2.79-gb/M1%20d14bl1ll0%202%20IMAX%20DUAL%202.79%20GB.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/ZRvgxF1Y/miv1.jpg" group-title="Películas",Mi Villano Favorito | 1 | 2010 | Latino
+https://archive.org/download/48484/Gru%2C%20mi%20villano%20favorito%20%E2%80%93%20ARESHD.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/tJ0cSnj3/miv2.jpg" group-title="Películas",Mi Villano Favorito | 2 | 2013 | Latino
+https://archive.org/download/48484/Gru%202.%20Mi%20villano%20favorito%20%E2%80%93%20ARESHD.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/prD6gVWg/miv3.jpg" group-title="Películas",Mi Villano Favorito | 3 | 2017 | Latino
+https://archive.org/download/48484/Gru%203.%20Mi%20villano%20favorito%20%E2%80%93%20ARESHD.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Hn94yzPt/mon.jpg" group-title="Películas",Monster House | 2006 | Latino
+https://archive.org/download/rocoto/rocoto/rocoto.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Wz01LvMg/mu.jpg" group-title="Películas",Muppets en La Mansión Embrujada | 2021 | Latino
+https://archive.org/download/carros_20211008/Mpp3ts.H4unt3d.M4ns10n.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/W4tS7xc1/no.jpg" group-title="Películas",Nadie Podrá Salvarte | 2023 | Latino
+https://archive.org/download/PELISTERR/Nadie%20podra%CC%81%20salvarte%20-%20No%20One%20Will%20Save%20You%20%282023%29.ia.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/fyDpKkB1/nor.jpg" group-title="Películas",Norbit | 2007 | Latino
+https://ia601608.us.archive.org/33/items/n-0rb-1-tt-hd-1080p-702145/N0rb1Tt_HD__1080p___702145.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/0jzqXVVT/not.jpg" group-title="Películas",No te metas con Zohan | 2008 | Latino
+https://archive.org/download/proyecto-u-2/ProyectoU2.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/QCFzxbRY/ou1.jpg" group-title="Películas",Ouija | 1 | 2014 | Latino
+https://archive.org/download/PELISTERR/Ouija%20%282014%29.ia.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/DwX79kgc/p1.jpg" group-title="Películas",Parque Jurásico | 1 | 1993 | Latino
+https://archive.org/serve/parque-jurasico_20230921/Parque%20Jur%C3%A1sico.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/1zCBQQjt/p2.jpg" group-title="Películas",Parque Jurásico | 2 | 1997 | Latino
+https://archive.org/download/jur-4s-1c-2-720p-lat-1-78-gb/Jur4%24s1c%202%20720p%20LAT%201%2C78%20GB.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/fyXfm0Tt/p3.jpg" group-title="Películas",Parque Jurásico | 3 | 2001 | Latino
+https://archive.org/download/4v-4t-4r-720p-dual-2.67-gb/Jur4ss1c%203%20HD%201%2C63%20GB.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/XNy8Ttcj/p4.jpg" group-title="Películas",Parque Jurásico | 4 | World | 2015 | Latino
+https://archive.org/download/jur-4s-1c-w-0rld-720p-dual-1.86-gb/Jur4s%241c%20w0rld%20720p%20DUAL%201.86%20GB.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/ZKtcZjVr/p5.jpg" group-title="Películas",Parque Jurásico | 5 | Reino Caído | 2018 | Latino
+https://archive.org/download/jur-4s-1c-reino-c-41d-0-720p-dual-1.24-gb/Jur4s%241c%20reino%20c41d0%20720p%20DUAL%201.24%20GB.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/PJcLdtGt/p6.jpg" group-title="Películas",Parque Jurásico | 6 | Dominio | 2022 | Latino
+https://archive.org/download/jur-4ss-1c-d0m-1n-10n-1080p-dual-3.26-gb/Jur4ss1c%20D%E2%81%B0m1n10n%201080p%20DUAL%203.26%20GB.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/XJsNDD0b/pe.jpg" group-title="Películas",Pequeños Guerreros | 1998 | Latino
+https://archive.org/download/3spe3c1as/r3c3t4r1o/p1m13ntaverde/p1m13ntaverde.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/YqYHGtg4/nig.jpg" group-title="Películas",Pesadilla en la Calle del Infierno | 1 | 1984 | Latino
+https://archive.org/download/freddy7/Freddy1.avi
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Wz33nX37/nig2.jpg" group-title="Películas",Pesadilla en la Calle del Infierno | 2 | 1985 | La Venganza de Freddy | Latino
+https://archive.org/download/freddy7/Freddy2.avi
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/xd8nBcY0/nig3.jpg" group-title="Películas",Pesadilla en la Calle del Infierno | 3 | 1987 | Los Guerreros | Latino
+https://archive.org/download/freddy7/Freddy3.avi
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/C5Ggb8C4/nig4.jpg" group-title="Películas",Pesadilla en la Calle del Infierno | 4 | 1988 | Amo de los Sueños | Latino
+https://archive.org/download/freddy7/Freddy4.avi
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/WpgTRRRJ/nig5.jpg" group-title="Películas",Pesadilla en la Calle del Infierno | 5 | 1989 | El Niño de los Sueños | Latino
+https://archive.org/download/freddy7/Freddy5.avi
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/NftYBNYC/nig6.jpg" group-title="Películas",Pesadilla en la Calle del Infierno | 6 | 1991 | La Muerte de Freddy | Latino
+https://archive.org/download/freddy7/Freddy6.avi
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJTcmtFY/nig7.jpg" group-title="Películas",Pesadilla en la Calle del Infierno | 7 | 1994 | Wes Craven's Nueva Pesadilla | Latino
+https://archive.org/download/freddy7/Freddy7.avi
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Vvkypk3q/nig8.jpg" group-title="Películas",Pesadilla en la Calle del Infierno | 8 | 2010 | Remake | Latino
+https://archive.org/download/pch_20200512/PCH.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/sxQSGGRz/po.jpg" group-title="Películas",Pokémon | La Película | 1998 | Latino
+https://archive.org/serve/pokemon-pelicula-1/P01MewVsMewtwo%20720p1998%20bunnydownloads.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/L8Trn91H/poll.jpg" group-title="Películas",Pollitos en Fuga | 2000 | Latino
+https://ia904707.us.archive.org/11/items/fug-4-p-1oos-dvd-1076960/Fug4P1oos_DVd__1076960.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/DwW0tMVs/pol.jpg" group-title="Películas",Poltergeist | 1 | 1982 | Latino
+https://archive.org/serve/Poltergeist1982.MP4/Poltergeist%201982.MP4.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/MGY9vbgm/pol4.jpg" group-title="Películas",Poltergeist | 4 | 2015 | Remake | Latino
+https://archive.org/download/6666_20200608/6666.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VkSqCmWD/pos.jpg" group-title="Películas",Poseción Diabólica | 2020 | Latino
+https://archive.org/download/PELISTERR/Posesio%CC%81n%20Diabo%CC%81lica%20-%20Becoming%20%282020%29.ia.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/h49hBMbV/rat.jpg" group-title="Películas",Ratatouille | 2007 | Latino
+https://ia601402.us.archive.org/21/items/1e08_20191210/e910.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/hPB64D06/ri.jpg" group-title="Películas",Ricky Ricón | 1994 | Latino
+https://archive.org/serve/ricky-ricon-1994/Ricky%20Ric%C3%B3n%20%281994%29.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/DZZM9jYn/rio.jpg" group-title="Películas",Rio | 1 | 2011 | Latino
+https://archive.org/download/rio_20220511_202205/Rio.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/QdjG6bsx/rio2.jpg" group-title="Películas",Rio | 2 | 2014 | Latino
+https://archive.org/download/rio-2_202205/Rio%202.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/7ZknGxbG/sa9.jpg" group-title="Películas",Saw | 9 | 2021 | Espiral | Latino
+https://dl.dropbox.com/scl/fi/jr0eie36rkfbif1urge6h/s4w9.mp4?rlkey=jawu3g3lobap3w5wz4j4mbmlp
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/RZF0y0rF/sca4.jpg" group-title="Películas",Scary Movie | 4 | 2006 | Latino
+https://archive.org/serve/scary-movie-pelicula-completa-en-espanol/Scary%20movie%20pel%C3%ADcula%20completa%20en%20espa%C3%B1ol.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/P5v8fPmn/sco.jpg" group-title="Películas",Scooby! | 2020 | Latino
+https://archive.org/download/videoplayback37_202011/sub1d0_p4r4_5tr34ming_P5F11X/videoplayback17.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/59BmNdfN/scoo1.jpg" group-title="Películas",Scooby Doo | 1 | Los Película | 2002 | Latino
+https://archive.org/download/c00by-d-00-1-2002-1080p-3-67-gb/%24c%E2%81%B0%E2%81%B0by-D00%201%20%282002%29%201080p%203%2C67%20GB.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/0290zWNG/scoo2.jpg" group-title="Películas",Scooby Doo | 2 | Monstruos Sueltos | 2004 | Latino
+https://archive.org/download/78954325002/78954_325002.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/kMtzSPxN/sco2.jpg" group-title="Películas",Scooby Doo | Abracadabra | 2010 | Latino
+https://archive.org/serve/scooby-doo-abracadabra-doo-2010/Scooby-Doo%20Abracadabra-doo%20%282010%29.ia.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/59vt9028/sco3.jpg" group-title="Películas",Scooby Doo | Aloha El Misterio de la Isla | 2005 | Latino
+https://archive.org/serve/scooby-doo-aloha-el-misterio-de-la-isla-1080p-id-24615_202104/Scooby-Doo%21%20Aloha%2C%20El%20misterio%20de%20la%20isla%201080p%20id_24615.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/3rGT6cFq/sco7.jpg" group-title="Películas",Scooby Doo | Las Nuevas Peliculas | En un asunto Dinámico | 1972 | Latino
+https://archive.org/serve/02-las-nuevas-peliculas-de-scooby-doo/02-Las%20Nuevas%20Pel%C3%ADculas%20De%20Scooby-Doo.ia.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/SjFG5sqg/sco8.jpg" group-title="Películas",Scooby Doo | Las Nuevas Peliculas | Pueblo Fantasma Cucuy | 1972 | Latino
+https://archive.org/serve/01-pueblo-fantasma-cucuy-esp-las-nuevas-peliculas-de-scooby-doo/01-Pueblo%20Fantasma%20Cucuy%20%28ESP%29%20%28Las%20nuevas%20Pel%C3%ADculas%20de%20Scooby-Doo%29.ia.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/3NtZrTMT/sco9.jpg" group-title="Películas",Scooby Doo | Las Nuevas Peliculas | Visita a La Familia Addams | 1972 | Latino
+https://archive.org/serve/03-scooby-doo-visita-a-los-locos-adams-esp-las-nuevas-peliculas-de-scooby-doo/03-Scooby-Doo%20Visita%20a%20Los%20Locos%20Adams%20%28ESP%29%20%28Las%20nuevas%20Pel%C3%ADculas%20de%20Scooby-Doo%29.ia.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/gJSLrDts/sco5.jpg" group-title="Películas",Scooby Doo | La Carrrera del Monstruo | 1988 | Latino
+https://archive.org/download/ddd5d5-04/ddd5d5/ddd5d5-01.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/MpMbXzkV/sco1.jpg" group-title="Películas",Scooby Doo | La Escuela de Fantasmas | 1988 | Latino
+https://archive.org/serve/scooby-doo-y-la-escuela-de-fantasmas-1988/Scooby-Doo%20y%20la%20Escuela%20de%20Fantasmas%20%281988%29.ia.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/8CTT0XvH/sco10.jpg" group-title="Películas",Scooby Doo | La Isla de los Zombies | 1998 | Latino
+https://archive.org/serve/sc-00by-d-00-y-l-4-1sl-4-d-3-l-0s-z-0mb-13s/Sc00by-D00%21%20Y%20L4%201sl4%20D3%20L0s%20Z0mb13s.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/9f5hnPyS/sco4.jpg" group-title="Películas",Scooby Doo | Los Invasores Alien  | 2000 | Latino
+https://archive.org/serve/2000-scooby-doo-y-los-invasores-alien-480p.-www.-seires-hd.-com.mkv/2000%20Scooby%20doo%20y%20los%20invasores%20al%C3%ADen%20480p.Www.SeiresHD.Com.mkv.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/7b8T3L3Q/sco6.jpg" group-title="Películas",Scooby Doo | Misterio en La Lucha Libre | 2014 | Latino
+https://archive.org/download/830202008/8302020/8302020-08.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/vmpQCy5y/sh1.jpg" group-title="Películas",Shrek | 1 | 2001 | Latino
+https://archive.org/download/00100_20190920/00100.avi
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/L5V2qZw4/sh2.jpg" group-title="Películas",Shrek | 2 | 2004 | Latino
+https://archive.org/download/00200_20190920/00200.avi
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/66V9bDqs/sh3.jpg" group-title="Películas",Shrek | 3 | 2007 | Latino
+https://archive.org/download/sh3_20200512/sh3.avi
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/zXJqs0Hy/sh4.jpg" group-title="Películas",Shrek | 4 | 2010 | Latino
+https://archive.org/download/00400_20190920/00400.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/NjhKrm3D/si1.jpg" group-title="Películas",Siniestro | 1 | 2012 | Latino
+https://archive.org/download/siniestro-2012-latino/Siniestro%202012%20Latino.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/DyjLrv36/si.jpg" group-title="Películas",Si Yo Tuviera 30 | 2004 | Latino
+https://archive.org/download/s-1-t-0v-13r-4-30-2004-1080p-3-47-gb/S1%20t0v13r4%2030%20%282004%29%201080p%203%2C47%20GB.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/90gHfLQt/sol.jpg" group-title="Películas",Solo Amigos | 2005 | Latino
+https://archive.org/download/s-0l0-4m-1g-0os-720p-1-79-gb/S0l%E2%81%B0%204m1g0os%20720p%201%2C79%20GB.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/XvJJXWpC/so1.jpg" group-title="Películas",Son Como Niños | 1 | 2010 | Latino
+https://ia803106.us.archive.org/20/items/son-como-ninos_202107/Son%20como%20ni%C3%B1os.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/XJBYcgKN/so2.jpg" group-title="Películas",Son Como Niños | 2 | 2013 | Latino
+https://ia804508.us.archive.org/8/items/son-como-ninos-2_202107/Son%20como%20ni%C3%B1os%202.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/nLrBtr1N/sp2.jpg" group-title="Películas",Space Jam | 2 | Una Nueva Era | 2021 | Latino
+https://archive.org/download/manguera_20210716_1602/Nu3v4%203r4.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/JnwfSw-zc/spi1.jpg" group-title="Películas",Spiderman | 1 | 2002 | Latino
+https://archive.org/download/sapito1/sapito/sapito%201.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/XJwRb2ZM/spi2.jpg" group-title="Películas",Spiderman | 2 | 2004 | Latino
+https://archive.org/download/ana_20200213/ANA.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/wMgSThJ1/spi3.jpg" group-title="Películas",Spiderman | 3 | 2007 | Latino
+https://archive.org/download/valores_202103/valor/valores.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/6qcF7yLY/spi5.jpg" group-title="Películas",Spiderman | 5 | 2014 | 2 | La Amenaza de Electro | Latino
+https://archive.org/download/ara-2014/ARA2014.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/nVGySPbB/spi6.jpg" group-title="Películas",Spiderman | 6 | 2017 | 3 | De Regreso a Casa | Latino
+https://archive.org/download/baby721/22142.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/gjY5H1RV/st1.jpg" group-title="Películas",Stuar Litle | 1 | Un Ratón en la Familia | 1999 | Latino
+https://ia601605.us.archive.org/33/items/strt-lie-hd-720p-1114547/Strt_Lie_HD__720p___1114547.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/QNbvdxG0/st2.jpg" group-title="Películas",Stuar Litle | 2 | La Aventura Continúa | 2002 | Latino
+https://ia904707.us.archive.org/20/items/stut-lie-2-hd-720p-1156879/Stut_Lie_2_HD__720p___1156879.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Z54GMRv4/supe.jpg" group-title="Películas",Super 8 | 2011 | Latino
+https://archive.org/download/su8_20210814/su8.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/vZqFKQb2/s.jpg" group-title="Películas",Super Cool | 2007 | Latino
+https://archive.org/download/supercool2007byantyr/Super%20Cool%20%282007%29%20-%20by%20Antyr.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/1RCP8gFB/super.jpg" group-title="Películas",Super Mario Bros | La Película | 1993 | Latino
+https://archive.org/serve/mario_1993_latino/Super%20Mario%20Bros.%20%281993%29%20%28Espa%C3%B1ol%20Latino%29.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/nVNHfbgd/su.jpg" group-title="Películas",Super Mario Bros | La Película | 2023 | Latino
+https://archive.org/serve/super-mario-bros_202503/super%20Mario%20bros.ia.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/xTgMBZ7F/ted1.jpg" group-title="Películas",Ted | 1 | 2012 | Latino
+https://archive.org/download/10010010/10010010.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VkzNjLkJ/ted2.jpg" group-title="Películas",Ted | 2 | 2015 | Latino
+http://archive.org/download/PaqueteClinico1/Ted2PeliculaCompletaEnEspaolLatino-Youtube61465464645.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/pX1Y3cJP/bl.jpg" group-title="Películas",Teléfono Negro | 2021 | Latino
+https://archive.org/serve/tele-fono-negro/TEL%C3%89FONO%20NEGRO.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/XNw0CBVj/we.jpg" group-title="Películas",Tenemos un Fantasma | 2023 | Latino
+https://archive.org/download/tenemos.un.fantasma.-2023.720p-dual-lat/Tenemos.un.fantasma.2023.720p-dual-lat.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/zDdHwsnh/te.jpg" group-title="Películas",Terrifier | 1 | 2016 | Latino
+https://archive.org/serve/terrifier_202311/Terrifier.ia.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/HkGYgdtS/te1.jpg" group-title="Películas",Terrifier | 1 | Behind the Scenes + Deleted Scenes | 2016 | Ingles
+https://archive.org/download/terrifier_bts/terrifier_bts.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/q7nbb7zT/ti1.jpg" group-title="Películas",Tierra de Osos | 1 | 2003 | Latino
+https://ia601402.us.archive.org/21/items/1e08_20191210/bf0c.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/3NLn44bg/ti2.jpg" group-title="Películas",Tierra de Osos | 2 | 2006 | Latino
+https://ia601402.us.archive.org/21/items/1e08_20191210/f163.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/wBT3V9kr/tin.jpg" group-title="Películas",Tiny Toon | Mis Mejores Vacaciones | 1992 | Latino
+https://archive.org/serve/3110-tiny-toon-mis-mejores-vacaciones-1992-dvdrip-d-s-spa-eng-v_202402/3110-Tiny%20Toon%20Mis%20Mejores%20Vacaciones%20%281992%29%20DVDRip%20D%20S%20spa%20eng%20v.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/j5Nk6fdK/ti.jpg" group-title="Películas",Titanic | 1997 | Latino
+https://archive.org/download/001_20200216/001.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/zXTNDkB1/tom1.jpg" group-title="Películas",Tom y Jerry | El Anillo Mágico | 2001 | Latino
+https://archive.org/download/tom-and-jerry-the-magic-ring.-2002.2.0/Tom%20and%20Jerry%20The%20Magic%20Ring.2002.2.0.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/LXZhrrjL/t1.jpg" group-title="Películas",Toy Story | 1 | 1995 | Latino
+https://archive.org/download/01t6574568475645684685486545684/01%20t6574568475645684685486545684.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Px1SLH3X/re.jpg" group-title="Películas",Turning Red | 2022 | Latino
+https://ia601608.us.archive.org/24/items/t-0u-rn-1ng-r-3d-hdd-720p-1455295/T0uRn1ng_R3d_HDd__720p___1455295.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/FKTNnyMS/un.jpg" group-title="Películas",Una Esposa de Mentiras | 2011 | Latino
+https://ia600508.us.archive.org/28/items/l-4-n-1n-3r-4-y-el-pr-3s-1d-3nt-1080p-4-32-gb/3sp0s4%20d3%20m3nt1r%E2%81%B4%24%20%282011%29%20HD%202%2C73%20GB.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/XY5MWPsK/una1.jpg" group-title="Películas",Una Noche en El Museo | 1 | 2006 | Latino
+https://archive.org/download/mu-30-1-720p-lat-1-01-gb/Mu%2430%201%20720p%20LAT%201%2C01%20GB.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/k5P0gyH0/una2.jpg" group-title="Películas",Una Noche en El Museo | 2 | 2009 | Latino
+https://ia800503.us.archive.org/33/items/mu-30-2-hd-lat-999-65-mb/Mu%2430%202%20HD%20LAT%20999%2C65%20MB.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/fb76t9nJ/una3.jpg" group-title="Películas",Una Noche en El Museo | 3 | 2014 | Latino
+https://ia600503.us.archive.org/2/items/mu-30-3-720p-dual-1-46-gb/Mu%2430%203%20720p%20DUAL%201%2C46%20GB.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx7zRVB5/up.jpg" group-title="Películas",Up: Una Aventura de Altura | 2009 | Latino
+https://archive.org/download/00200_20190814/00200.avi
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/26cFN1Q1/va.jpg" group-title="Películas",Van Helsing | 2004 | Latino
+https://ia801200.us.archive.org/9/items/sh-3ls-1ng-v-4n-1080p-2-94-gb/Sh3ls1ngV4n%201080p%202%2C94%20GB.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/1tfzL8P2/old.jpg" group-title="Películas",Viejos | 2021 | Latino
+https://ia902302.us.archive.org/29/items/94-1_20210929/Viejos.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/ydCMDg0y/v1.jpg" group-title="Películas",Viernes 13 | 1 | 1980 | Latino
+https://archive.org/download/saga-viernes-13-microhd-1080-px/Viernes13-1M1080.www.newpct1.com.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/9MPvZmp5/v2.jpg" group-title="Películas",Viernes 13 | 2 | 1981 | Latino
+https://archive.org/download/saga-viernes-13-microhd-1080-px/Viernes13-2M1080.www.newpct1.com.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/90WsB684/v3.jpg" group-title="Películas",Viernes 13 | 3 | 1982 | Latino
+https://archive.org/download/saga-viernes-13-microhd-1080-px/Viernes13-3M1080.www.newpct1.com.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/h4rkGGvV/v4.jpg" group-title="Películas",Viernes 13 | 4 | 1984 | Capitulo Final | Latino
+https://archive.org/download/saga-viernes-13-microhd-1080-px/Viernes13-4M1080.www.newpct1.com.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/KjJwp0w0/v5.jpg" group-title="Películas",Viernes 13 | 5 | 1985 | Un Nuevo Comienzo | Latino
+https://archive.org/download/saga-viernes-13-microhd-1080-px/Viernes13-5M1080.www.newpct1.com.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/wjSPry4Y/v6.jpg" group-title="Películas",Viernes 13 | 6 | 1986 | Jason Vive | Latino
+https://archive.org/download/saga-viernes-13-microhd-1080-px/Viernes13-6M1080.www.newpct1.com.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/YSYVBrTG/v7.jpg" group-title="Películas",Viernes 13 | 7 | 1988 | Sangre Nueva | Latino
+https://archive.org/download/saga-viernes-13-microhd-1080-px/Viernes13-7M1080.www.newpct1.com.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/NMtnshwN/v8.jpg" group-title="Películas",Viernes 13 | 8 | 1989 | Jason toma Manhattan | Latino
+https://archive.org/download/saga-viernes-13-microhd-1080-px/Viernes13-8M1080.www.newpct1.com.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/zBkc3dzq/v9.jpg" group-title="Películas",Viernes 13 | 9 | 1993 | Jason va al Infierno | Latino
+https://archive.org/download/saga-viernes-13-microhd-1080-px/Viernes13-9M1080.www.newpct1.com.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/6q51Zdqn/v10.jpg" group-title="Películas",Viernes 13 | 10 | 2001 | Jason X | Latino
+https://archive.org/download/saga-viernes-13-microhd-1080-px/Viernes13-10M1080.www.newpct1.com.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/8cKXmjf3/v11.jpg" group-title="Películas",Viernes 13 | 11 | 2003 | Freddy Vs Jason | Latino
+https://archive.org/download/saga-viernes-13-microhd-1080-px/Freddyvs.Jason13-11M1080.www.newpct1.com.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bY35hFVT/v12.jpg" group-title="Películas",Viernes 13 | 12 | 2009 | Remake | Latino
+https://archive.org/download/saga-viernes-13-microhd-1080-px/Viernes13-2009M1080.www.newpct1.com.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/JnFyxwd9/vir.jpg" group-title="Películas",Virgen a los 40 | 2005 | Latino
+https://archive.org/download/raton_202004/raton/raton.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/pXVHrBm5/vol.jpg" group-title="Películas",Volver al Futuro | 1 | 1985 | Latino
+https://archive.org/download/volveralfuturo/Volver%20al%20Futuro.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/ZKfhdyN7/vol2.jpg" group-title="Películas",Volver al Futuro | 2 | 1989 | Latino
+https://archive.org/serve/volver-al-futuro-ii/Volver%20al%20Futuro%20II.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/g2nbqkqY/vol3.jpg" group-title="Películas",Volver al Futuro | 3 | 1990 | Latino
+https://archive.org/download/volveralfuturo/Volver%20al%20Futuro%20III.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/qRxPC2qZ/wal.jpg" group-title="Películas",Wallace y Gromit | La Batalla de Los Vegetales | 2003 | Latino
+https://ia601606.us.archive.org/17/items/w-4llac-3y-gr-0m-1t-la-mald-1ci-n-d-l-4s-verdur-4s-hd-720p-1142500/W4llac3y_Gr0m1t__La_mald1ci_n_d_l4s_verdur4s_HD__720p___1142500.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/PJ1tKP1v/y.jpg" group-title="Películas",Yo Soy Simón | 2018 | Latino
+https://ia601200.us.archive.org/29/items/h-4rr-1y-p-0tt-3r-p-4rt-3-1-1080p-dual-4.69-gb/A4m0%20S1m0n%27%24%20%282018%29%20HD%20956%2C82%20MB.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/MZRsk1Tg/za.jpg" group-title="Películas",Zathura | Una Aventura Espacial | 2005 | Ingles
+https://archive.org/download/zathura-a-space-adventure-.-2005.720p.bluray.x-264.aac-etrg/Zathura%20A%20Space%20Adventure%20.2005.720p.bluray.x264.aac-etrg.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/JtwJTWFK/zo.jpg" group-title="Películas",Zoombieland | 1 | 2009 | Latino
+https://archive.org/download/patata/patata.mkv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/tRsMmtfV/zo2.jpg" group-title="Películas",Zoombieland | 2 | 2019 | Latino
+https://archive.org/download/00200_20200117_0628/00200.mkv

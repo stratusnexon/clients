@@ -73,7 +73,7 @@ export default {
       "/disneyjr.m3u8": "http://45.134.141.161:2200/ARG/Disney_Junior/index.m3u8",
       "/tooncast.m3u8": "http://45.134.141.161:2200/ARG/Tooncast/index.m3u8",
       "/cartoonito.m3u8": "http://45.134.141.161:2200/ARG/Cartoonito/index.m3u8",
-      "/cinelatino.m3u8": "http://45.5.118.152:8000/play/a05t/index.m3u8",
+      "/cinelatino.m3u8": "http://45.235.37.228/cinelatino/index.m3u8",
       "/usa.m3u8": "http://45.173.231.22:8000/play/a0cx/index.m3u8",
       "/natgeo.m3u8": "http://45.134.141.161:2200/ARG/Nat_Geographic_HD/index.m3u8",
       "/history2.m3u8": "http://45.134.141.161:2200/ARG/History_2_HD/index.m3u8",

@@ -80,7 +80,7 @@ export default {
       "/history.m3u8": "http://181.209.87.154:8000/play/a09g/index.m3u8",
       "/europa.m3u8": "http://45.70.221.206/EUROPA_EUROPA_OTT/playlist.m3u8",
       "/dpsort-1.m3u8": "http://45.70.221.206/DSPORTS_OTT/playlist.m3u8",
-      "/discovery.m3u8": "http://45.134.141.161:2200/ARG/Discovery_Channel_HD/index.m3u8",
+      "/discovery.m3u8": "http://45.235.37.228/discoveryhd/index.m3u8",
       "/discoveryhh.m3u8": "http://45.181.120.147:9800/play/095/index.m3u8",
       "/discoverysc.m3u8": "http://181.209.87.154:8000/play/a06p/index.m3u8",
       "/discoveryth.m3u8": "http://45.134.141.161:2200/ARG/Discovery_TheaterHD/index.m3u8",

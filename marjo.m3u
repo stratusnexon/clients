@@ -121,7 +121,7 @@ https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="35" group-title="DIGITAL" tvg-logo="https://canal3salta.com.ar/src/images/logo250x250.webp" tvg-id="",Canal 3 Salta
 https://ututotv.com.ar/live/stream.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="36" tvg-id="Encuentro.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s75767_white_360w_270h.png" group-title="DIGITAL",Encuentro
-https://joy.nx-pc.edge-apps.net/hls/9bh05-pfjmo-a54l8-a4hgk.m3u8 
+http://186.4.100.15:8894/output/ENCUENTRO/playlist.m3u8 
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="37" group-title="DIGITAL" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/canal-rural-ar.png" tvg-id="CanalRural.ar",Rural
 https://joy.nx-pc.edge-apps.net/hls/465a1-enb61-ad17j-55bp2.m3u8 
@@ -196,17 +196,17 @@ http://45.173.231.22:8000/play/a08y/index.m3u8
 http://m3u.tvcluboficial.com/free/Robert/4JC/314.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="56" tvg-id="Espn.ar" group-title="DIGITAL",ESPN
-https://joy.nx-pc.edge-apps.net/hls/k6e4b-2jhe5-76pae-1fham.m3u8
+http://190.7.19.206:8098/play/a0oz/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="57" tvg-id="FoxSports.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s141469_dark_360w_270h.png" group-title="DIGITAL",Fox Sports
-https://joy.nx-pc.edge-apps.net/hls/e6m9n-cgl9e-o10kk-2o1bd.m3u8
+http://190.7.19.206:8098/play/a0nw/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="58" tvg-id="Espn2.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s88735_gray_360w_270h.png" group-title="DIGITAL",ESPN 2
-https://joy.nx-pc.edge-apps.net/hls/io3a7-ob45b-2dnm5-ac8ak.m3u8
+http://190.7.19.206:8098/play/a0oy/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="59" tvg-id="Espn3.ar" group-title="DIGITAL",ESPN 3
-https://joy.nx-pc.edge-apps.net/hls/io0j9-gb1bf-d0738-kkn17.m3u8 
+http://190.7.19.206:8098/play/a0p0/index.m3u8 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="60" tvg-id="Espn4.ar" group-title="DIGITAL",ESPN 4
-https://joy.nx-pc.edge-apps.net/hls/ohcfd-666pp-pkifp-28l43.m3u8 
+http://190.7.19.206:8098/play/a0nv/index.m3u8 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="61" tvg-id="FoxSports2.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002KWQJ6.png_white_360w_270h.png" group-title="DIGITAL",Fox Sports 2
-https://joy.nx-pc.edge-apps.net/hls/km6lk-2io4c-7f9jm-peep.m3u8
+http://190.7.19.206:8098/play/a0p1/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="62" tvg-id="" tvg-logo="https://i.imgur.com/A8XpNAE.png" group-title="DIGITAL",DAZN
 http://45.134.141.161:2200/ARG/DAZN_1_HD/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="63" tvg-id="6320d80a66666000086712d7" tvg-name="CLARO SPORTS LATAM" tvg-logo="https://www.clarosports.com/resources/themes/clarosports-v4/assets/images/claroSportsSitio-170x36.png" group-title="DIGITAL" http-user-agent="Mozilla/5.0 (Windows NT 11.O; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck0) Chrome/102.0.0.0 Safari/537.37" http-referrer="https://www.cdnclaroamx.com/" referrer="https://www.cdnclaroamx.com/",CLARO SPORTS LATAM
@@ -331,25 +331,25 @@ http://45.134.141.161:2200/ARG/Discovery_Investigation_HD/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="105" tvg-id="FX.ar" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/world-latin-america/fx-lam.png" group-title="DIGITAL",FX
 http://186.4.100.15:8894/output/FX/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="106" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s87687_dark_360w_270h.png" tvg-id="FilmAndArts.ar",Film & Arts
-https://joy.nx-pc.edge-apps.net/hls/9nf94-h29hf-eme9n-iga8e.m3u8
+http://45.181.120.147:9800/play/071/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="107" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s90456_dark_360w_270h.png" tvg-id="E!Entertainment.ar",E! Entertainment
 http://45.134.141.161:2200/ARG/E_Entertainment/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="108" tvg-id="HBO.ar" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/hbo-us.png" group-title="DIGITAL",HBO
-https://joy.nx-pc.edge-apps.net/hls/89ak-8f1hh-275b9-3ejih.m3u8
+http://45.181.120.147:9800/play/090/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="109" tvg-id="HBO2.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s68140_dark_360w_270h.png" group-title="DIGITAL",HBO 2
-https://joy.nx-pc.edge-apps.net/hls/gl2pf-fm42m-ik7ec-acg1b.m3u8 
+http://45.181.120.147:9800/play/094/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="342" tvg-id="HBOSignature.ar" tvg-logo="https://lz24h.wordpress.com/wp-content/uploads/2026/08/hbosignature522766870392762345.png" group-title="DIGITAL" group-logo="",HBO Signature
-https://joy.nx-pc.edge-apps.net/hls/89n4a-hpa03-mpaah-1jdi4.m3u8
+http://45.181.120.147:9800/play/075/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="343" tvg-id="HBOXtreme.ar" tvg-logo="https://lz24h.wordpress.com/wp-content/uploads/2026/08/hbo-xtreme11082935970382369340.png" group-title="DIGITAL" group-logo="",HBO Xtreme
-https://joy.nx-pc.edge-apps.net/hls/5o27b-5alop-lcagn-834c8.m3u8
+http://45.181.120.147:9800/play/092/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="344" tvg-id="HBOPlus.ar" tvg-logo="https://lz24h.wordpress.com/wp-content/uploads/2026/08/hboplus1428396294149288788.png" group-title="DIGITAL" group-logo="",HBO +
-https://joy.nx-pc.edge-apps.net/hls/o4k9f-ola22-20be9-69jo9.m3u8
+http://186.148.196.250:81/play/a0nk/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="345" tvg-id="HBOPop.ar" tvg-logo="https://lz24h.wordpress.com/wp-content/uploads/2026/08/hbopop5212999564736983430.png" group-title="DIGITAL" group-logo="",HBO POP
-https://joy.nx-pc.edge-apps.net/hls/le3g2-kjc00-e7d3p-m3aoc.m3u8
+http://45.181.120.147:9800/play/093/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="346" tvg-id="HBOMundi.ar" tvg-logo="https://lz24h.wordpress.com/wp-content/uploads/2026/08/65d23081dbc7a0e608ad657f_uc831374249449590725.png" group-title="DIGITAL" group-logo="",HBO Mundi
-https://joy.nx-pc.edge-apps.net/hls/c5o8j-78n4c-apc1g-j3ph5.m3u8
+http://186.148.196.250:81/play/a0cc/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="347" tvg-id="HBOFamily.ar" tvg-logo="https://lz24h.wordpress.com/wp-content/uploads/2026/08/hbofamily2319702778852048101.png" group-title="DIGITAL" group-logo="",HBO Family
-https://joy.nx-pc.edge-apps.net/hls/mcl11-2ja70-fnhg5-coojh.m3u8
+http://45.181.120.147:9800/play/a0ei/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="110" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s111651_light_360w_270h.png" tvg-id="Cine premium",Cine Premium
 https://joy.nx-pc.edge-apps.net/hls/d4bhf-fflam-b5fon-7kcff.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="160" tvg-logo="https://i.ibb.co/v645nnX1/Logo-Sony-Cine.png" group-title="DIGITAL",Sony Cine
@@ -403,7 +403,7 @@ http://45.5.118.152:8000/play/a0dp
 https://unipluslivedash.akamaized.net/universalpremiert0/manifest.mpd
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="130" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/world-latin-america/warner-channel-lam.png" tvg-id="Warner.ar",Warner Channel
-https://joy.nx-pc.edge-apps.net/hls/f068d-i2ab-je8pf-3k75a.m3u8
+http://190.7.19.206:8098/play/a0p3/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="336" tvg-id="Eurochannel.ar" tvg-logo="https://i.imgur.com/69hK0Mc.png" group-title="DIGITAL", EuroChannel
 http://200.115.120.1:8000/play/ca331/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="330" group-title="DIGITAL" tvg-logo="https://i.ibb.co/6c2jd8hr/0831.jpg" tvg-id="Clover.ar",Clover Channel
@@ -411,7 +411,7 @@ http://45.181.120.147:9800/play/074/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="196" group-title="DIGITAL" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/europa_europa-mediano.png" tvg-id="EuropaEuropa.ar",Europa Europa
 http://45.70.221.206/EUROPA_EUROPA_OTT/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="131" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/world-latin-america/national-geographic-lam.png" tvg-id="NationalGeographic.ar",Nat Geo
-https://joy.nx-pc.edge-apps.net/hls/o6mj8-i7n93-67ej8-712ao.m3u8 
+http://45.235.37.228/natgeohd/index.m3u8 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="138" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16331_dark_360w_270h.png" tvg-id="AnimalPlanet.cl",Animal Planet
 http://45.181.120.147:9800/play/103/index.m3u8
 
@@ -420,7 +420,7 @@ https://live.stratusnex.workers.dev/history2.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="133" group-title="DIGITAL" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/history-channel-ar.png" tvg-id="History.ar",History Channel
 https://live.stratusnex.workers.dev/history.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="134" group-title="DIGITAL" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/tlc-ar.png" tvg-id="TLC.cl",TLC
-https://joy.nx-pc.edge-apps.net/hls/feo4p-6m8di-39pf4-j1h25.m3u8
+http://45.181.120.147:9800/play/021/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="137" group-title="DIGITAL" tvg-logo="" tvg-id="HolaTV.ar",Hola TV
 http://45.235.37.228/holatv/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="177" tvg-id="A3Series.uy" tvg-logo="https://i.ibb.co/QF230yLz/0618.jpg" group-title="DIGITAL", A3Series
@@ -459,9 +459,9 @@ https://stream-gtlc.telecentro.net.ar/hls/musictophls/main.m3u8
 https://cdn.sensa.com.ar/output/SMT1/BLBH/playlist.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="143" group-title="DIGITAL" tvg-logo="https://images.open-epg.com/x987.png" tvg-id="QuieroMusica.ar",Quiero Musica
-https://joy.nx-pc.edge-apps.net/hls/3la6l-e802j-1ekem-6k9o6.m3u8
+http://190.7.19.206:8098/play/a0mi/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="144" group-title="DIGITAL" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/06/55/6551636_BB2F922E6C894C1C.png" tvg-id="HTV.ar" audio-track="es",HTV
-https://joy.nx-pc.edge-apps.net/hls/l4b0l-njg9j-4ic97-4c15b.m3u8
+https://streaming.onnethn.com/HTV/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="145" group-title="DIGITAL" tvg-logo="https://lz24h.wordpress.com/wp-content/uploads/2026/08/05299086405098255696308.jpg" tvg-id="KpopMix.ar@SD",Kpop Mix
 https://cloud.tvomix.com/KPOPMIX/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="146" group-title="DIGITAL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/TRACE_Latina_Logo.png/1280px-TRACE_Latina_Logo.png",Trace Latina

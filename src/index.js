@@ -56,7 +56,7 @@ export default {
       "/zspace.m3u8": "https://zapster.trapemn.tv:1936/zapster-hls/space.stream/playlist.m3u8",
       "/tntseries.m3u8": "http://181.209.87.154:8000/play/a08c/index.m3u8",
 "/tntnovelas.m3u8": "http://181.209.87.154:8000/play/a08e/index.m3u8",
-"/universal.m3u8": "http://181.209.87.154:8000/play/a09i/index.m3u8",
+"/universal.m3u8": "http://190.7.19.206:8098/play/a0p8/index.m3u8",
       "/universal_crimen.m3u8": "http://45.5.118.152:8000/play/a0dp/index.m3u8",
       "/universal_cinema.m3u8": "http://45.173.231.22:8000/play/a0ao/index.m3u8",
       "/universal_premiere.m3u8": "http://45.5.118.152:8000/play/a0dn/index.m3u8",

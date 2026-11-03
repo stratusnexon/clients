@@ -125,13 +125,13 @@ https://ututotv.com.ar/live/stream.m3u8
 http://186.4.100.15:8894/output/ENCUENTRO/playlist.m3u8 
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="37" group-title="DIGITAL" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/canal-rural-ar.png" tvg-id="CanalRural.ar",Rural
-https://joy.nx-pc.edge-apps.net/hls/465a1-enb61-ad17j-55bp2.m3u8 
+https://live.stratusnex.workers.dev/rural.m3u8 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="38" group-title="DIGITAL" tvg-logo="https://cdn.m3u.cl/logo/303_Eco_TV.png" tvg-id="",Eco TV
 https://stream.arcast.com.ar/ecotv/ngrp:ecotv_all/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="39" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18075_dark_360w_270h.png" tvg-id="CanalA.ar",Canal a
-https://joy.nx-pc.edge-apps.net/hls/k0eh2-j12j2-35nn-1dmde.m3u8 
+https://live.stratusnex.workers.dev/canala.m3u8 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="40" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16879_dark_360w_270h.png" tvg-id="Volver.ar",Volver
-https://joy.nx-pc.edge-apps.net/hls/9c3on-i089p-mnmkk-jpi5f.m3u8
+https://live.stratusnex.workers.dev/volver.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="41" group-title="DIGITAL" tvg-logo="https://lz24h.wordpress.com/wp-content/uploads/2026/09/bq29sfg1017235205063962896.png" tvg-id="Canal10MardelPlata.ar",Canal 10 MDP
 #EXTVLCOPT:http-referrer=https://webclient.ctcplus.com.ar/
 #EXTVLCOPT:http-user-agent=VisualOn OSMP+ Player(Linux;Android)

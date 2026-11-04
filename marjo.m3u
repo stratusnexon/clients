@@ -197,17 +197,17 @@ http://45.173.231.22:8000/play/a08y/index.m3u8
 http://m3u.tvcluboficial.com/free/Robert/4JC/314.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="56" tvg-id="Espn.ar" group-title="DIGITAL",ESPN
-http://190.7.19.206:8098/play/a0oz/index.m3u8
+https://live.stratusnex.workers.dev/espn.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="57" tvg-id="FoxSports.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s141469_dark_360w_270h.png" group-title="DIGITAL",Fox Sports
-http://190.7.19.206:8098/play/a0nw/index.m3u8
+https://live.stratusnex.workers.dev/fox.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="58" tvg-id="Espn2.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s88735_gray_360w_270h.png" group-title="DIGITAL",ESPN 2
-http://190.7.19.206:8098/play/a0oy/index.m3u8
+https://live.stratusnex.workers.dev/espn2.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="59" tvg-id="Espn3.ar" group-title="DIGITAL",ESPN 3
-http://190.7.19.206:8098/play/a0p0/index.m3u8 
+https://live.stratusnex.workers.dev/espn3.m3u8 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="60" tvg-id="Espn4.ar" group-title="DIGITAL",ESPN 4
-http://190.7.19.206:8098/play/a0nv/index.m3u8 
+https://live.stratusnex.workers.dev/espn4.m3u8 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="61" tvg-id="FoxSports2.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002KWQJ6.png_white_360w_270h.png" group-title="DIGITAL",Fox Sports 2
-http://190.7.19.206:8098/play/a0p1/index.m3u8
+https://live.stratusnex.workers.dev/fox2.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="62" tvg-id="" tvg-logo="https://i.imgur.com/A8XpNAE.png" group-title="DIGITAL",DAZN
 http://45.134.141.161:2200/ARG/DAZN_1_HD/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="63" tvg-id="6320d80a66666000086712d7" tvg-name="CLARO SPORTS LATAM" tvg-logo="https://www.clarosports.com/resources/themes/clarosports-v4/assets/images/claroSportsSitio-170x36.png" group-title="DIGITAL" http-user-agent="Mozilla/5.0 (Windows NT 11.O; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck0) Chrome/102.0.0.0 Safari/537.37" http-referrer="https://www.cdnclaroamx.com/" referrer="https://www.cdnclaroamx.com/",CLARO SPORTS LATAM
@@ -754,10 +754,10 @@ https://46925e69ccf445e09667cb17c8bb4f2c.mediatailor.us-east-1.amazonaws.com/v1/
 https://1cf44b5bdec84b56bd4ec71e0cbf33de.mediatailor.us-east-1.amazonaws.com/v1/dash/dffceb859a31f14d0ed059ef6b4e2e4d850e60b1/live_1057/1057_DIRECTV_SPORTS_ARG_DASH/manifest.mpd
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="229" group-title="DIGITAL" tvg-logo="https://images.open-epg.com/x964.png" tvg-id="EspnPremium.ar",ESPN Premium
-http://190.128.214.97:64333/play/a02i/index.m3u8
+http://108.175.13.7/live/9a6e5080-785d-4bcb-931e-e82d882430da/5abefe66e80584e3/index.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="230" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s106780_light_360w_270h.png" tvg-id="TNTSportsPremium.ar",TNT Sports Premium
-http://190.128.214.97:64333/play/a03c/index.m3u8
+http://108.175.13.7/live/9a6e5080-785d-4bcb-931e-e82d882430da/d78c351ad09b9f89/index.m3u8
 
 #
 #
@@ -838,7 +838,7 @@ https://zapster.trapemn.tv:1936/zapster/El3HD.stream/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="14" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/c5n-ar.png" tvg-id="",C5N - SD
 http://186.4.100.15:8894/output/C5N/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="0.1" group-title="" tvg-logo="" tvg-id="" ,Test
-http://45.134.141.161:2200/ARG/C5N/index.m3u8
+http://108.175.13.7/live/9a6e5080-785d-4bcb-931e-e82d882430da/b2e54744905709eb/index.m3u8
 
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="0.2" group-title="" tvg-logo="" tvg-id="" parent-code="0576",AXN

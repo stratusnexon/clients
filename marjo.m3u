@@ -47,7 +47,7 @@ https://cdn.sensa.com.ar/output/ARR4/TSFH/playlist.m3u8?|referer=https://player.
 https://live.stratusnex.workers.dev/c26.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="14" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/c5n-ar.png" tvg-id="C5N.ar",C5N
-http://186.4.100.15:8894/output/C5N/playlist.m3u8
+http://45.134.141.161:2200/ARG/C5N/index.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="15" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/la-nacion-mas-ar.png" tvg-id="LaNacion+.ar",LaNacion+
 https://live.stratusnex.workers.dev/lnmas.m3u8
@@ -835,7 +835,8 @@ http://45.70.221.206/DSPORTS_OTT/playlist.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="22.1" group-title="DIGITAL" tvg-logo="https://i.imgur.com/DHv3yVj.png" tvg-id="Canal3Rosario.ar",El Tres [ Zapster ]
 https://zapster.trapemn.tv:1936/zapster/El3HD.stream/playlist.m3u8
-
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="14" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/c5n-ar.png" tvg-id="",C5N - SD
+http://186.4.100.15:8894/output/C5N/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="0.1" group-title="" tvg-logo="" tvg-id="" ,Test
 http://45.134.141.161:2200/ARG/C5N/index.m3u8
 

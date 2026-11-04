@@ -40,7 +40,7 @@ export default {
 "/tntsports.m3u8": "http://181.209.87.154:8000/play/a06z/index.m3u8",
 "/espnpremium.m3u8": "http://181.209.87.154:8000/play/a086/index.m3u8",
 "/espn.m3u8": "http://108.175.13.7/live/9a6e5080-785d-4bcb-931e-e82d882430da/8d37e0cb7c403a57/index.m3u8",
-"/espn2.m3u8": "http://barinaslive1.boldmss.com/ESPN_2/ESPN_2.isml/ESPN_2.m3u8",
+"/espn2.m3u8": "http://108.175.13.7/live/9a6e5080-785d-4bcb-931e-e82d882430da/d17a5dbbec8eef17/index.m3u8",
 "/dsport.m3u8": "http://45.188.229.33:8000/play/a1iw/index.m3u8",
 "/dsport2baja.m3u8": "https://s2.bufaloweb.com/bufalo10/tracks-v1a1/mono.ts.m3u8",
 "/espn3.m3u8": "http://barinaslive1.boldmss.com/ESPN_3/ESPN_3.isml/ESPN_3.m3u8",

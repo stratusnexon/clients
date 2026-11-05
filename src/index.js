@@ -15,7 +15,7 @@ export default {
   "/elnueveinterior.m3u8": "http://45.179.152.42:8000/play/a016",    
 "/c26.m3u8": "https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8",
 "/c5n.m3u8": "https://cdn-zapster-ros.trapemn.tv:1936/zapster/c5n-new.stream/playlist.m3u8",
-"/lnmas.m3u8": "http://45.70.221.206/LN_OTT/playlist.m3u8",
+"/lnmas.m3u8": "https://cdn-zapster-ros.trapemn.tv:1936/zapster-hls/LaNacion.stream/playlist.m3u8",
 "/cronica.m3u8": "http://45.70.221.206/CRONICA_OTT/playlist.m3u8",
 "/teleferos.m3u8": "https://cdn-zapster-ros.trapemn.tv:1936/zapster-transco/Canal5Rosario.stream/playlist.m3u8",
 "/elnueve.m3u8": "http://181.209.87.154:8000/play/a08k/index.m3u8",

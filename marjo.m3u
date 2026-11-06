@@ -408,7 +408,7 @@ http://190.7.19.206:8098/play/a0p3/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="336" tvg-id="Eurochannel.ar" tvg-logo="https://i.imgur.com/69hK0Mc.png" group-title="DIGITAL", EuroChannel
 http://200.115.120.1:8000/play/ca331/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="330" group-title="DIGITAL" tvg-logo="https://i.ibb.co/6c2jd8hr/0831.jpg" tvg-id="Clover.ar",Clover Channel
-http://45.181.120.147:9800/play/074/index.m3u8
+https://cdnback3.win.cdn.moderntv.eu:7909/win/stream/Clover_Channel/10-20-hls/live.m3u8?_cdn_attrs=account%3Dwin%2Cresource%3DClover_Channel_stream_3a&_cdn_meta=server%3Dhttp%2CuserID%3D1742679699%2CdeviceID%3D77707917&_cdn_session=8163556053&_cdn_timestamp=1794154730&_cdn_token=2ff6a9e08a58410d1957b406e81cfe134519f193
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="196" group-title="DIGITAL" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/europa_europa-mediano.png" tvg-id="EuropaEuropa.ar",Europa Europa
 http://45.70.221.206/EUROPA_EUROPA_OTT/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="131" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/world-latin-america/national-geographic-lam.png" tvg-id="NationalGeographic.ar",Nat Geo

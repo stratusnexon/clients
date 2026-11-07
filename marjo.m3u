@@ -47,10 +47,10 @@ https://cdn.sensa.com.ar/output/ARR4/TSFH/playlist.m3u8?|referer=https://player.
 https://live.stratusnex.workers.dev/c26.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="14" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/c5n-ar.png" tvg-id="C5N.ar",C5N
-http://45.134.141.161:2200/ARG/C5N/index.m3u8
+http://186.4.100.15:8894/output/C5N/playlist.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="15" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/la-nacion-mas-ar.png" tvg-id="LaNacion+.ar",LaNacion+
-https://live.stratusnex.workers.dev/lnmas.m3u8
+http://190.7.19.206:8098/play/a0lp/index.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="16" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/tn-todo-noticias-ar.png" tvg-id="TN.ar",TN
 #EXTVLCOPT:http-referrer=https://tn.com.ar/envivo/24hs
@@ -61,7 +61,7 @@ https://live-01-01-tn.vodgc.net/TN_DAI_Beta/index.m3u8
 https://amg00803-cnnfast-amg00803c3-lg-es-5477.playouts.now.amagi.tv/playlist.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="18" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/a24-ar.png" tvg-id="A24.uy",A24
-http://45.134.141.161:2200/ARG/A24/index.m3u8
+http://190.7.19.206:8098/play/a0ll/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="19" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/america-ar.png" tvg-id="America.ar",America TV
 https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
 
@@ -69,7 +69,7 @@ https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
 https://g1.vxral-hor.transport.edge-access.net/b16/ngrp:c7_vivo01_dai_source-20001_all/playlist.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="21" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/cronica-hd-ar.png" tvg-id="CronicaTV.ar",Cronica
-https://live.stratusnex.workers.dev/cronica.m3u8
+http://186.4.100.15:8894/output/CRONICA/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="22" group-title="DIGITAL" tvg-logo="https://i.imgur.com/DHv3yVj.png" tvg-id="Canal3Rosario.ar",El Tres 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
 https://smt-usr-edge01.sensa.com.ar/output/ARR2/C3RH/playlist.m3u8

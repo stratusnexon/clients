@@ -317,7 +317,7 @@ http://45.70.221.206/CINE_AR_OTT/playlist.m3u8
 https://aka-live1050.delivery.roku.com/c654b2e4-c38f-4e75-aeaa-6f33e3782f39/t2-origin/out/v1/live.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="98" tvg-id="Discovery.cl" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s83572_gray_360w_270h.png" group-title="DIGITAL",Discovery Channel
 https://live.stratusnex.workers.dev/discovery.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="99" tvg-id="DiscoveryHomeAndHealth.ar" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/11/47/11470350_2B54A1C94E8999B4.png" group-title="DIGITAL",Discovery H&H
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="99" tvg-id="DiscoveryHomeAndHealth.cl" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/11/47/11470350_2B54A1C94E8999B4.png" group-title="DIGITAL",Discovery H&H
 http://siriustv.lat:8000/play/a09o/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="100" tvg-id="DiscoveryScience.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24282_dark_360w_270h.png" group-title="DIGITAL",Discovery Science
 https://live.stratusnex.workers.dev/discoverysc.m3u8
@@ -372,8 +372,8 @@ http://45.235.37.228/cinelatino/index.m3u8
 https://lilac19.pontiscloud.com/play/a06u/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="118" tvg-id="TCM.ar" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/285/CH_LOGO/80/80/0/0/1820288007328.png" group-title="DIGITAL",TCM
 https://live.stratusnex.workers.dev/tcm.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="119" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s21257_dark_360w_270h.png" tvg-id="HGTV.ar" ",HGTV
-http://190.7.19.206:8098/play/a0me/index.m3u8
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="119" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s21257_dark_360w_270h.png" tvg-id="HGTV.cl" ",HGTV
+https://lilac19.pontiscloud.com/play/a03j/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="121" tvg-id="TNT.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11164_dark_360w_270h.png" group-title="DIGITAL",TNT
 http://45.235.37.228/tnthd/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="122" tvg-id="TNTNovelas.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s140026_dark_360w_270h.png" group-title="DIGITAL",TNT Novelas

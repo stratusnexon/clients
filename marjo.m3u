@@ -298,7 +298,7 @@ https://amg00740-sofa-amg00740c11-lg-mx-8923.playouts.now.amagi.tv/playlist/amg0
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="88" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s105609_gray_360w_270h.png" tvg-id="Cinecanal.ar",Cinecanal
 http://45.235.37.228/cinecanalhd/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="89" tvg-id="Cinemax.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s34933_white_360w_270h.png" group-title="DIGITAL",Cinemax
-http://45.134.141.161:2200/ARG/Cinemax_HD/index.m3u8
+http://siriustv.lat:8000/play/a05u/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="90" tvg-id="ComedyCentral.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10149_gray_360w_270h.png" group-title="DIGITAL",Comedy Central
 https://barinaslive1.boldmss.com/COMEDY/COMEDY.isml/COMEDY.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="91" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/mexico/distrito-comedia-mx.png" tvg-id="DistritoComedia.uy" group-title="DIGITAL",Distrito Comedia

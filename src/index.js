@@ -81,10 +81,10 @@ export default {
       "/europa.m3u8": "http://45.70.221.206/EUROPA_EUROPA_OTT/playlist.m3u8",
       "/dpsort-1.m3u8": "http://45.70.221.206/DSPORTS_OTT/playlist.m3u8",
       "/discovery.m3u8": "http://45.235.37.228/discoveryhd/index.m3u8",
-      "/discoveryhh.m3u8": "http://45.181.120.147:9800/play/095/index.m3u8",
-      "/discoverysc.m3u8": "http://181.209.87.154:8000/play/a06p/index.m3u8",
+      "/discoveryhh.m3u8": "https://lilac19.pontiscloud.com/play/a03n/index.m3u8",
+      "/discoverysc.m3u8": "https://lilac19.pontiscloud.com/play/a07m/index.m3u8",
       "/discoveryth.m3u8": "http://45.134.141.161:2200/ARG/Discovery_TheaterHD/index.m3u8",
-      "/discoveryt.m3u8": "http://45.181.120.147:9800/play/106/index.m3u8",
+      "/discoveryt.m3u8": "https://lilac19.pontiscloud.com/play/a03k/index.m3u8",
       "/discoveryw.m3u8": "http://45.134.141.161:2200/ARG/Discovery_World_HD/index.m3u8",
       "/testt.m3u8": "",
       "/CM.m3u8": "http://45.70.221.206/CM_OTT/playlist.m3u8"

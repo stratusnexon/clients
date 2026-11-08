@@ -441,7 +441,7 @@ https://iptv.bitred.cl/ELGOURMET_HD/index.m3u8
 https://cdn-uw2-prod.tsv2.amagi.tv:443/linear/amg00047-tastemade-es16intl-canelatv/playlist.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="139" group-title="DIGITAL" tvg-logo="" tvg-id="SunChannel.ar" ,SunChannel
-http://45.181.120.147:9800/play/026/index.m3u8
+http://siriustv.lat:8000/play/a04d/index.m3u8
 
 #EXTINF:-1 group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="254" tvg-logo="https://www.40mediagroup.com/images/channels/ent-channel.png" group-title="DIGITAL" tvg-name="" tvg-id="Ent Channel",Ent Channel
 https://cdn.global.elektamedia.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/master.m3u8

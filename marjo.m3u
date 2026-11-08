@@ -334,13 +334,13 @@ https://lilac19.pontiscloud.com/play/a07q/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="106" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s87687_dark_360w_270h.png" tvg-id="FilmAndArts.ar",Film & Arts
 https://lilac19.pontiscloud.com/play/a02x/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="107" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s90456_dark_360w_270h.png" tvg-id="E!Entertainment.ar",E! Entertainment
-http://45.134.141.161:2200/ARG/E_Entertainment/index.m3u8
+https://lilac19.pontiscloud.com/play/a06v/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="108" tvg-id="HBO.ar" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/hbo-us.png" group-title="DIGITAL",HBO
 http://siriustv.lat:8000/play/a0gg/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="109" tvg-id="HBO2.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s68140_dark_360w_270h.png" group-title="DIGITAL",HBO 2
 http://siriustv.lat:8000/play/a030/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="342" tvg-id="HBOSignature.ar" tvg-logo="https://lz24h.wordpress.com/wp-content/uploads/2026/08/hbosignature522766870392762345.png" group-title="DIGITAL" group-logo="",HBO Signature
-http://45.181.120.147:9800/play/075/index.m3u8
+http://186.148.196.250:81/play/a0cb/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="343" tvg-id="HBOXtreme.ar" tvg-logo="https://lz24h.wordpress.com/wp-content/uploads/2026/08/hbo-xtreme11082935970382369340.png" group-title="DIGITAL" group-logo="",HBO Xtreme
 http://siriustv.lat:8000/play/a0gk/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="344" tvg-id="HBOPlus.ar" tvg-logo="https://lz24h.wordpress.com/wp-content/uploads/2026/08/hboplus1428396294149288788.png" group-title="DIGITAL" group-logo="",HBO +

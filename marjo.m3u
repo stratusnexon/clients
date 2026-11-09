@@ -578,11 +578,11 @@ https://video05.logicahost.com.br/tvguajara/tvguajara/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="424" group-title="DIGITAL" tvg-name="RECORD TV" tvg-logo="https://static.wikia.nocookie.net/telenovelas/images/a/a5/Logorecord.png/revision/latest?cb=20181016064409&path-prefix=es" ,RECORD TV
 http://tvconquistalrv.duckdns.org:8080/hls/tvconquistalrv.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="425" group-title="DIGITAL" tvg-name="TELEFUTURO" tvg-logo="https://i.imgur.com/6lVrFvb.png" ,TELEFUTURO
-https://04@copacotf.desdeparaguay.net/telefuturo/telefuturo_py_alta/playlist.m3u8?admin=tvaccion
+http://45.170.130.224:8000/play/a014/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="426" group-title="DIGITAL" tvg-name="MONUMENTAL" tvg-logo="https://i.imgur.com/kEcOYML.png" ,MONUMENTAL
-https://copacogen.desdeparaguay.net/monumentaltv/monumentaltv_med/playlist.m3u8?admin=tvaccion
+http://45.170.130.224:8000/play/a02m/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="332" group-title="DIGITAL" tvg-logo="https://i.imgur.com/IL6hpV8.png" tvg-id="",La Tele
-https://copacotf.desdeparaguay.net/latele/latele_py_alta/playlist.m3u8?admin=tvaccion
+http://45.170.130.224:8000/play/a03u/index.m3u8
 
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="202" tvg-id="68224482c5d53e1351aaf2f2" tvg-logo="https://images.pluto.tv/channels/68224482c5d53e1351aaf2f2/colorLogoPNG_1751655767455.png" group-title="DIGITAL",Canal Claro
@@ -615,7 +615,7 @@ https://iptv.bitred.cl/tvn/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="" group-title="DIGITAL" tvg-logo="https://i.ibb.co/d4c02WLg/Logo-TV-Mas.png" tvg-id="",TV+ HD
 https://jireh-8-hls-video-us-isp.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="185" group-title="DIGITAL" tvg-logo="https://www.reportv.com.ar/buscador/img/Logos/11290216.jpg" tvg-id="Univision.uy",Univision
-http://45.5.116.228:8000/play/a0kr/index.m3u8
+http://siriustv.lat:8000/play/a0a7/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="186" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s69367_white_360w_270h.png" tvg-id="RT.uy",RT en Español
 https://rt-esp.rttv.com/live/rtesp/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="187" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s125383_light_360w_270h.png" tvg-id="Rcn",RCN Más

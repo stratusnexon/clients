@@ -210,15 +210,15 @@ http://45.173.231.22:8000/play/a08y/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="55" group-title="DIGITAL" tvg-logo="https://i.ibb.co/ksTgZxm7/DSports-2026.png" tvg-id="DSportsPlus.uy",Dsport+
 http://m3u.tvcluboficial.com/free/Robert/4JC/314.m3u8
 
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="56" tvg-id="Espn.ar" group-title="DIGITAL",ESPN
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/espn-ar.png" ch-number="56" tvg-id="Espn.ar" group-title="DIGITAL",ESPN
 https://live.stratusnex.workers.dev/espn.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="57" tvg-id="FoxSports.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s141469_dark_360w_270h.png" group-title="DIGITAL",Fox Sports
 https://live.stratusnex.workers.dev/fox.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="58" tvg-id="Espn2.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s88735_gray_360w_270h.png" group-title="DIGITAL",ESPN 2
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="58" tvg-id="Espn2.ar" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/espn-2-ar.png" group-title="DIGITAL",ESPN 2
 https://live.stratusnex.workers.dev/espn2.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="59" tvg-id="Espn3.ar" group-title="DIGITAL",ESPN 3
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="59" tvg-id="Espn3.ar" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/espn-3-ar.png" group-title="DIGITAL",ESPN 3
 https://live.stratusnex.workers.dev/espn3.m3u8 
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="60" tvg-id="Espn4.ar" group-title="DIGITAL",ESPN 4
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="60" tvg-id="Espn4.ar" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/espn-extra-ar.png" group-title="DIGITAL",ESPN 4
 https://live.stratusnex.workers.dev/espn4.m3u8 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="61" tvg-id="FoxSports2.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002KWQJ6.png_white_360w_270h.png" group-title="DIGITAL",Fox Sports 2
 https://live.stratusnex.workers.dev/fox2.m3u8

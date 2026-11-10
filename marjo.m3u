@@ -593,7 +593,7 @@ https://video05.logicahost.com.br/tvguajara/tvguajara/playlist.m3u8
 http://tvconquistalrv.duckdns.org:8080/hls/tvconquistalrv.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="425" group-title="DIGITAL" tvg-name="TELEFUTURO" tvg-logo="https://i.imgur.com/6lVrFvb.png" ,TELEFUTURO
 http://45.170.130.224:8000/play/a014/index.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="426" group-title="DIGITAL" tvg-name="MONUMENTAL" tvg-logo="https://i.imgur.com/kEcOYML.png" ,MONUMENTAL
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="426" group-title="DIGITAL" tvg-name="TRECE" tvg-logo="https://i.imgur.com/cgIv5QK.png" ,TRECE
 http://45.170.130.224:8000/play/a02m/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="332" group-title="DIGITAL" tvg-logo="https://i.imgur.com/IL6hpV8.png" tvg-id="",La Tele
 http://45.170.130.224:8000/play/a03u/index.m3u8

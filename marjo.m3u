@@ -862,7 +862,7 @@ http://45.134.141.161:2200/ARG/Star_Channel_HD/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Mobile Safari/537.36
 http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/cinepremium.stream/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="0.3" group-title="" tvg-logo="" tvg-id="", Test [ Clone ]
-https://g5.vxral-slo.transport.edge-access.net/a12/ngrp:a24-100056_all/playlist.m3u8?sense=true
+https://prepublish.f.qaotic.net/a12/a24-100056/playlist_720p.m3u8
 
 #
 #

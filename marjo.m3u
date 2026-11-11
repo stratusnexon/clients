@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://puticastillo.github.io/EPGCL/vilma/public/guia-de-programacion.xml.gz, https://www.open-epg.com/files/argentina.xml.gz, https://raw.githubusercontent.com/iamsaamu32/epg_channel/refs/heads/main/guia.xml, https://stratusnex.env.pm/live/epgzip.xml, https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/ar.xml.gz" x-generator="https://stratusnex.com.ar"
+#EXTM3U url-tvg="https://puticastillo.github.io/EPGCL/vilma/public/guia-de-programacion.xml.gz, https://www.open-epg.com/files/argentina.xml.gz, https://www.open-epg.com/files/uruguay.xml.gz, https://raw.githubusercontent.com/iamsaamu32/epg_channel/refs/heads/main/guia.xml, https://stratusnex.env.pm/live/epgzip.xml, https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/ar.xml.gz" x-generator="https://stratusnex.com.ar"
 # StratusNex
 # Canales: 340
 # Grupo: ZipTV
@@ -60,7 +60,7 @@ https://live-01-01-tn.vodgc.net/TN_DAI_Beta/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="17" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/cnn-en-espanol-ar.png" tvg-id="CNNenEspañol.ar",CNN en Espanol
 https://amg00803-cnnfast-amg00803c3-lg-es-5477.playouts.now.amagi.tv/playlist.m3u8
 
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="18" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/a24-ar.png" tvg-id="A24.ar",A24
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="18" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/a24-ar.png" tvg-id="ar0016",A24
 https://g5.vxral-slo.transport.edge-access.net/a12/ngrp:a24-100056_all/playlist.m3u8?sense=true
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="19" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/america-ar.png" tvg-id="America.ar",America TV
 https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8

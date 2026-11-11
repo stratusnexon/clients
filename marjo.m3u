@@ -449,9 +449,9 @@ https://cdn-uw2-prod.tsv2.amagi.tv:443/linear/amg00047-tastemade-es16intl-canela
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="139" group-title="DIGITAL" tvg-logo="" tvg-id="SunChannel.ar" ,SunChannel
 http://siriustv.lat:8000/play/a04d/index.m3u8
 
-#EXTINF:-1 group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="254" tvg-logo="https://www.40mediagroup.com/images/channels/ent-channel.png" group-title="DIGITAL" tvg-name="" tvg-id="Ent Channel",Ent Channel
+#EXTINF:-1 group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="254" tvg-logo="https://i.postimg.cc/BvY4SmPr/ent-ch.jpg" group-title="DIGITAL" tvg-name="" tvg-id="Ent Channel",Ent Channel
 https://cdn.global.elektamedia.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/master.m3u8
-#EXTINF:-1 group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="258" tvg-logo="https://www.40mediagroup.com/images/channels/ent-family.png" group-title="DIGITAL" tvg-name="" tvg-id="Ent Family",Ent Family
+#EXTINF:-1 group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="258" tvg-logo="https://i.postimg.cc/7h4BpkYw/ent-f.jpg" group-title="DIGITAL" tvg-name="" tvg-id="Ent Family",Ent Family
 https://cdn.global.elektamedia.com/live/c7eds/ENT_Family/SA_LIVE_hls_enc/master.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="141" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/cm-el-canal-de-la-musica-ar.png" tvg-id="CanaldelaMusica.ar",Canal de la Música

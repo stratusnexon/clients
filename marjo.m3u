@@ -85,15 +85,15 @@ http://186.4.100.15:8894/output/NUEVE/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="25" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/rts-ar.png" tvg-id="RtsTelevisionSantafesina.ar",RTS MEDIOS
 https://smt-usr-edge01.sensa.com.ar/output/SMT6/RTSh/playlist.m3u8
 
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="26" group-title="DIGITAL" tvg-logo="https://i.ytimg.com/vi/E_GXl62SugE/hq720.jpg" tvg-id="MásPerfil.ar",+Perfil
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="26" group-title="DIGITAL" tvg-logo="https://i.ytimg.com/vi/E_GXl62SugE/hq720.jpg" tvg-id="0964",+Perfil
 https://unlimited1-saopaulo.dps.live/perfiltv/perfiltv.smil/playlist.m3u8
 
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="27" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/argentina-12-ar.png" tvg-id="", Argentina12
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="27" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/argentina-12-ar.png" tvg-id="ar0017", Argentina12
 https://live.stratusnex.workers.dev/ar12.m3u8
 
 
 
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="29" group-title="DIGITAL" tvg-logo="https://files.catbox.moe/505e9l.png" tvg-id="CN23.ar",Unife TV
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="29" group-title="DIGITAL" tvg-logo="https://files.catbox.moe/505e9l.png" tvg-id="0640",Unife TV
 https://cdn.mycloudstream.io/hls/live/broadcast/pgv5kerk/index.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="28" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s109331_dark_360w_270h.png" tvg-id="NetTV.ar",Net TV
@@ -122,7 +122,7 @@ https://unlimited1-us.dps.live/carastv/carastv.smil/playlist.m3u8
 https://live.stratusnex.workers.dev/tectv.m3u8
 #EXTINF:-1  tvg-id="0637" tvg-name="Star TVE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/08/Star-TVE-logo.png" group-title="DIGITAL" ch-number="481" type="channel",Star TVE
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_dvr_1080.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="49" group-title="DIGITAL" tvg-logo="https://images.open-epg.com/x1006.png" tvg-id="Telemax.ar",Telemax
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="49" group-title="DIGITAL" tvg-logo="https://images.open-epg.com/x1006.png" tvg-id="0937",Telemax
 https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8
 
 
@@ -160,7 +160,7 @@ https://live.stratusnex.workers.dev/canal11er.m3u8
 https://proxystream.iteltv.com.ar/output/iteltv/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="47" group-title="DIGITAL" tvg-logo="https://lz24h.wordpress.com/wp-content/uploads/2026/08/2banner2180670149719750452.jpg" tvg-id="", Canal AVC
 https://nd106.republicaservers.com/hls/c8186/index.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="48" group-title="DIGITAL" tvg-logo="https://i.imgur.com/ZcD0rUP.png" tvg-id="", T5 Satelital
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="48" group-title="DIGITAL" tvg-logo="https://i.imgur.com/ZcD0rUP.png" tvg-id="0926", T5 Satelital
 https://stream.t5satelital.blog/hls/t5satelitalweb.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="50" group-title="DIGITAL" tvg-logo="https://images.open-epg.com/16782263.png" tvg-id="ArgentinisimaSatelital.ar",Argentinisima Satelital

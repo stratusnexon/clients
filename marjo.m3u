@@ -846,7 +846,7 @@ https://csc-vgg-edge01.sensa.com.ar/live/smil:canal3hdRosario.smil/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="14" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/c5n-ar.png" tvg-id="",C5N - SD
 http://186.4.100.15:8894/output/C5N/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="0.1" group-title="" tvg-logo="" tvg-id="" ,Test
-http://45.134.141.161:2200/ARG/Star_Channel_HD/index.m3u8
+https://live-evg10.tv360.bitel.com.pe/bitel/rt/playlist.m3u8
 
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="0.2" group-title="" tvg-logo="" tvg-id="" parent-code="0576",AXN

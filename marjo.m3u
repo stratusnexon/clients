@@ -480,7 +480,7 @@ http://cdn1.eco.cdn.moderntv.eu/econocable/stream/TOPLATINO/40-hls/live-media.m3
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="148" group-title="DIGITAL" tvg-logo="https://cdn.m3u.cl/logo/1062_Canal_VM_Latino.png" tvg-id="0535" tvg-name="VM Latino",VM Latino
 https://59ef525c24caa.streamlock.net/vmtv/vmlatino/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="149" group-title="DIGITAL" tvg-logo="https://i.imgur.com/NVxHxJn.png" tvg-id="0507", TELEHIT 
-http://cdnexterno.thomas-talk.me:8081/externo/canal_telehithd/playlist.m3u8
+http://200.115.120.1:8000/play/ca048/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="150" group-title="DIGITAL" tvg-logo="" tvg-id="",Mix TV HD
 https://live-evg5.tv360.bitel.com.pe/bitel/mixtvSRT/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="151" group-title="DIGITAL" tvg-logo="https://cdn.m3u.cl/logo/156_Rewind.png" tvg-name="",Rewind TV

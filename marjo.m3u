@@ -728,7 +728,7 @@ https://tv.streamcasthd.com:3215/live/radiorafaelalive.m3u8
 https://stream.arcast.live/sol915/ngrp:sol915_all/playlist.m3u8
 # Radios Eradio
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="225" tvg-id="eradio.ar" tvg-logo="https://i.imgur.com/55tV9pR.png" group-title="DIGITAL" group-logo="http://ziptv.alwaysdata.net/press/wp-content/uploads/2026/08/file_000000003d94820ea0346576b0adf6de3819593025956961599.png",ERadio
-https://channels.stratusnex.workers.dev/eradiotv.m3u8
+https://streamlive8.hearthis.at/hls/9232141.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="170" tvg-logo="https://i.imgur.com/15gMDG0.png" group-title="DIGITAL", Power HD
 https://live2.tensila.com/1-1-1.power-tv/hls/master.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="51" group-title="DIGITAL" tvg-id="1382" tvg-name="Power Max TV" tvg-logo="https://cdn.m3u.cl/logo/1382_Power_Max_TV.png",Power Max TV 

@@ -503,8 +503,7 @@ https://cdn.sensa.com.ar/output/SMT2/C10RNH/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://webclient.ctcplus.com.ar/
 #EXTVLCOPT:http-user-agent=VisualOn OSMP+ Player(Linux;Android)
 https://cdn.sensa.com.ar/output/SMT5/c12pos/playlist.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="156" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/UCL_Televisi%C3%B3n.png/1280px-UCL_Televisi%C3%B3n.png" tvg-id="UCLTV.uy" group-title="DIGITAL", UCL TV
-https://livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8
+
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="157" tvg-logo="https://i.imgur.com/OGxsW2H.png" group-title="DIGITAL", Canal 5 Corrientes
 http://www.coninfo.net:1935/tvcinco/live1/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="158" tvg-logo="https://i.imgur.com/SsNFudZ.png" group-title="DIGITAL", Television Publica Pampeana
@@ -571,6 +570,9 @@ http://190.7.19.206:8098/play/a0qi/index.m3u8
 https://5cd577a3dd8ec.streamlock.net/CANAL4/smil:CANAL4.smil/chunklist_w1944693033_b4128000.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="91.1" tvg-id="ChacraTV.ar" tvg-logo="https://i.imgur.com/gy7AEfO.png" group-title="DIGITAL",Chacra TV
 https://media.cdnvid.com/public/1tgsjc7hs1kv.m3u8
+
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="156" tvg-logo="https://i.postimg.cc/YSLmww87/canal11puntadeleste.jpg" tvg-id="" group-title="DIGITAL", CANAL ONCE - URUGUAY 
+https://5e50264bd6766.streamlock.net/canal11ury/videocanal11ury/chunklist_w1804730220.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="203" tvg-name="TV Cultura Brasil" tvg-logo="https://graph.facebook.com/tvcultura/picture?width=200&height=200" group-title="DIGITAL",TV Cultura Brasil
 https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="420" tvg-name="BAND" tvg-logo="https://i.pinimg.com/564x/61/d8/07/61d807daca7fb95995f174d67c6be4f9.jpg" group-title="DIGITAL",BAND

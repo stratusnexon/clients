@@ -483,8 +483,8 @@ https://59ef525c24caa.streamlock.net/vmtv/vmlatino/playlist.m3u8
 https://cdn.40mediagroup.com/live/c7eds/Totalmusic/SA_LIVE_hls_enc/master.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="150" group-title="DIGITAL" tvg-logo="" tvg-id="",Mix TV HD
 https://live-evg5.tv360.bitel.com.pe/bitel/mixtvSRT/playlist.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="151" group-title="DIGITAL" tvg-logo="https://cdn.m3u.cl/logo/156_Rewind.png" tvg-name="",Rewind TV
-https://tls-cl.cdnz.cl/rewindtv/live/playlist.m3u8
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="151" group-title="DIGITAL" tvg-logo="https://i.postimg.cc/c4mCnMVT/totalm0.jpg" tvg-name="",TotalMusic 00s
+https://cdn.40mediagroup.com/live/c7eds/Totalmusic_00s/SA_LIVE_hls_enc/master.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="152" tvg-id="" tvg-logo="https://i.imgur.com/Cf01Ybw.png" group-title="DIGITAL",Vevo POP
 https://d1ktssaxrjabsg.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1vshdbah8e4f8/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="153" tvg-id="0d5283959d3a59bf87411e7077fd9e58" tvg-logo="https://i.imgur.com/Cf01Ybw.png" group-title="DIGITAL",Vevo Latino

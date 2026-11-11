@@ -76,7 +76,7 @@ export default {
       "/cinelatino.m3u8": "http://45.235.37.228/cinelatino/index.m3u8",
       "/usa.m3u8": "http://186.148.196.250:81/play/a0mc/index.m3u8",
       "/natgeo.m3u8": "https://lilac19.pontiscloud.com/play/a070/index.m3u8",
-      "/history2.m3u8": "http://siriustv.lat:8000/play/a04b/index.m3u8",
+      "/history2.m3u8": "https://lilac19.pontiscloud.com/play/a06z/index.m3u8",
       "/history.m3u8": "http://siriustv.lat:8000/play/a051/index.m3u8",
       "/europa.m3u8": "http://45.70.221.206/EUROPA_EUROPA_OTT/playlist.m3u8",
       "/dpsort-1.m3u8": "http://45.70.221.206/DSPORTS_OTT/playlist.m3u8",

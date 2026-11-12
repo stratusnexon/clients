@@ -660,7 +660,7 @@ https://azt-mun.otteravision.com/azt/mun/mun.m3u8
 
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="339" tvg-id="0216" tvg-logo="https://i.ibb.co/27VLVcYM/0216.jpg" group-title="DIGITAL" group-logo="",BBC News
-http://186.148.196.250:81/play/a0c7/index.m3u8
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="204" tvg-logo="https://radiosargentina.com.ar/png/VI--FOXN.png" group-title="DIGITAL",FOX LiveNOW
 https://amg00488-foxdigital-livenowbyfox-lgus-y0a81.amagi.tv/playlist/amg00488-foxdigital-livenowbyfox-lgus/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="205" group-title="DIGITAL" tvg-logo="https://programacion-tv.elpais.com/imagenes/canales/37.jpg" tvg-id="GaliciaTV.ar",Galicia TV
@@ -723,16 +723,16 @@ https://nd106.republicaservers.com/hls/mariatti/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="221" tvg-name="Radio Realpolitik" tvg-logo="https://i.imgur.com/L9KCdTX.png" group-title="DIGITAL",Radio Realpolitik
 https://vivo.solumedia.com:19360/realpolitik/realpolitik.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="222" group-title="DIGITAL" tvg-logo="https://images.pluto.tv/channels/63dac1b78795f300086d5ca6/colorLogoPNG_1758309507155.png" tvg-id="63dac1b78795f300086d5ca6",TikTok Radio en Español
-https://jmp2.uk/rok-8e04e4c0e2cd5fe49b087a6ce5fd0d91.m3u8
+https://jmp2.uk/plu-63dac1b78795f300086d5ca6.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="223" tvg-logo="https://radiosargentina.com.ar/png/VI--LT28.png" group-title="DIGITAL",LT28 Rafaela
 https://tv.streamcasthd.com:3215/live/radiorafaelalive.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="224" tvg-logo="https://radiosargentina.com.ar/png/VISOLSPO.png" group-title="DIGITAL",Sol Play
 https://stream.arcast.live/sol915/ngrp:sol915_all/playlist.m3u8
 # Radios Eradio
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="225" tvg-id="eradio.ar" tvg-logo="https://i.imgur.com/55tV9pR.png" group-title="DIGITAL" group-logo="http://ziptv.alwaysdata.net/press/wp-content/uploads/2026/08/file_000000003d94820ea0346576b0adf6de3819593025956961599.png",ERadio
-https://streamlive8.hearthis.at/hls/9232141.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="170" tvg-logo="https://i.imgur.com/15gMDG0.png" group-title="DIGITAL", Power HD
-https://live2.tensila.com/1-1-1.power-tv/hls/master.m3u8
+https://stream-178.surfernetwork.com/idqecp6rhbnvv
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="170" tvg-logo="https://radiomore.love/pwalogo.png" group-title="DIGITAL", Radio More Love
+https://streamlive6.hearthis.at/hls/11116624.m3u8?t=1794457232
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="51" group-title="DIGITAL" tvg-id="1382" tvg-name="Power Max TV" tvg-logo="https://cdn.m3u.cl/logo/1382_Power_Max_TV.png",Power Max TV 
 https://videostream.shockmedia.com.ar:19360/radio1045/radio1045.m3u8
 #

@@ -18,7 +18,7 @@ https://live.stratusnex.workers.dev/metro_sd.m3u8
 https://mdstrm.com/live-stream-playlist/6931a0eb06778645348008e0.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="4" group-title="DIGITAL" tvg-logo="https://i.imgur.com/HNcCX3h.png" tvg-id="4909",Telefe Internacional
-https://live.stratusnex.workers.dev/telefeint.m3u8
+http://siriustv.lat:8000/play/a0ge/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="5" group-title="DIGITAL" tvg-logo="https://i.imgur.com/Vo6prbh.png" tvg-id="ElTreceInternacional.uy",El Trece Internacional
 https://live.stratusnex.workers.dev/eltreceint.m3u8
 #EXTINF:-1 tvg-name="" group-title="DIGITAL" ch-number="6" tvg-id="CanalUniversidad.ar" tvg-logo="https://i.imgur.com/trmPKYw.png",Canal Universidad

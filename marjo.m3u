@@ -388,7 +388,7 @@ http://186.148.196.250:81/play/a0np/index.m3u8
 https://live.stratusnex.workers.dev/tcm.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="119" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s21257_dark_360w_270h.png" tvg-id="HGTV.cl" ",HGTV
 http://siriustv.lat:8000/play/a02l/index.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="121" tvg-id="TNT.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11164_dark_360w_270h.png" group-title="DIGITAL",TNT
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="121" tvg-id="0805" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11164_dark_360w_270h.png" group-title="DIGITAL",TNT
 http://45.235.37.228/tnthd/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="122" tvg-id="TNTNovelas.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s140026_dark_360w_270h.png" group-title="DIGITAL",TNT Novelas
 http://186.148.196.250:81/play/a0im/index.m3u8

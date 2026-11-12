@@ -114,7 +114,7 @@ https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="33" group-title="DIGITAL" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s116151_dark_360w_270h.png" tvg-id="1837",Las Estrellas
 https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="31" group-title="DIGITAL" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgU_yRDvXCFRNoky9jhR8qg3iLjg5bPqF2mJLuIoPVBbnzUfQ67KPaf_V5lmxckUMTbf9UQ4wSiAo8iJH5zSYy3tAbBq9QdFHlH6EEMbUON4wPBtDQINJXrdbrFf1_bf4f6SEJNod5fpt8gqPyIDotkU69DYZ8kYU7bQCEKC_iS5dOUb9OvyZif_XUxEtE/s695/carastv.png" tvg-id="",CarasTV
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="31" group-title="DIGITAL" tvg-logo="https://i.imgur.com/cOaxWFF.png" tvg-id="",Caras TV
 https://unlimited1-us.dps.live/carastv/carastv.smil/playlist.m3u8
 
 
@@ -188,7 +188,7 @@ https://online.coopmorteros.coop/canal50/vivo.m3u8
 https://cdn1.tvlin.net/open/telesol/playlist.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="78.1" group-title="DIGITAL" tvg-logo="https://files.catbox.moe/f7jbdo.png" tvg-id="", Canal 8 San Juan
-https://live20.bozztv.com/akamaissh101/ssh101/canal8sanjuan/playlist.m3u8
+https://183.giatvcdn.com/ssh101/ssh101/canal8sanjuan/playlist.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="15.1" group-title="DIGITAL" tvg-logo="https://i.ibb.co/Pv0kMtC1/Logo-Gen-TV.png",GenTV 
 https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
@@ -212,7 +212,7 @@ http://m3u.tvcluboficial.com/free/Robert/4JC/314.m3u8
 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/espn-ar.png" ch-number="56" tvg-id="Espn.ar" group-title="DIGITAL",ESPN
 https://live.stratusnex.workers.dev/espn.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="57" tvg-id="FoxSports.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s141469_dark_360w_270h.png" group-title="DIGITAL",Fox Sports
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="57" tvg-id="FoxSports.ar" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/fox-sports-ar.png" group-title="DIGITAL",Fox Sports
 https://live.stratusnex.workers.dev/fox.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="58" tvg-id="Espn2.ar" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/espn-2-ar.png" group-title="DIGITAL",ESPN 2
 https://live.stratusnex.workers.dev/espn2.m3u8
@@ -220,7 +220,7 @@ https://live.stratusnex.workers.dev/espn2.m3u8
 https://live.stratusnex.workers.dev/espn3.m3u8 
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="60" tvg-id="Espn4.ar" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/espn-extra-ar.png" group-title="DIGITAL",ESPN 4
 https://live.stratusnex.workers.dev/espn4.m3u8 
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="61" tvg-id="FoxSports2.ar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002KWQJ6.png_white_360w_270h.png" group-title="DIGITAL",Fox Sports 2
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="61" tvg-id="FoxSports2.ar" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/fox-sports-2-ar.png" group-title="DIGITAL",Fox Sports 2
 https://live.stratusnex.workers.dev/fox2.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="62" tvg-id="0424" tvg-logo="https://i.imgur.com/A8XpNAE.png" group-title="DIGITAL",DAZN
 http://45.134.141.161:2200/ARG/DAZN_1_HD/index.m3u8
@@ -258,7 +258,7 @@ https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/26hxutyti4/
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://dl.dropbox.com/scl/fi/mvxasp2naascu373f4fev/paravision.json?rlkey=dojgg1ya7fani8ye608y3i91n&st=cc95n5mp&dl=0
 https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="67" group-title="DIGITAL" tvg-logo="https://i.ibb.co/V06wj40h/0629.jpg" tvg-id="CanalLuz.ar",Canal LUZ
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="67" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/canal-luz-ar.png" tvg-id="CanalLuz.ar",Canal LUZ
 https://canalluz7.canalluz.org/hls/stream/index.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="68" group-title="DIGITAL" tvg-logo="https://images.open-epg.com/x957.png" tvg-id="Enlace.ar",ENLACE
 https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/playlist.m3u8
@@ -547,10 +547,10 @@ https://iptv.ixfo.com.ar:30443/live-HD/MISIONES4/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="331" group-title="DIGITAL" tvg-logo="https://lz24h.wordpress.com/wp-content/uploads/2026/09/images284298747758685987485761.jpg" tvg-id="SomosLaPampa.ar", Somos La Pampa
 https://stream.arcast.com.ar/somosnoticias/somosnoticias/playlist.m3u8
 
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="327" group-title="DIGITAL" tvg-logo="https://i.imgur.com/0MXsQ25.png" tvg-id="TVUniversidad.ar", TV Universidad
-https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="334" group-title="DIGITAL" tvg-logo="https://i.ibb.co/yBYcKTj/Senal-U-Uncuyo-en-vivo-Online.png" tvg-id="",Señal U
-https://live20.bozztv.com/giatv/giatv-canal30tda/canal30tda/chunks.m3u8
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="327" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/canal-orbe21-ar.png" tvg-id="", Orbe 21
+https://stream.arcast.net:4443/canal21/ngrp:canal21_all/playlist.m3u8
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="334" group-title="DIGITAL" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/argentina/canal-13-ar.png" tvg-id="",Canal 13 Rio Cuarto
+https://cdn.sensa.com.ar/output/ARR4/C13R4/playlist.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="335" group-title="DIGITAL" tvg-logo="https://i.imgur.com/HcbvN9A.png" tvg-id="",Canal 10 Nuevo Mundo
 https://tecnica.nuevomundotv.com.ar:446/hls/canal10.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="88.1" group-title="DIGITAL" tvg-logo="https://i.imgur.com/5X8gdCv.png" tvg-id="",TeleJunin
@@ -700,8 +700,8 @@ https://ice3.edge-apps.net/joy-radios/fmvida/playlist.m3u8
 https://ipanel.instream.audio:7001/stream
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="211" group-title="DIGITAL" tvg-logo="https://images.open-epg.com/x991.png" tvg-id="RadioLa100.ar" radio="true" ,Radio La 100
 https://mdstrm.com/live-stream-playlist/68b74fd1d6512526f1f7c75a.m3u8
-#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="212" group-title="DIGITAL" tvg-logo="https://images.open-epg.com/x992.png" tvg-id="RadioMitre.ar",Mitre Buenos Aires
-https://channels.stratusnex.workers.dev/mitre.m3u8
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="212" group-title="DIGITAL" tvg-logo="https://i.imgur.com/c5lcLCB.png" tvg-id="", FM LA PATRIADA
+https://media.cdnvid.com/public/gzlxujannhh5.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="430" tvg-name="DSports Radio" tvg-logo="https://raw.githubusercontent.com/JeanMercado2009/tv-logos/refs/heads/main/countries/world-latin-america/dsports-lam.png" group-title="DIGITAL" radio="true",DSports Radio
 https://24403.live.streamtheworld.com/DSPORTSRADIOAAC.aac
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="213" group-title="DIGITAL" tvg-logo="https://images.open-epg.com/x992.png" tvg-id="RadioMitre.ar" radio="true",Mitre Rosario
@@ -827,6 +827,8 @@ https://dfk2a268yviz9.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 https://dtsszjrztq9ti.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-yshah5p4v45g1/ToDoNovelas_ES.m3u8
 #EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="" group-title="DIGITAL" tvg-logo="https://i.imgur.com/jGE8Oht.png" tvg-id="",Global News
 https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/.m3u8
+#EXTINF:-1  group-logo="https://i.imgur.com/jrACKUM.png"  ch-number="" group-title="DIGITAL" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/bloomberg-television-us.png" tvg-id="",Bloomberg
+https://www.bloomberg.com/media-manifest/streams/us.m3u8
 #
 #
 #
